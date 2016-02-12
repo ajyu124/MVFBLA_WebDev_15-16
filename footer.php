@@ -6,8 +6,8 @@
 				<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. Reservations can be made on our Reservations page. </p>
 				<ul class="contact">
 				<li class="fa-home">
-					21840 McClellan Rd <br>
-					Cupertino, CA 95014 <br>
+					<a href="https://goo.gl/maps/pD5L1BYHgpE2">21840 McClellan Rd <br>
+					Cupertino, CA 95014</a> <br>
 					Mon - Fri: 5:30 AM - 2:00 PM | 5:00 PM - 9:30 PM <br>
 					Sat - Sun: 6:30 AM - 2:00 PM | 5:00 PM - 11:00 PM
 				</li>
