@@ -2732,14 +2732,25 @@
 
 /* Header */
 
-header
+#headerHome
 {
 	background: 
 	linear-gradient(
       rgba(0, 0, 0, 0.4), 
       rgba(0, 0, 0, 0.4)
     ),
-    url("../../images/header.jpg") center -250px / cover no-repeat fixed;
+    url("../../images/headerHome.jpg") center -250px / cover no-repeat fixed;
+    height: 39.3em;
+}
+
+#headerRewards
+{
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../images/headerRewards.jpg") center -250px / cover no-repeat fixed;
     height: 39.3em;
 }
 

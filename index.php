@@ -4,7 +4,7 @@ require_once("header.php");
 
 <!-- Wrapper -->
 <section id="wrapper">
-	<header>
+	<header id="headerHome">
 		<div class="inner">
 			<h2>Panettiere</h2>
 			<p>A modern bakery and restaurant with hearty, gluten-free food for everyone</p>

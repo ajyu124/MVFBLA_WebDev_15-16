@@ -27,11 +27,9 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
+								<li><a href="index.php">Home</a></li>
+								<li><a href="menu.php">Menu</a></li>
+								<li><a href="rewards.php">Rewards</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
