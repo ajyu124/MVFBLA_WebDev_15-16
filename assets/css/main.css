@@ -1625,13 +1625,17 @@
 	body {
 		background-color: rgba(0,0,0,0);
 
-		/*Temporary Gradient*/
-		background: #2980b9; /* fallback for old browsers */
-		background: -webkit-linear-gradient(to top left, #2980b9 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to top left, #2980b9 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-/*		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-*/		background-size: auto, cover;
+		/*Temporary Gradient*/ 
+		background: #F1D4AF; /* fallback for old browsers */
+		background: linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ), -webkit-linear-gradient(to top left, #F1D4AF , #E08E79); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ), linear-gradient(to top left, #F1D4AF , #E08E79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
 	}
@@ -2732,8 +2736,8 @@ header
 {
 	background: 
 	linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
     ),
     url("../../images/header.jpg") center -250px / cover no-repeat fixed;
 }
@@ -2774,7 +2778,7 @@ header
 			}
 
 		#nav nav {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: Raleway, Helvetica, sans-serif; /* MARK CHANGE */
 			font-size: 0.8em;
 			font-weight: 700;
 			height: 5em;
@@ -3137,7 +3141,6 @@ header
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-/*				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 */				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3247,7 +3250,6 @@ header
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-/*			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 */			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
