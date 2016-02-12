@@ -2,6 +2,8 @@
 <!-- Footer -->
 <section id="footer">
 	<div class="inner">
+		<h2 class="major">Contact Us</h2>		
+		<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. Reservations can be made on our Reservations page. </p>
 		<ul class="contact">
 			<h2 class="major">Hours &amp; Social</h2>
 			<li class="fa-home">
@@ -15,8 +17,9 @@
 			<li class="fa-facebook"><a href="#">facebook.com/untitled-tld</a></li>
 			<li class="fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
 		</ul>
-		<h2 class="major">Contact Us</h2>		
-		<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. Reservations can be made on our Reservations page. </p>
+		<ul class="copyright">
+			<li>&copy; 2016 Panettiere Inc. All rights reserved.</li>
+		</ul>
 		<form method="post" action="#">
 			<div class="field">
 				<label for="name">Name</label>
@@ -34,9 +37,7 @@
 				<li><input type="submit" value="Send Message" /></li>
 			</ul>
 		</form>
-		<ul class="copyright">
-			<li>&copy; 2016 Panettiere Inc. All rights reserved.</li>
-		</ul>
+
 	</div>
 </section>
 
