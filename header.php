@@ -18,18 +18,27 @@
 					<div id="nav">
 						<h1><a href="index.php">Panettiere</a></h1>
 						<nav>
-							<a href="#menu">Menu</a>
+							<a href="#pages">Pages</a>
 						</nav>
 					</div>
 
 				<!-- Menu -->
-					<nav id="menu">
+					<nav id="pages">
 						<div class="inner">
-							<h2>Menu</h2>
+							<h2>Pages</h2>
 							<ul class="links">
+<<<<<<< Updated upstream
 								<li><a href="index.php">Home</a></li>
 								<li><a href="menu.php">Menu</a></li>
 								<li><a href="rewards.php">Rewards</a></li>
+=======
+								<li><a href="/">Home</a></li>
+								<li><a href="/about.php">About Us</a></li>
+								<li><a href="/menu.php">Menu</a></li>
+								<li><a href="/reservations.php">Reservations</a></li>
+								<li><a href="/rewards.php">Loyalty Program</a></li>
+								<li><a href="/reviews.php">Reviews</a></li>
+>>>>>>> Stashed changes
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
