@@ -25,15 +25,15 @@ require_once("header.php");
 
 				<section class="features">
 					<article>
-						<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-						<h3 class="major">Sed feugiat lorem</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+						<img src="images/bakeryFeature.jpg" alt="" class="image"/>
+						<h3 class="major">Panettiere Bakery</h3>
+						<p>Start your morning with fresh bread and a warm cup of coffee, or freshen up your afternoon with a gourmet pastry. All gluten and wheat-free, of course. </p>
 						<a href="#" class="special">Learn more</a>
 					</article>
 					<article>
-						<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-						<h3 class="major">Nisl placerat</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+						<img src="images/restaurantFeature.jpg" alt="" class="image"/>
+						<h3 class="major">Panettiere Restaurant</h3>
+						<p>Whether it's a quick lunch or a full dinner party, Panettiere Restaurant has got you covered, with a variety of appealing dishes for everyone to enjoy. </p>
 						<a href="#" class="special">Learn more</a>
 					</article>
 				</section>
