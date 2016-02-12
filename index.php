@@ -14,13 +14,13 @@
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
-				<!-- Header -->
-					<header id="header">
+				<!-- Nav bar -->
+					<div id="nav">
 						<h1><a href="index.html">Panettiere</a></h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
-					</header>
+					</div>
 
 				<!-- Menu -->
 					<nav id="menu">
