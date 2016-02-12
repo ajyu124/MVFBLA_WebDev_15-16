@@ -16,7 +16,7 @@
 
 				<!-- Nav bar -->
 					<div id="nav">
-						<h1><a href="index.php">Panettiere</a></h1>
+						<h1><a href="http://www.panettiere.ml/">Panettiere</a></h1>
 						<nav>
 							<a href="#menu">Pages</a>
 						</nav>

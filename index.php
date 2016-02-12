@@ -28,13 +28,13 @@ require_once("header.php");
 						<img src="images/bakeryFeature.jpg" alt="" class="image"/>
 						<h3 class="major">Panettiere Bakery</h3>
 						<p>Start your morning with fresh bread and a warm cup of coffee, or freshen up your afternoon with a gourmet pastry. All gluten and wheat-free, of course. </p>
-						<a href="#" class="special">Learn more</a>
+						<a href="#" class="special">See our baked goods</a>
 					</article>
 					<article>
 						<img src="images/restaurantFeature.jpg" alt="" class="image"/>
 						<h3 class="major">Panettiere Restaurant</h3>
 						<p>Whether it's a quick lunch or a full dinner party, Panettiere Restaurant has got you covered, with a variety of appealing dishes for everyone to enjoy. </p>
-						<a href="#" class="special">Learn more</a>
+						<a href="#" class="special">See our menu</a>
 					</article>
 				</section>
 
