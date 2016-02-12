@@ -2735,7 +2735,7 @@ header
       rgba(0, 0, 0, 0.4), 
       rgba(0, 0, 0, 0.4)
     ),
-    url("../../images/header.jpg") center/cover no-repeat fixed;
+    url("../../images/header.jpg") center -250px / cover no-repeat fixed;
 }
 
 	#header {
