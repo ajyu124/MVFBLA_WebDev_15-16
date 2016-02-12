@@ -2732,8 +2732,8 @@ header
 {
 	background: 
 	linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
     ),
     url("../../images/header.jpg") center -250px / cover no-repeat fixed;
 }
@@ -2744,12 +2744,12 @@ header
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(53, 56, 73, 1);
+		background-color: #CBBCA9;
 
-		height: 3.5em;
+		height: 4em;
 		left: 0;
-		line-height: 3.5em;
-		padding: 0 1.25em;
+		line-height: 4em;
+		padding: 0 1.75em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -2783,7 +2783,7 @@ header
 			position: absolute;
 			right: 0.7em;
 			text-transform: uppercase;
-			top: 0.7em;
+			top: 1em;
 		}
 
 			#nav nav a {
