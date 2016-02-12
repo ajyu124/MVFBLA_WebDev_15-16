@@ -1624,8 +1624,8 @@
 
 	body {
 		background-color: rgba(0,0,0,0);
-/*		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-*/		background-size: auto, cover;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/header.jpg");
+		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
 	}
@@ -2721,7 +2721,7 @@
 		}
 
 /* Header */
-
+/*
 header
 {
 	background: 
@@ -2731,7 +2731,7 @@ header
     ),
     url("../../images/header.jpg");
 }
-
+*/
 	#header {
 		background-image: none;
 		-moz-transition: background-color 0.2s ease-in-out;
