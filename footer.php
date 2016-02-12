@@ -1,46 +1,46 @@
 
 <!-- Footer -->
 <section id="footer">
-	<div class="inner">
-		<h2 class="major">Contact Us</h2>		
-		<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. Reservations can be made on our Reservations page. </p>
-		<ul class="contact">
-			<h2 class="major">Hours &amp; Social</h2>
-			<li class="fa-home">
-				Untitled Inc<br />
-				1234 Somewhere Road Suite #2894<br />
-				Nashville, TN 00000-0000
-			</li>
-			<li class="fa-phone">(000) 000-0000</li>
-			<li class="fa-envelope"><a href="#">information@untitled.tld</a></li>
-			<li class="fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-			<li class="fa-facebook"><a href="#">facebook.com/untitled-tld</a></li>
-			<li class="fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
-		</ul>
-		<ul class="copyright">
-			<li>&copy; 2016 Panettiere Inc. All rights reserved.</li>
-		</ul>
-		<form method="post" action="#">
-			<div class="field">
-				<label for="name">Name</label>
-				<input type="text" name="name" id="name" />
-			</div>
-			<div class="field">
-				<label for="email">Email</label>
-				<input type="email" name="email" id="email" />
-			</div>
-			<div class="field">
-				<label for="message">Message</label>
-				<textarea name="message" id="message" rows="4"></textarea>
-			</div>
-			<ul class="actions">
-				<li><input type="submit" value="Send Message" /></li>
-			</ul>
-		</form>
+			<div class="inner">
+				<h2 class="major">Hours / Social / Contact Us</h2>
+				<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. Reservations can be made on our Reservations page. </p>
+				<ul class="contact">
+				<li class="fa-home">
+					21840 McClellan Rd <br>
+					Cupertino, CA 95014 <br>
+					Mon - Fri: 5:30 AM - 2:00 PM | 5:00 PM - 9:30 PM <br>
+					Sat - Sun: 6:30 AM - 2:00 PM | 5:00 PM - 11:00 PM
+				</li>
+				<li class="fa-phone">(408) 366-7600</li>
+				<li class="fa-envelope"><a href="mailto:hello@panettiere.ml">hello@panettiere.ml</a></li>
+				<li class="fa-facebook"><a href="#">facebook.com</a></li>
+				<li class="fa-instagram"><a href="#">instagram.com</a></li>
+				</ul>
 
-	</div>
-</section>
-
+	
+					<form method="post" action="#">
+						<div class="field">
+							<label for="name">Name (required)</label>
+							<input type="text" name="name" id="name" placeholder="Hi, what's your name?" />
+						</div>
+						<div class="field">
+							<label for="email">Email (required)</label>
+							<input type="email" name="email" id="email" placeholder="How should we get back to you?" />
+						</div>
+						<div class="field">
+							<label for="message">Message (required)</label>
+							<textarea name="message" id="message" rows="4" placeholder="What's on your mind?"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" /></li>
+						</ul>
+					</form>
+			
+				<ul class="copyright">
+					<li>&copy; 2016 Panettiere Inc. All rights reserved.</li>
+				</ul>
+			</div>
+		</section>
 </div>
 
 <!-- Scripts -->
