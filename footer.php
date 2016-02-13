@@ -60,7 +60,6 @@
 				<ul class="copyright">
 					<li>&copy; 2016 Panettiere Inc. All rights reserved.</li>
 				</ul>
->>>>>>> origin/master
 			</div>
 			<div class="field">
 				<label for="email">Email (required)</label>
