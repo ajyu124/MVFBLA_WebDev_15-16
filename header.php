@@ -17,7 +17,7 @@
 
 				<!-- Nav bar -->
 					<div id="nav">
-						<h1><a href="http://www.panettiere.ml/"><img src="images/logo3.png" width = "151.26" height = "60" style="margin:5px;"></h1>
+						<h1><a href="http://www.panettiere.ml/"><img src="images/logo3.png" style="height:60px;width:auto;margin:5px;"></h1>
 						<nav>
 							<a href="#menu">Pages</a>
 						</nav>
