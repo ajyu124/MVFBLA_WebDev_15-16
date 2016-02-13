@@ -1,8 +1,8 @@
 
 <!-- Footer -->
-<section id="footer">
+<section id="footer" style="padding-top: 40px">
 	<div class="inner">
-		<h4 class="major">Want to check us out? Hours / Social / Reservations / Contact Us</h4>
+		<h3 class="major">Want to check us out? Hours / Social / Reservations / Contact Us</h3>
 		<ul class="contact">
 			<p>Reservations can be made through the Yelp app using SeatMe, available on <a href="https://itunes.apple.com/us/app/yelp/id284910350?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yelp.android&hl=en">Android.</a> You can also call us at (408) 366-7600 at least 1 hour before you want your reservations for seating.</p>
 			<li class="fa-home">
