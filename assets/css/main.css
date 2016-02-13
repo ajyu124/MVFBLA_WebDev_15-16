@@ -2583,7 +2583,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #53639e;
+				background-color: #fff
 			}
 
 			input[type="submit"].special:active,
@@ -2591,7 +2591,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #45558d;
+				background-color: #fff;
 			}
 
 			input[type="submit"].special.icon:before,
@@ -3616,7 +3616,7 @@
 /* Footer */
 
 	#footer .inner {
-		padding: 0em 0 1em 0;
+		padding: -1em 0 1em 0;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
