@@ -23,19 +23,19 @@ require_once("header.php");
 					</div>
 					<div class="9u" style="padding: 0; width: 85%;">
 						<ul class="actions small" style="text-align: center;">
-							<li><a href="#" class="subcata button small special bakery breads">Breads</a></li>
-							<li><a href="#" class="subcata button small bakery bagels">Bagels</a></li>
-							<li><a href="#" class="subcata button small bakery pastries">Pastries</a></li>
-							<li><a href="#" class="subcata button small bakery croissants">Croissants</a></li>
-							<li><a href="#" class="subcata button small bakery muffins">Muffins</a></li>
-							<li><a href="#" class="subcata button small bakery rollsbuns">Rolls & Buns</a></li>
-							<li><a href="#" class="subcata button small bakery scones">Scones</a></li>
-							<li><a href="#" class="subcata button small bakery coffeecakes">Coffee Cakes</a></li>
-							<li><a href="#" class="subcata button small bakery cookies">Cookies</a></li>
-							<li><a href="#" class="subcata button small restaurant appetizers">Appetizers</a></li>
-							<li><a href="#" class="subcata button small restaurant soups">Soups</a></li>
-							<li><a href="#" class="subcata button small restaurant entrees">Entrees</a></li>
-							<li><a href="#" class="subcata button small restaurant desserts">Desserts</a></li>
+							<li><a href="#breads" class="subcata button small bakery breads">Breads</a></li>
+							<li><a href="#bagels" class="subcata button small bakery bagels">Bagels</a></li>
+							<li><a href="#pastries" class="subcata button small bakery pastries">Pastries</a></li>
+							<li><a href="#croissants" class="subcata button small bakery croissants">Croissants</a></li>
+							<li><a href="#muffins" class="subcata button small bakery muffins">Muffins</a></li>
+							<li><a href="#rollsbuns" class="subcata button small bakery rollsbuns">Rolls & Buns</a></li>
+							<li><a href="#scones" class="subcata button small bakery scones">Scones</a></li>
+							<li><a href="#cookies" class="subcata button small bakery cookies">Cookies</a></li>
+							<li><a href="#coffeecake" class="subcata button small bakery coffeecake">Coffee Cake</a></li>
+							<li><a href="#appetizers" class="subcata button small restaurant appetizers">Appetizers</a></li>
+							<li><a href="#soups" class="subcata button small restaurant soups">Soups</a></li>
+							<li><a href="#entrees" class="subcata button small restaurant entrees">Entrees</a></li>
+							<li><a href="#desserts" class="subcata button small restaurant desserts">Desserts</a></li>
 			            </ul>
 <div class="contain" style="margin:30px 0;">
 	<div class="menu-item bakery breads" style="background-image:url('images/menu/132.jpg')">
@@ -639,137 +639,30 @@ require_once("header.php");
 		</div>
 	</div>
 </div>
-<!--
-			        <h3>Bakery</h3>
-			        <pre>
-Breads
-	Country
-	Whole Grain
-	Rye
-	Cinnamon Raisin Swirl
-	Sourdough
-	Asiago Cheese
-	Tomato Basil
-	Honey Wheat
-	French Baguette
-	White
-	Asiago Cheese Focaccia
-	Sea Salt Focaccia
-	Ciabatta
-Bagels
-	Blueberry Bagel
-	Everything Bagel
-	French Toast Bagel
-	Asiago Cheese Bagel
-	Cinnamon Crunch Bagel
-	Whole Grain Bagel
-	Chocolate Chip Bagel
-	Cinnamon Swirl & Raisin Bagel
-	Plain Bagel
-	Sesame Bagel
-	Sprouted Grain Bagel Flat
-Pastries
-	French Croissant
-	Bear Claw
-	Cheese Pastry
-	Cherry Pastry
-	Chocolate Pastry
-	Pecan Braid
-	Pastry Ring
-Cookies
-	Semi Sweet Chocolate Chunk
-	Milk Chocolate Chip
-	Black & White
-	Dark Chocolate Walnut
-	Oatmeal Wheatgerm Chocolate Chip
-	Peanut Butter
-	Peanut Butter Chocolate Chunk
-	Oatmeal Raisin
-Croissants
-	Butter Croissant
-	Ham & Cheddar
-	Spinach & 3 Cheese
-	Turkey & Swiss
-	Blueberry Cream Cheese
-	Cranberry Cream Cheese
-	Apple Cream Cheese
-	Chocolate Cream Cheese
-Muffins
-	Blueberry Crumble Muffin
-	Black Bottom
-	Oatmeal Banana Muffin
-	Carrot Raisin Bran Muffin
-	Pumpkin Walnut Muffin
-Sweet Rolls & Buns
-	Cinnamon Roll
-	Sticky Bun
-	Cinnamon Sugar Morning Bun
-	Chocolate Almond Morning Bun
-Quiches
-	Diced Ham
-	Roasted Veggie
-	3 Cheese
-Scones
-	Blueberry Scone
-	Cranberry Scone
-	Almond Scone
-	Cappuccino Scone
-Coffee Cakes
-	Blueberry Coffee Cake
-	Fuji Apple Coffee Cake
-	Peach Coffee Cake
-	Cranberry Coffee Cake
-			        </pre>
-			        <h3>Restaurant</h3>
-			        <pre>
-Appetizers
-	Fried Mozzarella
-	Italian Cheese Stuffed Meatballs
-	Five Italian Cheese Fonduta
-	Classic Calamari
-	Stuffed Mushrooms
-	Lasagna Fritta
-	Classic Shrimp Scampi Fritta
-	Spicy Shrimp Scampi Fritta
-	Crispy Risotto Bites
-	Bruschetta Caprese
-	Breadsticks
-Soups
-	Zuppa Toscana
-	Pasta e Fagioli
-	Chicken & Gnocchi
-	Minestrone
-Entrees
-	Chicken Piccata
-	Tilapia Piccata
-	Citrus Chicken Sorrento
-	Garlic Rosemary Chicken
-	Ravioli di Portobello
-	Grilled Chicken Caesar Salad
-	Chicken Scampi
-	Chicken Parmigiana
-	Eggplant Parmigiana
-	Fettuccine Alfredo
-	Chicken Alfredo
-	Shrimp Alfredo
-	Cheese Ravioli
-	Five Cheese Ziti al Forno
-Desserts
-	Warm Apple Crostata
-	Seasonal Sicilian Cheesecake
-	Tiramisu
-	Lemon Cream Cake
-	Black Tie Mousse Cake
-	Chocolate Mousse Cake
-	Zeppoli
-	Dolcini
-			        </pre>
-			        -->
 					</div>
 				</div>
 			</div>
 		</div>
 </section>
+
+<script>
+$(".menu-item").hide();
+
+$(".cata.bakery").click(function () { $(".subcata.restaurant").hide().siblings().show(); });
+$(".cata.restaurant").click(function () { $(".subcata.bakery").hide().siblings().show(); });
+
+
+$(".subcata").click(function () {
+	$(this).siblings().removeClass("special");
+	$(this).addClass("special");
+	$("."+$(this).attr("href").substring(1)).siblings().hide().siblings().show();
+});
+
+if (location.hash.substring(1) == "") {
+	location.hash = "#breads";
+}
+$(".subcata." + location.hash.substring(1)).click();
+</script>
 
 <?php
 require_once("footer.php");
