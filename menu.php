@@ -267,6 +267,60 @@ require_once("header.php");
 			<span class="price">$8.99</span>
 		</div>
 	</div>
+	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1315.jpg')">
+		<div class="details">
+			<span class="name small">Blueberry Crumble Muffin</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1316.jpg')">
+		<div class="details">
+			<span class="name small">Black Bottom</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1317.jpg')">
+		<div class="details">
+			<span class="name small">Oatmeal Banana Muffin</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1318.jpg')">
+		<div class="details">
+			<span class="name small">Carrot Raisin Bran Muffin</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1319.jpg')">
+		<div class="details">
+			<span class="name small">Pumpkin Walnut Muffin</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery rollsbuns" style="background-image:url('images/menu/1313.jpg')">
+		<div class="details">
+			<span class="name">Cinnamon Roll</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery rollsbuns" style="background-image:url('images/menu/1329.jpg')">
+		<div class="details">
+			<span class="name">Sticky Bun</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery rollsbuns" style="background-image:url('images/menu/1328.jpg')">
+		<div class="details">
+			<span class="name small">Cinnamon Sugar Morning Bun</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery rollsbuns" style="background-image:url('images/menu/1322.jpg')">
+		<div class="details">
+			<span class="name small">Chocolate Almond Morning Bun</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
 </div>
 <!--
 			        <h3>Bakery</h3>
