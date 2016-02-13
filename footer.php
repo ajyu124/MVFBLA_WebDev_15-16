@@ -2,8 +2,10 @@
 <!-- Footer -->
 <section id="footer">
 			<div class="inner">
-				<h2 class="major">Hours / Social / Contact Us</h2>
-				<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. Reservations can be made on our Reservations page. </p>
+				<h3 class="major">Hours / Social / Contact Us</h2>
+				<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. 
+				Reservations can be made through IOS and Android Apps like OpenTable or SeatMe. You can also call us at least 1 hour before you want your reservations
+				for seating.</p>
 				<ul class="contact">
 				<li class="fa-home">
 					<a href="https://goo.gl/maps/pD5L1BYHgpE2">21840 McClellan Rd <br>

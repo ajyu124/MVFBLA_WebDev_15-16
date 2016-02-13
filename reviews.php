@@ -1,10 +1,17 @@
 <?php
 require_once("header.php");
 ?>
-						
+<section id="wrapper">
+	<header id="headerRewards">
+		<div class="inner">
+			<h2>Awards and Reviews</h2>
+			<p>See what others have to say about us.</p>
+		</div>
+	</header>
+	
 		<div class="wrapper">
-				<div class="inner">
-					<section class="features">
+			<div class="inner">
+				<section class="features">
 						<h3 class = "major">Awards and Recognition</h3>
 						<p>Despite being a relatively new bakery and restaurant, Panettiere Bakery has received recognition from multiple sources. Not only
 						are we a Grade A Restaurant in terms of service and cleanliness per Santa Clara County Laws, but we are an Occupational Health and 
@@ -73,4 +80,6 @@ require_once("header.php");
 							- Guillermo Ferrero, Cupertino, CA
 							</blockquote>
 							
-					
+						</section> 
+					</section>	
+		
