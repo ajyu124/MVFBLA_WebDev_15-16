@@ -15,7 +15,7 @@ require_once("header.php");
 		<div class="wrapper">
 			<div class="inner">
 				<div class="row">
-					<div class="3u" style="padding: 30px 0; width: 15%;"><h4>Menus</h4>
+					<div class="3u" style="padding: 60px 0; width: 15%;"><h4>Menus</h4>
 						<ul class="alt">
 							<li style="background-color: rgba(255, 255, 255, 0.025);"><a href="#">All</a></li>
 							<li><a href="#" class="cata bakery">Bakery</a></li>
@@ -38,7 +38,7 @@ require_once("header.php");
 							<li><a href="#" class="subcata button small special restaurant entrees">Entrees</a></li>
 							<li><a href="#" class="subcata button small special restaurant desserts">Desserts</a></li>
 			            </ul>
-<div class="contain">
+<div class="contain" style="margin:30px 0;">
 	<div class="menu-item bakery breads" style="background-image:url('images/menu/132.jpg')">
 		<div class="details">
 			<span class="name">Country</span>
@@ -267,31 +267,31 @@ require_once("header.php");
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1315.jpg')">
+	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1377.jpg')">
 		<div class="details">
 			<span class="name small">Blueberry Crumble Muffin</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1316.jpg')">
+	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1315.jpg')">
 		<div class="details">
-			<span class="name small">Black Bottom</span>
+			<span class="name">Black Bottom</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1317.jpg')">
+	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1319.jpg')">
 		<div class="details">
 			<span class="name small">Oatmeal Banana Muffin</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1318.jpg')">
+	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1356.jpg')">
 		<div class="details">
 			<span class="name small">Carrot Raisin Bran Muffin</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1319.jpg')">
+	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1317.jpg')">
 		<div class="details">
 			<span class="name small">Pumpkin Walnut Muffin</span>
 			<span class="price">$8.99</span>
@@ -327,19 +327,19 @@ require_once("header.php");
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery scones" style="background-image:url('images/menu/1338.jpg')">
+	<div class="menu-item bakery scones" style="background-image:url('images/menu/1335.jpg')">
 		<div class="details">
 			<span class="name small">Cranberry Scone</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery scones" style="background-image:url('images/menu/1339.jpg')">
+	<div class="menu-item bakery scones" style="background-image:url('images/menu/1336.jpg')">
 		<div class="details">
-			<span class="name small">Almond Scone</span>
+			<span class="name">Almond Scone</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery scones" style="background-image:url('images/menu/1340.jpg')">
+	<div class="menu-item bakery scones" style="background-image:url('images/menu/1338.jpg')">
 		<div class="details">
 			<span class="name small">Cappuccino Scone</span>
 			<span class="price">$8.99</span>
@@ -359,25 +359,25 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1302.jpg')">
 		<div class="details">
-			<span class="name small">Black & White</span>
+			<span class="name">Black & White</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1303.jpg')">
+	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1308.jpg')">
 		<div class="details">
 			<span class="name small">Dark Chocolate Walnut</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1304.jpg')">
+	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1303.jpg')">
 		<div class="details">
-			<span class="name small">Oatmeal Wheatgerm Chocolate Chip</span>
+			<span class="name small">Oatmeal Chocolate Chip</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
 	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1305.jpg')">
 		<div class="details">
-			<span class="name small">Peanut Butter</span>
+			<span class="name">Peanut Butter</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
@@ -387,9 +387,9 @@ require_once("header.php");
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1307.jpg')">
+	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1304.jpg')">
 		<div class="details">
-			<span class="name small">Oatmeal Raisin</span>
+			<span class="name">Oatmeal Raisin</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
@@ -399,7 +399,7 @@ require_once("header.php");
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery coffeecake" style="background-image:url('images/menu/1361.jpg')">
+	<div class="menu-item bakery coffeecake" style="background-image:url('images/menu/1359.jpg')">
 		<div class="details">
 			<span class="name small">Fuji Apple Coffee Cake</span>
 			<span class="price">$8.99</span>
@@ -411,7 +411,7 @@ require_once("header.php");
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery coffeecake" style="background-image:url('images/menu/1363.jpg')">
+	<div class="menu-item bakery coffeecake" style="background-image:url('images/menu/1361.jpg')">
 		<div class="details">
 			<span class="name small">Cranberry Coffee Cake</span>
 			<span class="price">$8.99</span>
