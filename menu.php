@@ -48,4 +48,5 @@ require_once("header.php");
 </section>
 
 <?php
-require_once("f
+require_once("footer.php");
+?>
