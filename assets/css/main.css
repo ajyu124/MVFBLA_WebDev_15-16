@@ -2753,6 +2753,7 @@
     url("../../images/headerRewards.jpg") center -250px / cover no-repeat fixed;
     height: 39.3em;
 }
+
 #headerReviews
 {
 	background: 
@@ -2761,6 +2762,17 @@
       rgba(0, 0, 0, 0.4)
     ),
     url("../../images/reviewheader.jpg") center -250px / cover no-repeat fixed;
+    height: 39.3em;
+}
+
+#headerAbout
+{
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../images/headerAbout.jpg") center -250px / cover no-repeat fixed;
     height: 39.3em;
 }
 
