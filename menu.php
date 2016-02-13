@@ -38,8 +38,6 @@ require_once("header.php");
 						<ul class="actions small restaurant" style="text-align: center;">
 			              <li><a href="#" class="subcata button small special appetizers">Appetizers</a></li>
 			              <li><a href="#" class="subcata button small special soups">Soups</a></li>
-			              <li><a href="#" class="subcata button small special salads">Salads</a></li>
-			              <li><a href="#" class="subcata button small special pastas">Pastas</a></li>
 			              <li><a href="#" class="subcata button small special entrees">Entrees</a></li>
 			              <li><a href="#" class="subcata button small special desserts">Desserts</a></li>
 			            </ul>
@@ -125,6 +123,49 @@ Coffee Cakes
 	Cranberry Coffee Cake
 			        </pre>
 			        <h3>Restaurant</h3>
+			        <pre>
+Appetizers
+	Fried Mozzarella
+	Italian Cheese Stuffed Meatballs
+	Five Italian Cheese Fonduta
+	Classic Calamari
+	Stuffed Mushrooms
+	Lasagna Fritta
+	Classic Shrimp Scampi Fritta
+	Spicy Shrimp Scampi Fritta
+	Crispy Risotto Bites
+	Bruschetta Caprese
+	Breadsticks
+Soups
+	Zuppa Toscana
+	Pasta e Fagioli
+	Chicken & Gnocchi
+	Minestrone
+Entrees
+	Chicken Piccata
+	Tilapia Piccata
+	Citrus Chicken Sorrento
+	Garlic Rosemary Chicken
+	Ravioli di Portobello
+	Grilled Chicken Caesar Salad
+	Chicken Scampi
+	Chicken Parmigiana
+	Eggplant Parmigiana
+	Fettuccine Alfredo
+	Chicken Alfredo
+	Shrimp Alfredo
+	Cheese Ravioli
+	Five Cheese Ziti al Forno
+Desserts
+	Warm Apple Crostata
+	Seasonal Sicilian Cheesecake
+	Tiramisu
+	Lemon Cream Cake
+	Black Tie Mousse Cake
+	Chocolate Mousse Cake
+	Zeppoli
+	Dolcini
+			        </pre>
 					</div>
 				</div>
 			</div>
