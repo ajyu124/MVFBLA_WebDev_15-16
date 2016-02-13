@@ -41,10 +41,88 @@ require_once("header.php");
 			              <li><a href="#" class="subcata button small special entrees">Entrees</a></li>
 			              <li><a href="#" class="subcata button small special desserts">Desserts</a></li>
 			            </ul>
-			            <div class="contain">
-			            	<div class="menu-item bakery breads"><div class="details"><span class="name">Country</span><span class="price">$8.99</span></div></div>
-			            </div>
 			        -->
+<div class="contain">
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/132.jpg')">
+		<div class="details">
+			<span class="name">Country</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/133.jpg')">
+		<div class="details">
+			<span class="name">Whole Grain</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/134.jpg')">
+		<div class="details">
+			<span class="name">Rye</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/135.jpg')">
+		<div class="details">
+			<span class="name">Cinnamon Raisin Swirl</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/136.jpg')">
+		<div class="details">
+			<span class="name">Sourdough</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/137.jpg')">
+		<div class="details">
+			<span class="name">Asiago Cheese</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/138.jpg')">
+		<div class="details">
+			<span class="name">Tomato Basil</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/139.jpg')">
+		<div class="details">
+			<span class="name">Honey Wheat</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/140.jpg')">
+		<div class="details">
+			<span class="name">French Baguette</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/141.jpg')">
+		<div class="details">
+			<span class="name">White</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/142.jpg')">
+		<div class="details">
+			<span class="name">Asiago Cheese Focaccia</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/143.jpg')">
+		<div class="details">
+			<span class="name">Sea Salt Focaccia</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery breads" style="background-image:url('images/menu/144.jpg')">
+		<div class="details">
+			<span class="name">Ciabatta</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+</div>
+			        
 			        <h3>Bakery</h3>
 			        <pre>
 Breads
