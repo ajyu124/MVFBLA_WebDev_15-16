@@ -41,6 +41,9 @@ require_once("header.php");
 			              <li><a href="#" class="subcata button small special entrees">Entrees</a></li>
 			              <li><a href="#" class="subcata button small special desserts">Desserts</a></li>
 			            </ul>
+			            <div class="contain">
+			            	<div class="menu-item bakery breads"><div class="details"><span class="name">Country</span><span class="price">$8.99</span></div></div>
+			            </div>
 			        -->
 			        <h3>Bakery</h3>
 			        <pre>
