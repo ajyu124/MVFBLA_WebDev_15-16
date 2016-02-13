@@ -644,25 +644,6 @@ require_once("header.php");
 		</div>
 </section>
 
-<script>
-$(".menu-item").hide();
-
-$(".cata.bakery").click(function () { $(".subcata.restaurant").hide().siblings(".bakery").show(); });
-$(".cata.restaurant").click(function () { $(".subcata.bakery").hide().siblings(".restaurant").show(); });
-
-
-$(".subcata a").click(function () {
-	$(this).parent().siblings().children().removeClass("special");
-	$(this).addClass("special");
-	$(".menu-item:not(."+$(this).attr("href").substring(1)+")").hide().siblings("."+$(this).attr("href").substring(1)).show();
-});
-
-if (location.hash.substring(1) == "") {
-	location.hash = "#breads";
-}
-$(".subcata." + location.hash.substring(1)).click();
-</script>
-
 <?php
 require_once("footer.php");
 ?>
