@@ -4,7 +4,7 @@
 	<div class="inner">
 		<h4 class="major">Want to check us out? Hours / Social / Reservations / Contact Us</h4>
 		<ul class="contact">
-			<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. 
+			<p id="contactLine">If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. 
 				Reservations can be made through the Yelp app using SeatMe, available on <a href="https://itunes.apple.com/us/app/yelp/id284910350?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yelp.android&hl=en">Android.</a> You can also call us at (408) 366-7600 at least 1 hour before you want your reservations for seating.</p>
 			<li class="fa-home">
 				<a href="https://goo.gl/maps/pD5L1BYHgpE2">21840 McClellan Rd <br>
@@ -28,7 +28,7 @@
 			</div>
 			<div class="field">
 				<label for="message">Message (required)</label>
-				<textarea name="message" id="message" rows="4" placeholder="What's on your mind?"></textarea>
+				<textarea name="message" id="message" rows="3" placeholder="What's on your mind?"></textarea>
 			</div>
 			<ul class="actions">
 				<li><input type="submit" value="Send Message" /></li>
