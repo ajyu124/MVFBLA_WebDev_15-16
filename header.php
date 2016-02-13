@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="icon" href="images/favicon.ico">
 	</head>
 	<body>
 
@@ -16,7 +17,7 @@
 
 				<!-- Nav bar -->
 					<div id="nav">
-						<h1><a href="http://www.panettiere.ml/"><img src="../../images/logo2.png" width = "151.26" height = "60"></h1>
+						<h1><a href="http://www.panettiere.ml/"><img src="images/logo3.png" width = "151.26" height = "60" style="margin:5px;"></h1>
 						<nav>
 							<a href="#menu">Pages</a>
 						</nav>

@@ -219,7 +219,7 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1327.jpg')">
 		<div class="details">
-			<span class="name">Butter Croissant</span>
+			<span class="name small">Butter Croissant</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
