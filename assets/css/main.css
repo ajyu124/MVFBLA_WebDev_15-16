@@ -2385,7 +2385,7 @@
 
 			ul.contact li {
 				text-decoration: none;
-				margin: 2.5em 0 0 0;
+				margin: 1.0em 0 0 0;
 				padding: 0 0 0 3.25em;
 				position: relative;
 			}
@@ -3636,8 +3636,8 @@
 		}
 
 		#footer .inner form {
-			margin: 0 3em -2em 0;
-			width: calc(50% - 1.5em);
+			margin: 0 3em -2em 1.5;
+			width: calc(50% - 3em);
 		}
 
 		#footer .inner .contact {
