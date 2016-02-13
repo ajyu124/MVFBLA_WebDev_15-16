@@ -15,14 +15,14 @@ require_once("header.php");
 		<div class="wrapper">
 			<div class="inner">
 				<div class="row">
-					<div class="3u" style="padding-top: 30px;"><h4>Menus</h4>
+					<div class="3u" style="padding: 30px 0; width: 15%;"><h4>Menus</h4>
 						<ul class="alt">
 							<li style="background-color: rgba(255, 255, 255, 0.025);"><a href="#">All</a></li>
 							<li><a href="#" class="cata bakery">Bakery</a></li>
 							<li><a href="#" class="cata restaurant">Restaurant</a></li>
 						</ul>
 					</div>
-					<div class="9u" style="width: 75%;">
+					<div class="9u" style="padding: 0; width: 85%;">
 						<ul class="actions small" style="text-align: center;">
 							<li><a href="#" class="subcata button small special bakery breads">Breads</a></li>
 							<li><a href="#" class="subcata button small special bakery bagels">Bagels</a></li>

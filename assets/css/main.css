@@ -3107,7 +3107,7 @@
 
 		#banner .inner {
 			margin: 0 auto;
-			width: 55em;
+			width: 60em;
 		}
 
 		#banner .logo {
@@ -3275,7 +3275,7 @@
 
 		#wrapper > header .inner {
 			margin: 0 auto;
-			width: 55em;
+			width: 60em;
 		}
 
 		#wrapper > header h2 {
@@ -3390,7 +3390,7 @@
 		.wrapper .inner {
 			padding: 3em 0 1em 0 ;
 			margin: 0 auto;
-			width: 55em;
+			width: 60em;
 		}
 
 		.wrapper.style2 {
@@ -3641,7 +3641,7 @@
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		margin: 0 auto;
-		width: 55em;
+		width: 60em;
 	}
 
 		#footer .inner > * {
