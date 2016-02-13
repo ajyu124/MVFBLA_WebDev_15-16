@@ -22,7 +22,7 @@ require_once("header.php");
 						</ul>
 					</div>
 					<div class="9u" style="padding: 0; width: 85%;">
-						<ul class="actions small" style="text-align: center;">
+						<ul class="actions small subcats" style="text-align: center;">
 							<li><a href="#breads" class="subcata button small bakery breads">Breads</a></li>
 							<li><a href="#bagels" class="subcata button small bakery bagels">Bagels</a></li>
 							<li><a href="#pastries" class="subcata button small bakery pastries">Pastries</a></li>
@@ -31,7 +31,6 @@ require_once("header.php");
 							<li><a href="#rollsbuns" class="subcata button small bakery rollsbuns">Rolls & Buns</a></li>
 							<li><a href="#scones" class="subcata button small bakery scones">Scones</a></li>
 							<li><a href="#cookies" class="subcata button small bakery cookies">Cookies</a></li>
-							<li><a href="#coffeecake" class="subcata button small bakery coffeecake">Coffee Cake</a></li>
 							<li><a href="#appetizers" class="subcata button small restaurant appetizers">Appetizers</a></li>
 							<li><a href="#soups" class="subcata button small restaurant soups">Soups</a></li>
 							<li><a href="#entrees" class="subcata button small restaurant entrees">Entrees</a></li>
@@ -648,14 +647,14 @@ require_once("header.php");
 <script>
 $(".menu-item").hide();
 
-$(".cata.bakery").click(function () { $(".subcata.restaurant").hide().siblings().show(); });
-$(".cata.restaurant").click(function () { $(".subcata.bakery").hide().siblings().show(); });
+$(".cata.bakery").click(function () { $(".subcata.restaurant").parent().hide().first().siblings(".bakery").show(); });
+$(".cata.restaurant").click(function () { $(".subcata.bakery").parent().hide().siblings(".restaurant").show(); });
 
 
 $(".subcata").click(function () {
-	$(this).siblings().removeClass("special");
+	$(this).parent().siblings().children().removeClass("special");
 	$(this).addClass("special");
-	$("."+$(this).attr("href").substring(1)).siblings().hide().siblings().show();
+	$(".menu-item."+$(this).attr("href").substring(1)).siblings(":not(."+$(this).attr("href").substring(1)+")").hide().siblings("."+$(this).attr("href").substring(1)).show();
 });
 
 if (location.hash.substring(1) == "") {
