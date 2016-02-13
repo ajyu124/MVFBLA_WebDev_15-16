@@ -417,6 +417,228 @@ require_once("header.php");
 			<span class="price">$8.99</span>
 		</div>
 	</div>
+	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/500.jpg')">
+		<div class="details">
+			<span class="name small">Fried Mozzarella</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/501.jpg')">
+		<div class="details">
+			<span class="name small">Italian Cheese Stuffed Meatballs</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/502.jpg')">
+		<div class="details">
+			<span class="name small">Five Italian Cheese Fonduta</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/503.jpg')">
+		<div class="details">
+			<span class="name small">Classic Calamari</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/504.jpg')">
+		<div class="details">
+			<span class="name small">Stuffed Mushrooms</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/505.jpg')">
+		<div class="details">
+			<span class="name small">Lasagna Fritta</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/506.jpg')">
+		<div class="details">
+			<span class="name small">Classic Shrimp Scampi Fritta</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/507.jpg')">
+		<div class="details">
+			<span class="name small">Spicy Shrimp Scampi Fritta</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/508.jpg')">
+		<div class="details">
+			<span class="name small">Crispy Risotto Bites</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/509.jpg')">
+		<div class="details">
+			<span class="name small">Bruschetta Caprese</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/510.jpg')">
+		<div class="details">
+			<span class="name small">Breadsticks</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant soups" style="background-image:url('images/menu/517.jpg')">
+		<div class="details">
+			<span class="name small">Zuppa Toscana</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant soups" style="background-image:url('images/menu/518.jpg')">
+		<div class="details">
+			<span class="name small">Pasta e Fagioli</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant soups" style="background-image:url('images/menu/519.jpg')">
+		<div class="details">
+			<span class="name small">Chicken & Gnocchi</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant soups" style="background-image:url('images/menu/520.jpg')">
+		<div class="details">
+			<span class="name small">Minestrone</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/522.jpg')">
+		<div class="details">
+			<span class="name small">Chicken Piccata</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/523.jpg')">
+		<div class="details">
+			<span class="name small">Tilapia Piccata</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/524.jpg')">
+		<div class="details">
+			<span class="name small">Citrus Chicken Sorrento</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/525.jpg')">
+		<div class="details">
+			<span class="name small">Garlic Rosemary Chicken</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/526.jpg')">
+		<div class="details">
+			<span class="name small">Ravioli di Portobello</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/527.jpg')">
+		<div class="details">
+			<span class="name small">Grilled Chicken Caesar Salad</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/528.jpg')">
+		<div class="details">
+			<span class="name small">Chicken Scampi</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/529.jpg')">
+		<div class="details">
+			<span class="name small">Chicken Parmigiana</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/530.jpg')">
+		<div class="details">
+			<span class="name small">Eggplant Parmigiana</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/531.jpg')">
+		<div class="details">
+			<span class="name small">Fettuccine Alfredo</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/532.jpg')">
+		<div class="details">
+			<span class="name small">Chicken Alfredo</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/533.jpg')">
+		<div class="details">
+			<span class="name small">Shrimp Alfredo</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/534.jpg')">
+		<div class="details">
+			<span class="name small">Cheese Ravioli</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/535.jpg')">
+		<div class="details">
+			<span class="name small">Five Cheese Ziti al Forno</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant desserts" style="background-image:url('images/menu/537.jpg')">
+		<div class="details">
+			<span class="name small">Warm Apple Crostata</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant desserts" style="background-image:url('images/menu/538.jpg')">
+		<div class="details">
+			<span class="name small">Seasonal Sicilian Cheesecake</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant desserts" style="background-image:url('images/menu/539.jpg')">
+		<div class="details">
+			<span class="name small">Tiramisu</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant desserts" style="background-image:url('images/menu/540.jpg')">
+		<div class="details">
+			<span class="name small">Lemon Cream Cake</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant desserts" style="background-image:url('images/menu/541.jpg')">
+		<div class="details">
+			<span class="name small">Black Tie Mousse Cake</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant desserts" style="background-image:url('images/menu/542.jpg')">
+		<div class="details">
+			<span class="name small">Chocolate Mousse Cake</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant desserts" style="background-image:url('images/menu/543.jpg')">
+		<div class="details">
+			<span class="name small">Zeppoli</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item restaurant desserts" style="background-image:url('images/menu/544.jpg')">
+		<div class="details">
+			<span class="name small">Dolcini</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
 </div>
 <!--
 			        <h3>Bakery</h3>
