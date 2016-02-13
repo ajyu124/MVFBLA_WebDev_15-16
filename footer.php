@@ -51,7 +51,7 @@
 	$name = "assets/js/" . substr($_SERVER['PHP_SELF'], 0, -4) . ".js";
 	if (file_exists($name)) { ?>
 	<script src="<?php echo $name; ?>"></script>
-	} ?>
+	<?php } ?>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
