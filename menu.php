@@ -17,24 +17,24 @@ require_once("header.php");
 				<div class="row">
 					<div class="3u" style="padding: 60px 0; width: 15%;"><h4>Menus</h4>
 						<ul class="alt">
-							<li><a href="#" class="cata bakery">Bakery</a></li>
-							<li><a href="#" class="cata restaurant">Restaurant</a></li>
+							<li><a href="#bakery" class="cata bakery">Bakery</a></li>
+							<li><a href="#restaurant" class="cata restaurant">Restaurant</a></li>
 						</ul>
 					</div>
 					<div class="9u" style="padding: 0; width: 85%;">
 						<ul class="actions small subcats" style="text-align: center;">
-							<li><a href="#breads" class="subcata button small bakery breads">Breads</a></li>
-							<li><a href="#bagels" class="subcata button small bakery bagels">Bagels</a></li>
-							<li><a href="#pastries" class="subcata button small bakery pastries">Pastries</a></li>
-							<li><a href="#croissants" class="subcata button small bakery croissants">Croissants</a></li>
-							<li><a href="#muffins" class="subcata button small bakery muffins">Muffins</a></li>
-							<li><a href="#rollsbuns" class="subcata button small bakery rollsbuns">Rolls & Buns</a></li>
-							<li><a href="#scones" class="subcata button small bakery scones">Scones</a></li>
-							<li><a href="#cookies" class="subcata button small bakery cookies">Cookies</a></li>
-							<li><a href="#appetizers" class="subcata button small restaurant appetizers">Appetizers</a></li>
-							<li><a href="#soups" class="subcata button small restaurant soups">Soups</a></li>
-							<li><a href="#entrees" class="subcata button small restaurant entrees">Entrees</a></li>
-							<li><a href="#desserts" class="subcata button small restaurant desserts">Desserts</a></li>
+							<li class="subcata bakery breads"><a href="#breads" class="button small">Breads</a></li>
+							<li class="subcata bakery bagels"><a href="#bagels" class="button small">Bagels</a></li>
+							<li class="subcata bakery pastries"><a href="#pastries" class="button small">Pastries</a></li>
+							<li class="subcata bakery croissants"><a href="#croissants" class="button small">Croissants</a></li>
+							<li class="subcata bakery muffins"><a href="#muffins" class="button small">Muffins</a></li>
+							<li class="subcata bakery rollsbuns"><a href="#rollsbuns" class="button small">Rolls & Buns</a></li>
+							<li class="subcata bakery scones"><a href="#scones" class="button small">Scones</a></li>
+							<li class="subcata bakery cookies"><a href="#cookies" class="button small">Cookies</a></li>
+							<li class="subcata restaurant appetizers"><a href="#appetizers" class="button small">Appetizers</a></li>
+							<li class="subcata restaurant soups"><a href="#soups" class="button small">Soups</a></li>
+							<li class="subcata restaurant entrees"><a href="#entrees" class="button small">Entrees</a></li>
+							<li class="subcata restaurant desserts"><a href="#desserts" class="button small">Desserts</a></li>
 			            </ul>
 <div class="contain" style="margin:30px 0;">
 	<div class="menu-item bakery breads" style="background-image:url('images/menu/132.jpg')">
@@ -647,14 +647,14 @@ require_once("header.php");
 <script>
 $(".menu-item").hide();
 
-$(".cata.bakery").click(function () { $(".subcata.restaurant").parent().hide().first().siblings(".bakery").show(); });
-$(".cata.restaurant").click(function () { $(".subcata.bakery").parent().hide().siblings(".restaurant").show(); });
+$(".cata.bakery").click(function () { $(".subcata.restaurant").hide().siblings(".bakery").show(); });
+$(".cata.restaurant").click(function () { $(".subcata.bakery").hide().siblings(".restaurant").show(); });
 
 
-$(".subcata").click(function () {
+$(".subcata a").click(function () {
 	$(this).parent().siblings().children().removeClass("special");
 	$(this).addClass("special");
-	$(".menu-item."+$(this).attr("href").substring(1)).siblings(":not(."+$(this).attr("href").substring(1)+")").hide().siblings("."+$(this).attr("href").substring(1)).show();
+	$(".menu-item:not(."+$(this).attr("href").substring(1)+")").hide().siblings("."+$(this).attr("href").substring(1)).show();
 });
 
 if (location.hash.substring(1) == "") {
