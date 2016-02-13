@@ -15,17 +15,17 @@ require_once("header.php");
 						<h3 class = "major">Awards and Recognition</h3>
 						<p>Despite being a relatively new bakery and restaurant, Panettiere Bakery has received recognition from multiple sources. Not only
 						are we a Grade A Restaurant in terms of service and cleanliness per Santa Clara County Laws, but we are an Occupational Health and 
-						Safety Association (OSHA) recognized establishment for our cleanliness and safety to employees and customers. Furthermore, we have 
-						also recieved a couple of awards which you can see below!</p>
+						Safety Association (OSHA) recognized establishment for our service and safety to employees and customers. Furthermore, we have 
+						also received a couple of awards which you can see below!</p>
 						<article>
 							<h3 class="major">Best New Bakery - American Bakers Assocation 2016 </h3>
-							<p>We are proud to announce that we recieved the "Best New Bakery Award" from the American Bakers Association for our 
+							<p>We are proud to announce that we received the "Best New Bakery Award" from the American Bakers Association for our 
 							food and service to our customers. We thank the American Bakers Assocation greatly for this award.</p>
 						
 						</article>
 						<article>
 							<h3 class="major">Best Service - James Beard Restaurant Awards 2016</h3>
-							<p>We are also proud to announce that we recieved the Best Service Award from the James Beard Restaurant Awards! We work hard to
+							<p>We are also proud to announce that we received the Best Service Award from the James Beard Restaurant Awards! We work hard to
 							make sure that each individual customer has a great time at our establishment and we thank the James Beard Awards for this 
 							recognition.</p>
 						
