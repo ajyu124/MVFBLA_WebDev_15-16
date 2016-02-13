@@ -6,12 +6,12 @@ jQuery.fn.extend({
   },
   show2: function() {
     return this.each(function() {
-       $(this).animate({width: 200}).animate({opacity: "0.0"}).show(0);
+       $(this).animate({width: 200}).animate({opacity: "1.0"}).show(0);
     });
   },
   showInst: function () {
   	return this.each(function () {
-  		$(this).css("width", "auto").animate({opacity: "0.0"}).show(0);
+  		$(this).css("width", "auto").animate({opacity: "1.0"}).show(0);
   	});
   }
 });
