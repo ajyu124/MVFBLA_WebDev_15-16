@@ -219,7 +219,7 @@ require_once("header.php");
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1329.jpg')">
+	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1327.jpg')">
 		<div class="details">
 			<span class="name">Butter Croissant</span>
 			<span class="price">$8.99</span>
@@ -227,13 +227,13 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1330.jpg')">
 		<div class="details">
-			<span class="name">Ham & Cheddar</span>
+			<span class="name small">Ham & Cheddar</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
 	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1331.jpg')">
 		<div class="details">
-			<span class="name">Spinach & 3 Cheese</span>
+			<span class="name small">Spinach & 3 Cheese</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
@@ -245,25 +245,25 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1333.jpg')">
 		<div class="details">
-			<span class="name">Blueberry Cream Cheese</span>
+			<span class="name small">Blueberry Cream Cheese</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1355.jpg')">
+		<div class="details">
+			<span class="name small">Cranberry Cream Cheese</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
 	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1334.jpg')">
 		<div class="details">
-			<span class="name">Cranberry Cream Cheese</span>
+			<span class="name small">Apple Cream Cheese</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
-	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1335.jpg')">
+	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1354.jpg')">
 		<div class="details">
-			<span class="name">Apple Cream Cheese</span>
-			<span class="price">$8.99</span>
-		</div>
-	</div>
-	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1336.jpg')">
-		<div class="details">
-			<span class="name">Chocolate Cream Cheese</span>
+			<span class="name small">Chocolate Cream Cheese</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
