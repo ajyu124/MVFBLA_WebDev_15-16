@@ -1973,7 +1973,7 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #5b6ba6;
+			border-color: rgb(236,229,206);
 		}
 
 	.select-wrapper {
@@ -2668,7 +2668,7 @@
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #7B684E;
+			background-color: rgb(119,79,56);
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -2734,59 +2734,42 @@
 
 /* Header */
 
-#headerHome
-{
+header {
 	background: 
 	linear-gradient(
       rgba(0, 0, 0, 0.4), 
       rgba(0, 0, 0, 0.4)
     ),
-    url("../../images/headerHome.jpg") center -250px / cover no-repeat fixed;
+    url("") center -225px / cover no-repeat fixed;
+    padding-top: 9em;
+    height: 33em;
+}
+
+#headerHome
+{
+	background-image: url("../../images/headerHome.jpg");
+	padding-top: 11em;
     height: 39.3em;
 }
 
 #headerRewards
 {
-	background: 
-	linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("../../images/headerRewards.jpg") center -250px / cover no-repeat fixed;
-    height: 39.3em;
+	background-image: url("../../images/headerRewards.jpg");
 }
 
 #headerReviews
 {
-	background: 
-	linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("../../images/reviewheader.jpg") center -250px / cover no-repeat fixed;
-    height: 39.3em;
+	background-image: url("../../images/headerReviews.jpg");
 }
 
 #headerAbout
 {
-	background: 
-	linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("../../images/headerAbout.jpg") center -250px / cover no-repeat fixed;
-    height: 39.3em;
+	background-image: url("../../images/headerAbout.jpg");
 }
 
 #headerMenu
 {
-	background: 
-	linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("../../images/headerMenu.jpg") center -250px / cover no-repeat fixed;
-    height: 39.3em;
+	background-image: url("../../images/headerMenu.jpg");
 }
 
 
