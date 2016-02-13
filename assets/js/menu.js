@@ -1,7 +1,7 @@
 $(".menu-item").hide();
 
-$(".cata.bakery").click(function () { $(".subcata.restaurant").hide().siblings(".bakery").show().first().click(); });
-$(".cata.restaurant").click(function () { $(".subcata.bakery").hide().siblings(".restaurant").show().first().click(); });
+$(".cata.bakery").click(function () { $(".subcata.restaurant").hide().siblings(".bakery").show().first().children().click(); });
+$(".cata.restaurant").click(function () { $(".subcata.bakery").hide().siblings(".restaurant").show().first().children().click(); });
 
 $(".subcata a").click(function () {
 	$(this).parent().siblings().children().removeClass("special");
