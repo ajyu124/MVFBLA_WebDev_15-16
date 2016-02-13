@@ -3636,8 +3636,8 @@
 		}
 
 		#footer .inner form {
-			margin: 0 3em -2em 1.5;
-			width: calc(50% - 3em);
+			margin: 0 1em -2em 2.5em;
+			width: calc(50% - 2em);
 		}
 
 		#footer .inner .contact {
