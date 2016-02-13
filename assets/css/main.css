@@ -3810,6 +3810,7 @@ header {
 	background: rgba(0,0,0,0.5);
     background: -webkit-linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0));
     background: linear-gradient(to top, rgba(0,0,0,0.5) , rgba(0,0,0,0));
+    transition: all 400ms ease;
 
 }
 .menu-item:hover .details {
