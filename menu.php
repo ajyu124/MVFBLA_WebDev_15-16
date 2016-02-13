@@ -321,6 +321,102 @@ require_once("header.php");
 			<span class="price">$8.99</span>
 		</div>
 	</div>
+	<div class="menu-item bakery scones" style="background-image:url('images/menu/1337.jpg')">
+		<div class="details">
+			<span class="name small">Blueberry Scone</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery scones" style="background-image:url('images/menu/1338.jpg')">
+		<div class="details">
+			<span class="name small">Cranberry Scone</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery scones" style="background-image:url('images/menu/1339.jpg')">
+		<div class="details">
+			<span class="name small">Almond Scone</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery scones" style="background-image:url('images/menu/1340.jpg')">
+		<div class="details">
+			<span class="name small">Cappuccino Scone</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1300.jpg')">
+		<div class="details">
+			<span class="name small">Semi Sweet Chocolate Chunk</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1301.jpg')">
+		<div class="details">
+			<span class="name small">Milk Chocolate Chip</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1302.jpg')">
+		<div class="details">
+			<span class="name small">Black & White</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1303.jpg')">
+		<div class="details">
+			<span class="name small">Dark Chocolate Walnut</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1304.jpg')">
+		<div class="details">
+			<span class="name small">Oatmeal Wheatgerm Chocolate Chip</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1305.jpg')">
+		<div class="details">
+			<span class="name small">Peanut Butter</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1306.jpg')">
+		<div class="details">
+			<span class="name small">Peanut Butter Chocolate Chunk</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1307.jpg')">
+		<div class="details">
+			<span class="name small">Oatmeal Raisin</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery coffeecake" style="background-image:url('images/menu/1360.jpg')">
+		<div class="details">
+			<span class="name small">Blueberry Coffee Cake</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery coffeecake" style="background-image:url('images/menu/1361.jpg')">
+		<div class="details">
+			<span class="name small">Fuji Apple Coffee Cake</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery coffeecake" style="background-image:url('images/menu/1362.jpg')">
+		<div class="details">
+			<span class="name small">Peach Coffee Cake</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery coffeecake" style="background-image:url('images/menu/1363.jpg')">
+		<div class="details">
+			<span class="name small">Cranberry Coffee Cake</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
 </div>
 <!--
 			        <h3>Bakery</h3>
