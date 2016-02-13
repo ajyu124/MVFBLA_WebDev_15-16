@@ -2,7 +2,7 @@
 require_once("header.php");
 ?>
 <section id="wrapper">
-	<header id="headerRewards">
+	<header id="headerReviews">
 		<div class="inner">
 			<h2>Awards and Reviews</h2>
 			<p>See what others have to say about us.</p>
@@ -18,14 +18,12 @@ require_once("header.php");
 						Safety Association (OSHA) recognized establishment for our cleanliness and safety to employees and customers. Furthermore, we have 
 						also recieved a couple of awards which you can see below!</p>
 						<article>
-							<img src="images/bakeryFeature.jpg" alt="" class="image"/>
 							<h3 class="major">Best New Bakery - American Bakers Assocation 2016 </h3>
 							<p>We are proud to announce that we recieved the "Best New Bakery Award" from the American Bakers Association for our 
 							food and service to our customers. We thank the American Bakers Assocation greatly for this award.</p>
 						
 						</article>
 						<article>
-							<img src="images/bakeryFeature.jpg" alt="" class="image"/>
 							<h3 class="major">Best Service - James Beard Restaurant Awards 2016</h3>
 							<p>We are also proud to announce that we recieved the Best Service Award from the James Beard Restaurant Awards! We work hard to
 							make sure that each individual customer has a great time at our establishment and we thank the James Beard Awards for this 
@@ -77,7 +75,7 @@ require_once("header.php");
 							<blockquote>Excellent service! Excellent food! Wonderful pastries with a very cozy atmosphere. The only set back 
 							is that there was a long line and wait around dinner time which was slightly annoying. Overall, an excellent place to eat and very 
 							inexpensive too! <br><br>
-							- Guillermo Ferrero, Cupertino, CA
+							- Guillermo F, Cupertino, CA
 							</blockquote>
 							
 						</section> 
