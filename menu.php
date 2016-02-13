@@ -22,8 +22,7 @@ require_once("header.php");
 							<li><a href="#" class="cata restaurant">Restaurant</a></li>
 						</ul>
 					</div>
-					<div class="9u">
-					<!--
+					<div class="9u" style="width: 75%;">
 						<ul class="actions small bakery" style="text-align: center;">
 							<li><a href="#" class="subcata button small special pastries">Pastries</a></li>
 							<li><a href="#" class="subcata button small special breads">Breads</a></li>
@@ -41,7 +40,6 @@ require_once("header.php");
 			              <li><a href="#" class="subcata button small special entrees">Entrees</a></li>
 			              <li><a href="#" class="subcata button small special desserts">Desserts</a></li>
 			            </ul>
-			        -->
 <div class="contain">
 	<div class="menu-item bakery breads" style="background-image:url('images/menu/132.jpg')">
 		<div class="details">
