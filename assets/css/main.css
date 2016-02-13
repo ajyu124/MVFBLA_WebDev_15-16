@@ -2735,46 +2735,63 @@
 /* Header */
 
 header {
-	background: 
-	linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-    );
-    background-position: center -225px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    /*url("") center -225px / cover no-repeat fixed;*/
     padding-top: 9em;
     height: 33em;
 }
 
 #headerHome
 {
-	background-image: url("../../images/headerHome.jpg");
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../images/headerHome.jpg") center -225px / cover no-repeat fixed;
 	padding-top: 11em;
     height: 39.3em;
 }
 
 #headerRewards
 {
-	background-image: url("../../images/headerRewards.jpg");
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../images/headerRewards.jpg") center -250px / cover no-repeat fixed;
 }
 
 #headerReviews
 {
-	background-image: url("../../images/headerReviews.jpg");
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../images/reviewheader.jpg") center -250px / cover no-repeat fixed;
 }
 
 #headerAbout
 {
-	background-image: url("../../images/headerAbout.jpg");
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../images/headerAbout.jpg") center -250px / cover no-repeat fixed;
 }
 
 #headerMenu
 {
-	background-image: url("../../images/headerMenu.jpg");
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../images/headerMenu.jpg") center -250px / cover no-repeat fixed;
 }
+
+
 
 
 	#nav {
