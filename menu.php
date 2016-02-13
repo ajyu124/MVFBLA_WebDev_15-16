@@ -167,13 +167,13 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery bagels" style="background-image:url('images/menu/156.jpg')">
 		<div class="details">
-			<span class="name small">Plain Bagel</span>
+			<span class="name">Plain Bagel</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
 	<div class="menu-item bakery bagels" style="background-image:url('images/menu/157.jpg')">
 		<div class="details">
-			<span class="name small">Sesame Bagel</span>
+			<span class="name">Sesame Bagel</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
@@ -203,7 +203,7 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery pastries" style="background-image:url('images/menu/104.jpg')">
 		<div class="details">
-			<span class="name">Chocolate Pastry</span>
+			<span class="name small">Chocolate Pastry</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
@@ -216,6 +216,54 @@ require_once("header.php");
 	<div class="menu-item bakery pastries" style="background-image:url('images/menu/106.jpg')">
 		<div class="details">
 			<span class="name">Pastry Ring</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1329.jpg')">
+		<div class="details">
+			<span class="name">Butter Croissant</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1330.jpg')">
+		<div class="details">
+			<span class="name">Ham & Cheddar</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1331.jpg')">
+		<div class="details">
+			<span class="name">Spinach & 3 Cheese</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1332.jpg')">
+		<div class="details">
+			<span class="name">Turkey & Swiss</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1333.jpg')">
+		<div class="details">
+			<span class="name">Blueberry Cream Cheese</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1334.jpg')">
+		<div class="details">
+			<span class="name">Cranberry Cream Cheese</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1335.jpg')">
+		<div class="details">
+			<span class="name">Apple Cream Cheese</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery croissants" style="background-image:url('images/menu/1336.jpg')">
+		<div class="details">
+			<span class="name">Chocolate Cream Cheese</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
