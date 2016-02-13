@@ -4,10 +4,10 @@ require_once("header.php");
 
 <!-- Wrapper -->
 <section id="wrapper">
-	<header id="header">
+	<header id="headerMenu">
 		<div class="inner">
 			<h2>Menu</h2>
-			<!--<p>A modern bakery and restaurant with hearty, gluten-free food for everyone</p>-->
+			<p>A listing of our regular offerings.</p>
 		</div>
 	</header>
 

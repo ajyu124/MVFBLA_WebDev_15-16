@@ -2778,6 +2778,17 @@
     height: 39.3em;
 }
 
+#headerMenu
+{
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../images/headerMenu.jpg") center -250px / cover no-repeat fixed;
+    height: 39.3em;
+}
+
 
 	#nav {
 		background-image: none;
