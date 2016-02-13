@@ -3783,7 +3783,7 @@
 	display: inline-block;
 	float: left;
 	width: 200px;
-	height: 250px;
+	height: 180px;
 	border-radius: 5px;
 	position: relative;
 	cursor: pointer;
@@ -3806,6 +3806,11 @@
     font-size: 1.2em;
     margin: 8px 10px;
     float: left;
+    max-width: 65%;
+}
+.menu-item .details .name .small {
+	font-size: 1.0em;
+	line-height: 1;
 }
 .menu-item .details .price {
     float: right;

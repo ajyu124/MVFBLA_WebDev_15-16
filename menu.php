@@ -23,22 +23,20 @@ require_once("header.php");
 						</ul>
 					</div>
 					<div class="9u" style="width: 75%;">
-						<ul class="actions small bakery" style="text-align: center;">
-							<li><a href="#" class="subcata button small special pastries">Pastries</a></li>
-							<li><a href="#" class="subcata button small special breads">Breads</a></li>
-							<li><a href="#" class="subcata button small special bagels">Bagels</a></li>
-							<li><a href="#" class="subcata button small special croissants">Croissants</a></li>
-							<li><a href="#" class="subcata button small special muffins">Muffins</a></li>
-							<li><a href="#" class="subcata button small special rollsbuns">Rolls & Buns</a></li>
-							<li><a href="#" class="subcata button small special scones">Scones</a></li>
-							<li><a href="#" class="subcata button small special coffeecakes">Coffee Cakes</a></li>
-							<li><a href="#" class="subcata button small special cookies">Cookies</a></li>
-						</ul>
-						<ul class="actions small restaurant" style="text-align: center;">
-			              <li><a href="#" class="subcata button small special appetizers">Appetizers</a></li>
-			              <li><a href="#" class="subcata button small special soups">Soups</a></li>
-			              <li><a href="#" class="subcata button small special entrees">Entrees</a></li>
-			              <li><a href="#" class="subcata button small special desserts">Desserts</a></li>
+						<ul class="actions small" style="text-align: center;">
+							<li><a href="#" class="subcata button small special bakery pastries">Pastries</a></li>
+							<li><a href="#" class="subcata button small special bakery breads">Breads</a></li>
+							<li><a href="#" class="subcata button small special bakery bagels">Bagels</a></li>
+							<li><a href="#" class="subcata button small special bakery croissants">Croissants</a></li>
+							<li><a href="#" class="subcata button small special bakery muffins">Muffins</a></li>
+							<li><a href="#" class="subcata button small special bakery rollsbuns">Rolls & Buns</a></li>
+							<li><a href="#" class="subcata button small special bakery scones">Scones</a></li>
+							<li><a href="#" class="subcata button small special bakery coffeecakes">Coffee Cakes</a></li>
+							<li><a href="#" class="subcata button small special bakery cookies">Cookies</a></li>
+							<li><a href="#" class="subcata button small special restaurant appetizers">Appetizers</a></li>
+							<li><a href="#" class="subcata button small special restaurant soups">Soups</a></li>
+							<li><a href="#" class="subcata button small special restaurant entrees">Entrees</a></li>
+							<li><a href="#" class="subcata button small special restaurant desserts">Desserts</a></li>
 			            </ul>
 <div class="contain">
 	<div class="menu-item bakery breads" style="background-image:url('images/menu/132.jpg')">
@@ -61,7 +59,7 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery breads" style="background-image:url('images/menu/135.jpg')">
 		<div class="details">
-			<span class="name">Cinnamon Raisin Swirl</span>
+			<span class="name small">Cinnamon Raisin Swirl</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
@@ -91,7 +89,7 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery breads" style="background-image:url('images/menu/140.jpg')">
 		<div class="details">
-			<span class="name">French Baguette</span>
+			<span class="name small">French Baguette</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
@@ -103,13 +101,13 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery breads" style="background-image:url('images/menu/142.jpg')">
 		<div class="details">
-			<span class="name">Asiago Cheese Focaccia</span>
+			<span class="name small">Asiago Cheese Focaccia</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
 	<div class="menu-item bakery breads" style="background-image:url('images/menu/143.jpg')">
 		<div class="details">
-			<span class="name">Sea Salt Focaccia</span>
+			<span class="name small">Sea Salt Focaccia</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
@@ -120,7 +118,7 @@ require_once("header.php");
 		</div>
 	</div>
 </div>
-			        
+<!--
 			        <h3>Bakery</h3>
 			        <pre>
 Breads
@@ -245,6 +243,7 @@ Desserts
 	Zeppoli
 	Dolcini
 			        </pre>
+			        -->
 					</div>
 				</div>
 			</div>
