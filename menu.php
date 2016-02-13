@@ -32,6 +32,7 @@ require_once("header.php");
 							<li><a href="#" class="subcata button small special rollsbuns">Rolls & Buns</a></li>
 							<li><a href="#" class="subcata button small special scones">Scones</a></li>
 							<li><a href="#" class="subcata button small special coffeecakes">Coffee Cakes</a></li>
+							<li><a href="#" class="subcata button small special cookies">Cookies</a></li>
 						</ul>
 						<ul class="actions small restaurant" style="text-align: center;">
 			              <li><a href="#" class="subcata button small special appetizers">Appetizers</a></li>
