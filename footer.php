@@ -2,10 +2,9 @@
 <!-- Footer -->
 <section id="footer">
 			<div class="inner">
-				<h3 class="major">Hours / Social / Contact Us</h2>
+				<h3 class="major">Hours / Social / Reservations / Contact Us</h2>
 				<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. 
-				Reservations can be made through IOS and Android Apps like OpenTable or SeatMe. You can also call us at least 1 hour before you want your reservations
-				for seating.</p>
+				Reservations can be made through the Yelp app using SeatMe, available on <a href="https://itunes.apple.com/us/app/yelp/id284910350?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yelp.android&hl=en">Android.</a> You can also call us at (408) 366-7600 at least 1 hour before you want your reservations for seating.</p>
 				<ul class="contact">
 				<li class="fa-home">
 					<a href="https://goo.gl/maps/pD5L1BYHgpE2">21840 McClellan Rd <br>
@@ -18,25 +17,23 @@
 				<li class="fa-facebook"><a href="#">facebook.com</a></li>
 				<li class="fa-instagram"><a href="#">instagram.com</a></li>
 				</ul>
-
-	
-					<form method="post" action="#">
-						<div class="field">
-							<label for="name">Name (required)</label>
-							<input type="text" name="name" id="name" placeholder="Hi, what's your name?" />
-						</div>
-						<div class="field">
-							<label for="email">Email (required)</label>
-							<input type="email" name="email" id="email" placeholder="How should we get back to you?" />
-						</div>
-						<div class="field">
-							<label for="message">Message (required)</label>
-							<textarea name="message" id="message" rows="4" placeholder="What's on your mind?"></textarea>
-						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" /></li>
-						</ul>
-					</form>
+				<form method="post" action="#">
+					<div class="field">
+						<label for="name">Name (required)</label>
+						<input type="text" name="name" id="name" placeholder="Hi, what's your name?" />
+					</div>
+					<div class="field">
+						<label for="email">Email (required)</label>
+						<input type="email" name="email" id="email" placeholder="How should we get back to you?" />
+					</div>
+					<div class="field">
+						<label for="message">Message (required)</label>
+						<textarea name="message" id="message" rows="4" placeholder="What's on your mind?"></textarea>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" /></li>
+					</ul>
+				</form>
 			
 				<ul class="copyright">
 					<li>&copy; 2016 Panettiere Inc. All rights reserved.</li>
