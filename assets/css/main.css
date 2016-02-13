@@ -3802,6 +3802,10 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5) , rgba(0,0,0,0));
 
 }
+.menu-item:hover .details {
+	height: 75px;
+	padding-top: 25px;
+}
 .menu-item .details .name {
     font-size: 1.2em;
     margin: 8px 10px;

@@ -17,7 +17,6 @@ require_once("header.php");
 				<div class="row">
 					<div class="3u" style="padding: 60px 0; width: 15%;"><h4>Menus</h4>
 						<ul class="alt">
-							<li style="background-color: rgba(255, 255, 255, 0.025);"><a href="#">All</a></li>
 							<li><a href="#" class="cata bakery">Bakery</a></li>
 							<li><a href="#" class="cata restaurant">Restaurant</a></li>
 						</ul>
@@ -25,18 +24,18 @@ require_once("header.php");
 					<div class="9u" style="padding: 0; width: 85%;">
 						<ul class="actions small" style="text-align: center;">
 							<li><a href="#" class="subcata button small special bakery breads">Breads</a></li>
-							<li><a href="#" class="subcata button small special bakery bagels">Bagels</a></li>
-							<li><a href="#" class="subcata button small special bakery pastries">Pastries</a></li>
-							<li><a href="#" class="subcata button small special bakery croissants">Croissants</a></li>
-							<li><a href="#" class="subcata button small special bakery muffins">Muffins</a></li>
-							<li><a href="#" class="subcata button small special bakery rollsbuns">Rolls & Buns</a></li>
-							<li><a href="#" class="subcata button small special bakery scones">Scones</a></li>
-							<li><a href="#" class="subcata button small special bakery coffeecakes">Coffee Cakes</a></li>
-							<li><a href="#" class="subcata button small special bakery cookies">Cookies</a></li>
-							<li><a href="#" class="subcata button small special restaurant appetizers">Appetizers</a></li>
-							<li><a href="#" class="subcata button small special restaurant soups">Soups</a></li>
-							<li><a href="#" class="subcata button small special restaurant entrees">Entrees</a></li>
-							<li><a href="#" class="subcata button small special restaurant desserts">Desserts</a></li>
+							<li><a href="#" class="subcata button small bakery bagels">Bagels</a></li>
+							<li><a href="#" class="subcata button small bakery pastries">Pastries</a></li>
+							<li><a href="#" class="subcata button small bakery croissants">Croissants</a></li>
+							<li><a href="#" class="subcata button small bakery muffins">Muffins</a></li>
+							<li><a href="#" class="subcata button small bakery rollsbuns">Rolls & Buns</a></li>
+							<li><a href="#" class="subcata button small bakery scones">Scones</a></li>
+							<li><a href="#" class="subcata button small bakery coffeecakes">Coffee Cakes</a></li>
+							<li><a href="#" class="subcata button small bakery cookies">Cookies</a></li>
+							<li><a href="#" class="subcata button small restaurant appetizers">Appetizers</a></li>
+							<li><a href="#" class="subcata button small restaurant soups">Soups</a></li>
+							<li><a href="#" class="subcata button small restaurant entrees">Entrees</a></li>
+							<li><a href="#" class="subcata button small restaurant desserts">Desserts</a></li>
 			            </ul>
 <div class="contain" style="margin:30px 0;">
 	<div class="menu-item bakery breads" style="background-image:url('images/menu/132.jpg')">
