@@ -7,7 +7,7 @@ require_once("header.php");
 	<header id="headerMenu">
 		<div class="inner">
 			<h2>Menu</h2>
-			<p>A listing of our regular offerings.</p>
+			<p><b>listing of our regular offerings.</b></p>
 		</div>
 	</header>
 
