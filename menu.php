@@ -24,9 +24,9 @@ require_once("header.php");
 					</div>
 					<div class="9u" style="width: 75%;">
 						<ul class="actions small" style="text-align: center;">
-							<li><a href="#" class="subcata button small special bakery pastries">Pastries</a></li>
 							<li><a href="#" class="subcata button small special bakery breads">Breads</a></li>
 							<li><a href="#" class="subcata button small special bakery bagels">Bagels</a></li>
+							<li><a href="#" class="subcata button small special bakery pastries">Pastries</a></li>
 							<li><a href="#" class="subcata button small special bakery croissants">Croissants</a></li>
 							<li><a href="#" class="subcata button small special bakery muffins">Muffins</a></li>
 							<li><a href="#" class="subcata button small special bakery rollsbuns">Rolls & Buns</a></li>
@@ -114,6 +114,108 @@ require_once("header.php");
 	<div class="menu-item bakery breads" style="background-image:url('images/menu/144.jpg')">
 		<div class="details">
 			<span class="name">Ciabatta</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery bagels" style="background-image:url('images/menu/148.jpg')">
+		<div class="details">
+			<span class="name small">Blueberry Bagel</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery bagels" style="background-image:url('images/menu/149.jpg')">
+		<div class="details">
+			<span class="name small">Everything Bagel</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery bagels" style="background-image:url('images/menu/150.jpg')">
+		<div class="details">
+			<span class="name small">French Toast Bagel</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery bagels" style="background-image:url('images/menu/151.jpg')">
+		<div class="details">
+			<span class="name small">Asiago Cheese Bagel</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery bagels" style="background-image:url('images/menu/152.jpg')">
+		<div class="details">
+			<span class="name small">Cinnamon Crunch Bagel</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery bagels" style="background-image:url('images/menu/153.jpg')">
+		<div class="details">
+			<span class="name small">Whole Grain Bagel</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery bagels" style="background-image:url('images/menu/154.jpg')">
+		<div class="details">
+			<span class="name small">Chocolate Chip Bagel</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery bagels" style="background-image:url('images/menu/155.jpg')">
+		<div class="details">
+			<span class="name small">Cinnamon Swirl & Raisin Bagel</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery bagels" style="background-image:url('images/menu/156.jpg')">
+		<div class="details">
+			<span class="name small">Plain Bagel</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery bagels" style="background-image:url('images/menu/157.jpg')">
+		<div class="details">
+			<span class="name small">Sesame Bagel</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery bagels" style="background-image:url('images/menu/158.jpg')">
+		<div class="details">
+			<span class="name small">Sprouted Grain Bagel Flat</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery pastries" style="background-image:url('images/menu/101.jpg')">
+		<div class="details">
+			<span class="name">Bear Claw</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery pastries" style="background-image:url('images/menu/102.jpg')">
+		<div class="details">
+			<span class="name">Cheese Pastry</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery pastries" style="background-image:url('images/menu/103.jpg')">
+		<div class="details">
+			<span class="name">Cherry Pastry</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery pastries" style="background-image:url('images/menu/104.jpg')">
+		<div class="details">
+			<span class="name">Chocolate Pastry</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery pastries" style="background-image:url('images/menu/105.jpg')">
+		<div class="details">
+			<span class="name">Pecan Braid</span>
+			<span class="price">$8.99</span>
+		</div>
+	</div>
+	<div class="menu-item bakery pastries" style="background-image:url('images/menu/106.jpg')">
+		<div class="details">
+			<span class="name">Pastry Ring</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
