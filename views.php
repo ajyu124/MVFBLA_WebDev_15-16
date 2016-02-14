@@ -85,7 +85,7 @@ else {
 	echo $conn->error;
 }
 ?>
-				<br><hr><br>
+				<br>
 <?php
 if ($result = $conn->query("SELECT * FROM `views` ORDER BY `id` DESC")) {
     printf("<h3 class='major'>Pageviews (%d)</h3>", $result->num_rows);
