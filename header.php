@@ -7,9 +7,14 @@ $password = $url["pass"];
 $db = substr($url["path"], 1);
 
 $conn = new mysqli($server, $username, $password, $db);
-if ($conn->connect_errno) { /*fail quietly*/ }
+if ($conn->connect_errno) { /*fail quietly*/ echo "<!--conn fail:" . $conn->connect_error . "-->\n";  }
 else {
-	$conn->query("INSERT INTO `views` (ip, usergaent, page) VALUES ('" . $_SERVER['REMOTE_ADDR'] . "', '" . $_SERVER['HTTP_USER_AGENT'] . "', '" . $_SERVER['PHP_SELF'] . "')");
+	if ($conn->query("INSERT INTO `views` (ip, usergaent, page) VALUES ('" . $_SERVER['REMOTE_ADDR'] . "', '" . $_SERVER['HTTP_USER_AGENT'] . "', '" . $_SERVER['PHP_SELF'] . "')") === TRUE) {
+		//congrats
+	}
+	else {
+		/*fail quietly*/ echo "<!--query fail:" . $conn->error . "-->\n";
+	}
 }
 $conn->close();
 
