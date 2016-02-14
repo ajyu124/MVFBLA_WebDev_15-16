@@ -1181,7 +1181,13 @@
 		}
 
 		.row {
-			margin: 0 0 -1px -1.25em;
+			/*margin: 0 0 -1px -1.25em;*/
+			margin: 0;
+		}
+
+		.menu-item {
+		    float: none;
+			margin: 10px auto;
 		}
 
 		.row.uniform > * {
