@@ -1,3 +1,19 @@
+<?php
+
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$server = $url["host"];
+$username = $url["user"];
+$password = $url["pass"];
+$db = substr($url["path"], 1);
+
+$conn = new mysqli($server, $username, $password, $db);
+if ($conn->connect_errno) { /*fail quietly*/ }
+else {
+	$conn->query("INSERT INTO `views` (ip, usergaent, page) VALUES ('" . $_SERVER['REMOTE_ADDR'] . "', '" . $_SERVER['HTTP_USER_AGENT'] . "', '" . $_SERVER['PHP_SELF'] . "')");
+}
+$conn->close();
+
+?>
 <!DOCTYPE html>
 <html>
 	<head>
