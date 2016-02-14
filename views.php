@@ -17,7 +17,7 @@ if ($conn->connect_errno) {
     exit();
 }
 
-if ($result = $conn->query("SELECT * FROM `views` SORT BY `id` DESC")) {
+if ($result = $conn->query("SELECT * FROM `views` ORDER BY `id` DESC")) {
     printf("Select returned %d rows.\n", $result->num_rows);
 
     echo "<table border=1>";
