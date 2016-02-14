@@ -2791,8 +2791,11 @@ header {
     url("../../images/headerMenu.jpg") center -250px / cover no-repeat fixed;
 }
 
-
-
+.logo {
+	height:60px;
+	width:auto;
+	margin:5px;
+}
 
 	#nav {
 		background-image: none;
@@ -3801,11 +3804,7 @@ header {
 
 	}
 
-.logo {
-	height:60px;
-	width:auto;
-	margin:5px;
-}
+
 
 .menu-item {
 	display: inline-block;
