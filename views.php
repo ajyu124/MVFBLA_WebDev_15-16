@@ -12,7 +12,7 @@ if ($conn->connect_errno) {
     exit();
 }
 
-if ($result = $mysqli->query("SELECT * FROM views")) {
+if ($result = $mysqli->query("SELECT * FROM views SORT BY id DESC")) {
     printf("Select returned %d rows.\n", $result->num_rows);
 
     echo "<table border=1>";
