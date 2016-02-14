@@ -18,7 +18,7 @@ if ($conn->connect_errno) {
 }
 
 if ($result = $conn->query("SELECT * FROM `views` ORDER BY `id` DESC")) {
-    printf("Select returned %d rows.\n", $result->num_rows);
+    printf("%d logged pageviews.\n", $result->num_rows);
 
     echo "<table border=1>";
 	echo "<tr><th>id</th><th>time</th><th>ip</th><th>useragent</th><th>page</th></tr>";
@@ -29,6 +29,29 @@ if ($result = $conn->query("SELECT * FROM `views` ORDER BY `id` DESC")) {
 		echo "<td>" . $row['ip'] . "</td>";
 		echo "<td>" . $row['useragent'] . "</td>";
 		echo "<td>" . $row['page'] . "</td>";
+		echo "</tr>";
+	}
+	echo "</table>";
+    /* free result set */
+    $result->close();
+}
+else {
+	echo $conn->error;
+}
+echo "<br><hr><br>";
+
+if ($result = $conn->query("SELECT * FROM `messages` ORDER BY `id` DESC")) {
+    printf("%d messages.\n", $result->num_rows);
+
+    echo "<table border=1>";
+	echo "<tr><th>id</th><th>time</th><th>name</th><th>email</th><th>message</th></tr>";
+	while ($row = $result->fetch_array()) {
+		echo "<tr>";
+		echo "<td>" . $row['id'] . "</td>";
+		echo "<td>" . $row['time'] . "</td>";
+		echo "<td>" . $row['name'] . "</td>";
+		echo "<td>" . $row['email'] . "</td>";
+		echo "<td>" . $row['message'] . "</td>";
 		echo "</tr>";
 	}
 	echo "</table>";
