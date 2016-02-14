@@ -4,14 +4,14 @@
 	<div class="inner">
 		<h3 class="major">Want to check us out? Hours / Social / Reservations / Contact Us</h3>
 		<ul class="contact">
-			<p>Reservations can be made through the Yelp app using SeatMe, available on <a href="https://itunes.apple.com/us/app/yelp/id284910350?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yelp.android&hl=en">Android.</a> You can also call us at (408) 366-7600 at least 1 hour before your desired time.</p>
+			<p>Reservations can be made through the Yelp app using SeatMe, available on <a href="https://itunes.apple.com/us/app/yelp/id284910350?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yelp.android&hl=en">Android.</a> You can also call us at (408)-320-9455 at least 1 hour before your desired time.</p>
 			<li class="fa-home">
 				<a href="https://goo.gl/maps/pD5L1BYHgpE2">21840 McClellan Rd <br>
 						Cupertino, CA 95014</a> <br>
 						Mon - Fri: 5:30 AM - 2:00 PM | 5:00 PM - 9:30 PM <br>
 						Sat - Sun: 6:30 AM - 2:00 PM | 5:00 PM - 11:00 PM
 			</li>
-			<li class="fa-phone">(408) 366-7600</li>
+			<li class="fa-phone">(408)-320-9455</li>
 			<li class="fa-envelope"><a href="mailto:hello@panettiere.ml">hello@panettiere.ml</a></li>
 			<li class="fa-facebook"><a href="#">facebook.com</a></li>
 			<li class="fa-instagram"><a href="#">instagram.com</a></li>
