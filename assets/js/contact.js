@@ -1,5 +1,10 @@
 $("#form input[type='submit']").click(function () {
 	$("#form input").attr("disabled", true);
+	var ok = validate();
+	if (!ok) {
+		$("#form input").attr("disabled", false);
+		return;
+	}
 	$.ajax({
 		"url": "/_contact.php",
 		"type": "POST",
@@ -14,3 +19,19 @@ $("#form input[type='submit']").click(function () {
 		$("#form .actions").hide();
 	});
 });
+function validate() {
+	var good = true;
+	if ($("#form #name").val().trim() == "") {
+		$("#form #name").css("border-color", "rgba(0,0,0,0.5)");
+		good = false;
+	}
+	if ($("#form #email").val().trim() == "" || $("#form #email").val().indexOf("@") == -1 || $("#form #email").val().indexOf(".") == -1) {
+		$("#form #email").css("border-color", "rgba(0,0,0,0.5)");
+		good = false;
+	}
+	if ($("#form #message").val().trim() == "") {
+		$("#form #message").css("border-color", "rgba(0,0,0,0.5)");
+		good = false;
+	}
+	return good;
+}
