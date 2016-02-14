@@ -7,7 +7,7 @@ require_once("header.php");
 	<header id="headerMenu">
 		<div class="inner">
 			<h2>Menu</h2>
-			<p><b>listing of our regular offerings.</b></p>
+			<p>a listing of our regular offerings.</p>
 		</div>
 	</header>
 
@@ -15,13 +15,13 @@ require_once("header.php");
 		<div class="wrapper">
 			<div class="inner">
 				<div class="row">
-					<div class="3u" style="padding: 60px 0; width: 15%;"><h4>Menus</h4>
+					<div class="3u"><h4>Menus</h4>
 						<ul class="alt">
 							<li><a href="#bakery" class="cata bakery">Bakery</a></li>
 							<li><a href="#restaurant" class="cata restaurant">Restaurant</a></li>
 						</ul>
 					</div>
-					<div class="9u" style="padding: 0; width: 85%;">
+					<div class="9u">
 						<ul class="actions small subcats" style="text-align: center;">
 							<li class="subcata bakery breads"><a href="#breads" class="button small">Breads</a></li>
 							<li class="subcata bakery bagels"><a href="#bagels" class="button small">Bagels</a></li>

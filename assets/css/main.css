@@ -2798,6 +2798,15 @@ header {
 	margin:5px;
 }
 
+.3u {
+	padding: 60px 0;
+	width: 15%;
+}
+.9u {
+	padding: 0;
+	width: 85%;
+}
+
 	#nav {
 		background-image: none;
 		-moz-transition: background-color 0.2s ease-in-out;
@@ -2957,7 +2966,21 @@ header {
 				#wrapper > header#headerHome {
 					background-size: cover;
 				}
-		
+
+			.3u {
+				padding: 0;
+				width: 100%;
+			}
+			.9u {
+				width: 100%;
+			}
+			.logo {
+				height: 44px;
+				margin: 0;
+			}
+			header {
+				height: 21em;
+			}
 
 		}
 
@@ -3789,21 +3812,6 @@ header {
 			#footer .inner .copyright li:first-child {
 				margin-top: 0;
 			}
-
-		.3u {
-			padding: 0;
-			width: 100%;
-		}
-		.9u {
-			width: 100%;
-		}
-		.logo {
-			height: 44px;
-			margin: 0;
-		}
-		header {
-			height: 21em;
-		}
 	}
 
 	@media screen and (max-width: 360px) {
