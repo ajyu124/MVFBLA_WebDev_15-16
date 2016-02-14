@@ -2929,7 +2929,7 @@ header {
 								background-color: inherit;
 							}
 
-				#headerHome {
+				#wrapper > header#headerHome {
 							background-size: cover;
 						}
 		}
@@ -2954,7 +2954,7 @@ header {
 					padding-right: 1.25em;
 				}
 
-				#headerHome {
+				#wrapper > header#headerHome {
 					background-size: cover;
 				}
 		
