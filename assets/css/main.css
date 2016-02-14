@@ -2798,11 +2798,11 @@ header {
 	margin:5px;
 }
 
-.3u {
+.r3u {
 	padding: 60px 0;
 	width: 15%;
 }
-.9u {
+.r9u {
 	padding: 0;
 	width: 85%;
 }
@@ -2967,11 +2967,11 @@ header {
 					background-size: cover;
 				}
 
-			.3u {
+			.r3u {
 				padding: 0;
 				width: 100%;
 			}
-			.9u {
+			.r9u {
 				width: 100%;
 			}
 			.logo {

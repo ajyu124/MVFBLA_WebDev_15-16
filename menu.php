@@ -15,13 +15,13 @@ require_once("header.php");
 		<div class="wrapper">
 			<div class="inner">
 				<div class="row">
-					<div class="3u"><h4>Menus</h4>
+					<div class="r3u"><h4>Menus</h4>
 						<ul class="alt">
 							<li><a href="#bakery" class="cata bakery">Bakery</a></li>
 							<li><a href="#restaurant" class="cata restaurant">Restaurant</a></li>
 						</ul>
 					</div>
-					<div class="9u">
+					<div class="r9u">
 						<ul class="actions small subcats" style="text-align: center;">
 							<li class="subcata bakery breads"><a href="#breads" class="button small">Breads</a></li>
 							<li class="subcata bakery bagels"><a href="#bagels" class="button small">Bagels</a></li>
