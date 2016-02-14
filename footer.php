@@ -16,19 +16,19 @@
 			<li class="fa-facebook"><a href="https://www.facebook.com/panettierebakery">facebook.com</a></li>
 			<li class="fa-instagram"><a href="#">instagram.com</a></li>
 		</ul>
-		<form method="post" action="#">
+		<form id="form">
 			<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. </p>
 			<div class="field">
 				<label for="name">Name (required)</label>
-				<input type="text" name="name" id="name" placeholder="Hi, what's your name?" />
+				<input type="text" name="name" id="name" placeholder="Hi, what's your name?" required />
 			</div>
 			<div class="field">
 				<label for="email">Email (required)</label>
-				<input type="email" name="email" id="email" placeholder="How should we get back to you?" />
+				<input type="email" name="email" id="email" placeholder="How should we get back to you?" required />
 			</div>
 			<div class="field">
 				<label for="message">Message (required)</label>
-				<textarea name="message" id="message" rows="3" placeholder="What's on your mind?"></textarea>
+				<textarea name="message" id="message" rows="3" placeholder="What's on your mind?" required></textarea>
 			</div>
 			<ul class="actions">
 				<li><input type="submit" value="Send Message" /></li>
@@ -48,6 +48,7 @@
 	<script src="assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/contact.js"></script>
 	<?php
 	$name = "assets/js/" . substr($_SERVER['PHP_SELF'], 1, -4) . ".js";
 	if (file_exists($name)) { ?>
