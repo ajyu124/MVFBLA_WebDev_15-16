@@ -1,4 +1,9 @@
-<html><body>
+<html>
+<head>
+	<title>Views</title>
+	<link rel="icon" href="images/favicon.ico">
+</head>
+<body>
 <?php
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $server = $url["host"];
@@ -12,7 +17,7 @@ if ($conn->connect_errno) {
     exit();
 }
 
-if ($result = $conn->query("SELECT * FROM views SORT BY id DESC")) {
+if ($result = $conn->query("SELECT * FROM `views` SORT BY `id` DESC")) {
     printf("Select returned %d rows.\n", $result->num_rows);
 
     echo "<table border=1>";
@@ -29,6 +34,9 @@ if ($result = $conn->query("SELECT * FROM views SORT BY id DESC")) {
 	echo "</table>";
     /* free result set */
     $result->close();
+}
+else {
+	echo $conn->error;
 }
 
 $conn->close();
