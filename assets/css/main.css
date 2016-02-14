@@ -2737,6 +2737,7 @@
 header {
     padding-top: 9em;
     height: 33em;
+    background-attachment: fixed;
 }
 
 #headerHome
