@@ -3777,6 +3777,20 @@ header {
 				margin-top: 0;
 			}
 
+		.3u {
+			padding: 0;
+			width: 100%;
+		}
+		.9u {
+			width: 100%;
+		}
+		.logo {
+			height: 44px;
+			margin: 0;
+		}
+		header, #headerHome {
+			height: 21em;
+		}
 	}
 
 	@media screen and (max-width: 360px) {
@@ -3786,6 +3800,12 @@ header {
 		}
 
 	}
+
+.logo {
+	height:60px;
+	width:auto;
+	margin:5px;
+}
 
 .menu-item {
 	display: inline-block;
