@@ -3726,7 +3726,7 @@ header {
 				font-size: 0.9em;
 				line-height: 0.7;
 				margin-left: 1em;
-				padding: 0.5em;
+				padding: 0;
 				padding-left: 1em;
 			}
 
@@ -3775,7 +3775,9 @@ header {
 
 				#footer .inner .copyright {
 					margin: 4em 0 2em 0;
+					padding-bottom: 1em;
 				}
+
 
 	}
 
