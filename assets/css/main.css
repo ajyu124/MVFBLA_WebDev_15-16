@@ -2747,9 +2747,9 @@ header {
       rgba(0, 0, 0, 0.4), 
       rgba(0, 0, 0, 0.4)
     ),
-    url("../../images/headerHome.jpg") center -225px / cover no-repeat fixed;
+    url("../../images/headerHome.jpg") center -175px / cover no-repeat fixed;
 	padding-top: 11em;
-    height: 39.3em;
+    height: 100vh;
 }
 
 #headerRewards
@@ -2929,6 +2929,9 @@ header {
 								background-color: inherit;
 							}
 
+				#headerHome {
+							background-size: cover;
+						}
 		}
 
 		@media screen and (max-width: 640px) {
@@ -2950,6 +2953,11 @@ header {
 					margin-left: 0;
 					padding-right: 1.25em;
 				}
+
+				#headerHome {
+					background-size: cover;
+				}
+		
 
 		}
 
@@ -3793,7 +3801,7 @@ header {
 			height: 44px;
 			margin: 0;
 		}
-		header, #headerHome {
+		header {
 			height: 21em;
 		}
 	}
