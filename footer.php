@@ -13,7 +13,7 @@
 			</li>
 			<li class="fa-phone">(408)-320-9455</li>
 			<li class="fa-envelope"><a href="mailto:hello@panettiere.ml">hello@panettiere.ml</a></li>
-			<li class="fa-facebook"><a href="#">facebook.com</a></li>
+			<li class="fa-facebook"><a href="https://www.facebook.com/panettierebakery">facebook.com</a></li>
 			<li class="fa-instagram"><a href="#">instagram.com</a></li>
 		</ul>
 		<form method="post" action="#">
@@ -36,7 +36,7 @@
 		</form>
 		<ul class="copyright">
 			<li>&copy; 2016 Panettiere Inc. All rights reserved.</li>
-			<li>This work and all works (including images) used in its creation are licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.</a></li>
+			<li>This work and all works (including images) used in its creation are licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">CCA 4.0 International License.</a></li>
 		</ul>
 	</div>
 </section>
