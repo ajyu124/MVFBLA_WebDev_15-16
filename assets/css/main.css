@@ -1185,11 +1185,6 @@
 			margin: 0;
 		}
 
-		.menu-item {
-		    float: none;
-			margin: 10px auto;
-		}
-
 		.row.uniform > * {
 			padding: 1.25em 0 0 1.25em;
 		}
@@ -3371,7 +3366,7 @@ header {
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
 			background-position: center;
-			background-size: auto, 150%;
+			/*background-size: auto, 150%;*/
 			margin-bottom: -2.5em;
 		}
 
@@ -3806,7 +3801,7 @@ header {
 					margin: 0 0 3em 0;
 				}
 
-			#wrapper > header {
+			#footer, #wrapper > header {
 				background-attachment: scroll;
 			}
 	}
@@ -3836,7 +3831,7 @@ header {
 
 
 .menu-item {
-	display: inline-block;
+	display: block;
 	float: left;
 	width: 200px;
 	height: 180px;
@@ -3881,4 +3876,22 @@ header {
     font-size: 0.8em;
     margin: 14px 10px;
     color: #ccc;
+}
+
+@media screen and (max-width: 845px) {
+	.menu-item {
+		width: 45%;
+		margin: 10px 2.5%;
+	}
+}
+@media screen and (max-width: 493px) {
+	.menu-item .details .name., .menu-item .details .name.small {
+		font-size: 0.9em;
+		line-height: 1;
+		margin: 8px 5px;
+		line-height: 1.4;
+	}
+	.menu-item .details .price {
+		margin: 14px 5px;
+	}
 }

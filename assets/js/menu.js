@@ -1,12 +1,14 @@
 jQuery.fn.extend({
   hide2: function() {
     return this.each(function() {
-       $(this).animate({opacity: "0.0"}).animate({width: 0}).hide(0);
+      $(this).animate({opacity: "0.0"}).hide(0);
+       //$(this).animate({opacity: "0.0"}).animate({width: 0}).hide(0);
     });
   },
   show2: function() {
     return this.each(function() {
-       $(this).animate({width: 200}).animate({opacity: "1.0"}).show(0);
+       $(this).animate({opacity: "1.0"}).show(0);
+       //$(this).animate({width: 200}).animate({opacity: "1.0"}).show(0);
     });
   },
   showInst: function () {
