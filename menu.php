@@ -159,7 +159,7 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery bagels" style="background-image:url('images/menu/155.jpg')">
 		<div class="details">
-			<span class="name small">Cinnamon Swirl & Raisin Bagel</span>
+			<span class="name small">Cinnamon & Raisin Bagel</span>
 			<span class="price">$2.99</span>
 		</div>
 	</div>
@@ -285,7 +285,7 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery muffins" style="background-image:url('images/menu/1356.jpg')">
 		<div class="details">
-			<span class="name small">Carrot Raisin Bran Muffin</span>
+			<span class="name small">Carrot Raisin Muffin</span>
 			<span class="price">$1.99</span>
 		</div>
 	</div>
@@ -309,13 +309,13 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery rollsbuns" style="background-image:url('images/menu/1328.jpg')">
 		<div class="details">
-			<span class="name small">Cinnamon Sugar Morning Bun</span>
+			<span class="name small">Cinnamon Sugar Bun</span>
 			<span class="price">$1.99</span>
 		</div>
 	</div>
 	<div class="menu-item bakery rollsbuns" style="background-image:url('images/menu/1322.jpg')">
 		<div class="details">
-			<span class="name small">Chocolate Almond Morning Bun</span>
+			<span class="name small">Chocolate Almond Bun</span>
 			<span class="price">$1.99</span>
 		</div>
 	</div>
@@ -345,7 +345,7 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1300.jpg')">
 		<div class="details">
-			<span class="name small">Semi Sweet Chocolate Chunk</span>
+			<span class="name small">Sweet Chocolate Chunk</span>
 			<span class="price">$0.99</span>
 		</div>
 	</div>
@@ -381,7 +381,7 @@ require_once("header.php");
 	</div>
 	<div class="menu-item bakery cookies" style="background-image:url('images/menu/1306.jpg')">
 		<div class="details">
-			<span class="name small">Peanut Butter Chocolate Chunk</span>
+			<span class="name small">Peanut Butter Chocolate</span>
 			<span class="price">$0.99</span>
 		</div>
 	</div>
@@ -423,13 +423,13 @@ require_once("header.php");
 	</div>
 	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/501.jpg')">
 		<div class="details">
-			<span class="name small">Italian Cheese Stuffed Meatballs</span>
+			<span class="name small">Cheese Stuffed Meatballs</span>
 			<span class="price">$3.99</span>
 		</div>
 	</div>
 	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/503.jpg')">
 		<div class="details">
-			<span class="name small">Five Italian Cheese Fonduta</span>
+			<span class="name small">5 Italian Cheese Fonduta</span>
 			<span class="price">$4.99</span>
 		</div>
 	</div>
@@ -453,7 +453,7 @@ require_once("header.php");
 	</div>
 	<div class="menu-item restaurant appetizers" style="background-image:url('images/menu/507.jpg')">
 		<div class="details">
-			<span class="name small">Classic Shrimp Scampi Fritta</span>
+			<span class="name small">Shrimp Scampi Fritta</span>
 			<span class="price">$4.99</span>
 		</div>
 	</div>
@@ -537,7 +537,7 @@ require_once("header.php");
 	</div>
 	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/527.jpg')">
 		<div class="details">
-			<span class="name small">Grilled Chicken Caesar Salad</span>
+			<span class="name small">Chicken Caesar Salad</span>
 			<span class="price">$11.99</span>
 		</div>
 	</div>
@@ -585,7 +585,7 @@ require_once("header.php");
 	</div>
 	<div class="menu-item restaurant entrees" style="background-image:url('images/menu/535.jpg')">
 		<div class="details">
-			<span class="name small">Five Cheese Ziti al Forno</span>
+			<span class="name small">5 Cheese Ziti al Forno</span>
 			<span class="price">$8.99</span>
 		</div>
 	</div>
