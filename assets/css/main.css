@@ -3885,7 +3885,7 @@ header {
 	}
 }
 @media screen and (max-width: 493px) {
-	.menu-item .details .name., .menu-item .details .name.small {
+	.menu-item .details .name, .menu-item .details .name.small {
 		font-size: 0.9em;
 		line-height: 1;
 		margin: 8px 5px;
