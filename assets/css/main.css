@@ -3806,6 +3806,9 @@ header {
 					margin: 0 0 3em 0;
 				}
 
+			* {
+				background-attachment: scroll;
+			}
 	}
 
 	@media screen and (max-width: 640px) {
