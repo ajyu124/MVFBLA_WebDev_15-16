@@ -54,26 +54,26 @@ require_once("header.php");
 							<tr>
 								<td>100 points</td>
 								<td>Have 100 points on your mobile stamp card</td>
-								<td>Panettiere Bronze Membership*</td>
+								<td>Bronze Membership*</td>
 							</tr>
 							<tr>
 								<td>200 points</td>
 								<td>Have 200 points on your mobile stamp card</td>
-								<td>Panettiere Silver Membership*</td>
+								<td>Silver Membership**</td>
 							</tr>
 							<tr>
 								<td>350 points</td>
 								<td>Have 350 points on your mobile stamp card</td>
-								<td>Panettiere Gold Membership*</td>
+								<td>Gold Membership***</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 				<p>*As a Bronze Member, you are entitled to one free drink and pastry each month. Come in any time each month and swipe your card in order to redeem your reward.</p>
 
-				<p>As a Silver Member, you are entitled to one free entree and either a drink or pastry of your choice for free each month.</p>
+				<p>**As a Silver Member, you are entitled to one free entree and either a drink or pastry of your choice for free each month.</p>
 				
-				<p>As a Gold Member, you are entitled to one free meal (entree, pastry, and drink) of your choice for free each month. Furthermore, you will get a 15% discount on each item that you purchase at Panettiere Bakery. </p>
+				<p>***As a Gold Member, you are entitled to one free meal (entree, pastry, and drink) of your choice for free each month. Furthermore, you will get a 15% discount on each item that you purchase at Panettiere Bakery. </p>
 			</section>
 		</div>
 	</div>
@@ -82,4 +82,3 @@ require_once("header.php");
 <?php
 require_once("footer.php");
 ?>
-

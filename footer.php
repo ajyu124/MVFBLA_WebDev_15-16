@@ -13,8 +13,8 @@
 			</li>
 			<li class="fa-phone">(408)-320-9455</li>
 			<li class="fa-envelope"><a href="mailto:hello@panettiere.ml">hello@panettiere.ml</a></li>
-			<li class="fa-facebook"><a href="https://www.facebook.com/panettierebakery">facebook.com</a></li>
-			<li class="fa-instagram"><a href="#">instagram.com</a></li>
+			<li class="fa-facebook"><a href="https://www.facebook.com/panettierebakery">/panettierebakery/</a></li>
+			<li class="fa-instagram"><a href="https://www.instagram.com/panettierebakery/">/panettierebakery/</a></li>
 		</ul>
 		<form id="form">
 			<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. </p>
