@@ -1988,7 +1988,7 @@
 
 	select option {
 		color: #ffffff;
-		background: #2e3141;
+		background: #ece5ce;
 	}
 
 	input[type="text"],
@@ -2064,7 +2064,7 @@
 		background: #ffffff;
 		border-color: #ffffff;
 		content: '\f00c';
-		color: #2e3141;
+		color: #ece5ce;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2573,7 +2573,7 @@
 	input[type="button"].special.icon:before,
 	button.special.icon:before,
 	.button.special.icon:before {
-		color: #7884b0;
+		color: #774f38;
 	}
 
 	input[type="submit"].fit,
@@ -3172,7 +3172,7 @@
 	@media screen and (max-width: 1280px) {
 		#banner {
 			padding: 7em 0 8.25em 0 ;
-			background-color: #2e3141;
+			background-color: #ece5ce;
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-bottom: -6.5em;
@@ -3274,7 +3274,7 @@
 	@media screen and (max-width: 1280px) {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #2e3141;
+			background-color: #ece5ce;
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3311,7 +3311,7 @@
 	}
 
 	.wrapper {
-		background-color: rgba(0,0,0,0); /*******#2e3141;*******/
+		background-color: rgba(0,0,0,0); 
 		margin: 6.5em 0;
 		position: relative;
 	}
