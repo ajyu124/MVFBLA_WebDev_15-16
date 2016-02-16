@@ -1,13 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
-/*
-	Solid State by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
+/******* Custom CSS Meyer Reset *******/
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -48,7 +42,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
-/* Box Model */
+/******* Box Model *******/
 
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
@@ -56,7 +50,7 @@
 		box-sizing: border-box;
 	}
 
-/* Grid */
+/******* 960px Grid System *******/
 
 	.row {
 		border-bottom: solid 1px transparent;
@@ -1181,7 +1175,7 @@
 		}
 
 		.row {
-			/*margin: 0 0 -1px -1.25em;*/
+			/*******margin: 0 0 -1px -1.25em;*******/
 			margin: 0;
 		}
 
@@ -1605,7 +1599,7 @@
 
 	}
 
-/* Basic */
+/******* Basic *******/
 
 	@-ms-viewport {
 		width: device-width;
@@ -1626,16 +1620,16 @@
 	body {
 		background-color: rgba(0,0,0,0);
 
-		/*Temporary Gradient*/ 
-		background: #F1D4AF; /* fallback for old browsers */
+		/*******Temporary Gradient*******/ 
+		background: #F1D4AF; /******* fallback for old browsers *******/
 		background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), -webkit-linear-gradient(to top left, #F1D4AF , #E08E79); /* Chrome 10-25, Safari 5.1-6 */
+    ), -webkit-linear-gradient(to top left, #F1D4AF , #E08E79); /******* Chrome 10-25, Safari 5.1-6 *******/
 		background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), linear-gradient(to top left, #F1D4AF , #E08E79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ), linear-gradient(to top left, #F1D4AF , #E08E79); /******* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *******/
         background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -1652,7 +1646,7 @@
 			transition: none !important;
 		}
 
-/* Type */
+/******* Type *******/
 
 	body, input, select, textarea {
 		color: #ffffff;
@@ -1898,13 +1892,13 @@
 		text-align: right;
 	}
 
-/* Section/Article */
+/******* Section/Article *******/
 
 	section.special, article.special {
 		text-align: center;
 	}
 
-/* Form */
+/******* Form *******/
 
 	form {
 		margin: 0 0 2em 0;
@@ -2129,7 +2123,7 @@
 		opacity: 1.0;
 	}
 
-/* Box */
+/******* Box *******/
 
 	.box {
 		border-radius: 5px;
@@ -2150,7 +2144,7 @@
 			padding: 0;
 		}
 
-/* Icon */
+/******* Icon *******/
 
 	.icon {
 		text-decoration: none;
@@ -2171,7 +2165,7 @@
 			display: none;
 		}
 
-/* Image */
+/******* Image *******/
 
 	.image {
 		border-radius: 5px;
@@ -2225,7 +2219,7 @@
 				width: 100%;
 			}
 
-/* List */
+/******* List *******/
 
 	ol {
 		list-style: decimal;
@@ -2442,7 +2436,7 @@
 			margin-left: 2em;
 		}
 
-/* Table */
+/******* Table *******/
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
@@ -2510,7 +2504,7 @@
 				border-top: 0;
 			}
 
-/* Button */
+/******* Button *******/
 
 	input[type="submit"],
 	input[type="reset"],
@@ -2653,7 +2647,7 @@
 
 		}
 
-/* Features */
+/******* Features *******/
 
 	.features {
 		display: -moz-flex;
@@ -2733,7 +2727,7 @@
 
 		}
 
-/* Header */
+/******* Header *******/
 
 header {
     padding-top: 9em;
@@ -2846,7 +2840,7 @@ header {
 			}
 
 		#nav nav {
-			font-family: Raleway, Helvetica, sans-serif; /* MARK CHANGE */
+			font-family: Raleway, Helvetica, sans-serif; /******* MARK CHANGE *******/
 			font-size: 0.8em;
 			font-weight: 700;
 			height: 5em;
@@ -2985,7 +2979,7 @@ header {
 
 		}
 
-/* Menu */
+/******* Menu *******/
 
 	#page-wrapper {
 		-moz-transition: -moz-filter 0.25s ease;
@@ -3140,7 +3134,7 @@ header {
 			opacity: 1;
 		}
 
-/* Banner */
+/******* Banner *******/
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
@@ -3231,7 +3225,7 @@ header {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-*/				background-size: auto, cover;
+*******/				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
 			}
@@ -3308,7 +3302,7 @@ header {
 			filter: blur(2px);
 		}
 
-/* Wrapper */
+/******* Wrapper *******/
 
 	#wrapper > header {
 		padding: 11em 0 2.25em 0 ;
@@ -3339,7 +3333,7 @@ header {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-*/			background-size: auto, cover;
+*******/			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
 		}
@@ -3366,7 +3360,7 @@ header {
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
 			background-position: center;
-			/*background-size: auto, 150%;*/
+			/*******background-size: auto, 150%;*******/
 			margin-bottom: -2.5em;
 		}
 
@@ -3381,7 +3375,7 @@ header {
 	}
 
 	.wrapper {
-		background-color: rgba(0,0,0,0); /*#2e3141;*/
+		background-color: rgba(0,0,0,0); /*******#2e3141;*******/
 		margin: 6.5em 0;
 		position: relative;
 	}
@@ -3666,7 +3660,7 @@ header {
 
 		}
 
-/* Footer */
+/******* Footer *******/
 
 	#footer {
 		background: 
@@ -3675,7 +3669,7 @@ header {
 			    rgba(0, 0, 0, 0.6)
 			    ),
 			    url("../../images/footer.jpg") center -250px / cover no-repeat fixed;
-	  /*background-color: #7A7A7A;*/
+	  /*******background-color: #7A7A7A;*******/
 		background-size: auto, cover;
 		background-position: center, center;
 	}
@@ -3776,9 +3770,7 @@ header {
 
 				#footer .inner .copyright {
 					margin: 4em 0 2em 0;
-					padding-bottom: 1em;
 				}
-
 
 	}
 
