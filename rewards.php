@@ -54,17 +54,17 @@ require_once("header.php");
 							<tr>
 								<td>100 points</td>
 								<td>Have 100 points on your mobile stamp card</td>
-								<td>Panettiere Bronze Membership*</td>
+								<td>Bronze Membership*</td>
 							</tr>
 							<tr>
 								<td>200 points</td>
 								<td>Have 200 points on your mobile stamp card</td>
-								<td>Panettiere Silver Membership**</td>
+								<td>Silver Membership**</td>
 							</tr>
 							<tr>
 								<td>350 points</td>
 								<td>Have 350 points on your mobile stamp card</td>
-								<td>Panettiere Gold Membership***</td>
+								<td>Gold Membership***</td>
 							</tr>
 						</tbody>
 					</table>
