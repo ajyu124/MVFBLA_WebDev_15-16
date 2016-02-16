@@ -1642,7 +1642,7 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1697,7 +1697,7 @@
 		text-decoration: none;
 		border-bottom: 0;
 		display: block;
-		font-family: "Montserrat", Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -1756,7 +1756,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: "Montserrat", Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -1905,7 +1905,7 @@
 	label {
 		color: #ffffff;
 		display: block;
-		font-family: "Montserrat", Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2505,7 +2505,7 @@
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Montserrat", Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3em;
@@ -2693,69 +2693,10 @@
 		}
 
 		.features article {
-			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: rgb(119,79,56);
-			border-radius: 5px;
-			margin: 1.5em 3em 1.5em 0;
-			width: calc(50% - 1.5em);
+			width: 100%;
+			margin: 0 0 2em 0 !important;
 		}
-
-			.features article:nth-child(2n) {
-				margin-right: 0;
-			}
-
-			.features article .image {
-				border-radius: 5px 5px 0 0;
-				display: block;
-				margin-bottom: 1.75em;
-				margin-left: -1.75em;
-				margin-top: -1.75em;
-				position: relative;
-				width: calc(100% + 3.5em);
-			}
-
-				.features article .image img {
-					border-radius: 5px 5px 0 0;
-					width: 100%;
-				}
-
-		@media screen and (max-width: 980px) {
-
-			.features article {
-				margin: 1em 2em 1em 0;
-				width: calc(50% - 1em);
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.features article {
-				padding: 1.5em 1.5em 0.1em 1.5em ;
-				margin: 0.875em 1.75em 0.875em 0;
-				width: calc(50% - 0.875em - 1px);
-			}
-
-				.features article .image {
-					margin-bottom: 1.5em;
-					margin-left: -1.5em;
-					margin-top: -1.5em;
-					width: calc(100% + 3em);
-				}
-
-		}
-
-		@media screen and (max-width: 640px) {
-
-			.features {
-				display: block;
-			}
-
-			.features article {
-				width: 100%;
-				margin: 0 0 2em 0 !important;
-			}
-		}
+	}
 
 /******* Headers *******/
 
@@ -2767,10 +2708,9 @@
 
 	#headerHome
 	{
-		padding-top: 45vh;
 		background: 
 		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/headerHome.jpg") center -175px / cover no-repeat fixed;
-		/*padding-top: 11em;*/
+		padding-top: 11em;
 	    height: 100vh;
 	}
 
@@ -2851,7 +2791,7 @@
 	}
 
 	#nav nav {
-		font-family: "Montserrat", Helvetica, sans-serif; /******* MARK CHANGE *******/
+		font-family: Roboto, Helvetica, sans-serif; /******* MARK CHANGE *******/
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 5em;
@@ -3094,7 +3034,7 @@
 		border-radius: 5px;
 		border: 0;
 		display: block;
-		font-family: "Montserrat", Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
@@ -3221,7 +3161,7 @@
 		-ms-filter: blur(0);
 		filter: blur(0);
 		opacity: 1;
-		font-family: "Montserrat", Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 1em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
@@ -3308,7 +3248,7 @@
 /******* Wrappers *******/
 
 	#wrapper > header {
-		padding: 12em 0 0em 0 ;
+		padding: 11em 0 2.25em 0 ;
 	}
 
 	#wrapper > header .inner {
@@ -3319,11 +3259,11 @@
 	#wrapper > header h2 {
 		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		font-size: 2em;
-		/*padding-top: 15%;*/
+		padding-top: 15%;
 	}
 
 	#wrapper > header p {
-		font-family: "Montserrat", Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 1em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
