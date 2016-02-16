@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 /******* Custom CSS Meyer Reset *******/
@@ -1697,7 +1697,7 @@
 		text-decoration: none;
 		border-bottom: 0;
 		display: block;
-		font-family: Lato, Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -1756,7 +1756,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: Lato, Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -1905,7 +1905,7 @@
 	label {
 		color: #ffffff;
 		display: block;
-		font-family: Lato, Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2505,7 +2505,7 @@
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: Lato, Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3em;
@@ -2791,7 +2791,7 @@
 	}
 
 	#nav nav {
-		font-family: Lato, Helvetica, sans-serif; /******* MARK CHANGE *******/
+		font-family: Roboto, Helvetica, sans-serif; /******* MARK CHANGE *******/
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 5em;
@@ -3034,7 +3034,7 @@
 		border-radius: 5px;
 		border: 0;
 		display: block;
-		font-family: Lato, Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
@@ -3161,7 +3161,7 @@
 		-ms-filter: blur(0);
 		filter: blur(0);
 		opacity: 1;
-		font-family: Lato, Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 1em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
@@ -3263,7 +3263,7 @@
 	}
 
 	#wrapper > header p {
-		font-family: Lato, Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 1em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
