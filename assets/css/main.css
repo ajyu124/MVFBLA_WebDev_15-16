@@ -1642,7 +1642,7 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Montserrat", Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1697,7 +1697,7 @@
 		text-decoration: none;
 		border-bottom: 0;
 		display: block;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -1756,7 +1756,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -1905,7 +1905,7 @@
 	label {
 		color: #ffffff;
 		display: block;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2505,7 +2505,7 @@
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3em;
@@ -2693,7 +2693,6 @@
 		}
 
 		.features article {
-<<<<<<< HEAD
 			padding: 1.75em 1.75em 0.1em 1.75em ;
 			background-color: rgb(119,79,56);
 			border-radius: 5px;
@@ -2852,7 +2851,7 @@
 	}
 
 	#nav nav {
-		font-family: Roboto, Helvetica, sans-serif; /******* MARK CHANGE *******/
+		font-family: "Montserrat", Helvetica, sans-serif; /******* MARK CHANGE *******/
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 5em;
@@ -3095,7 +3094,7 @@
 		border-radius: 5px;
 		border: 0;
 		display: block;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
@@ -3222,7 +3221,7 @@
 		-ms-filter: blur(0);
 		filter: blur(0);
 		opacity: 1;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 1em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
@@ -3324,7 +3323,7 @@
 	}
 
 	#wrapper > header p {
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 1em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
