@@ -2743,6 +2743,7 @@ header {
 
 #headerHome
 {
+	padding-top: 45vh;
 	background: 
 	linear-gradient(
       rgba(0, 0, 0, 0.4), 
@@ -3311,7 +3312,7 @@ header {
 /* Wrapper */
 
 	#wrapper > header {
-		padding: 11em 0 2.25em 0 ;
+		padding: 12em 0 0 0 ;
 	}
 
 		#wrapper > header .inner {
@@ -3322,7 +3323,7 @@ header {
 		#wrapper > header h2 {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 2em;
-			padding-top: 15%;
+			/*padding-top: 15%;*/
 		}
 
 		#wrapper > header p {
