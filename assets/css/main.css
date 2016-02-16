@@ -1642,7 +1642,7 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Montserrat", Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1697,7 +1697,7 @@
 		text-decoration: none;
 		border-bottom: 0;
 		display: block;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -1756,7 +1756,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -1905,7 +1905,7 @@
 	label {
 		color: #ffffff;
 		display: block;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2024,7 +2024,7 @@
 		cursor: pointer;
 		display: inline-block;
 		font-size: 1em;
-		font-family: "Montserrat", Helvetica, sans-serif;
+		font-family: Roboto, Helvetica, sans-serif;
 		text-transform: none;
 		letter-spacing: 0;
 		font-weight: 300;
@@ -2505,7 +2505,7 @@
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3em;
@@ -2710,7 +2710,7 @@
 	{
 		background: 
 		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/headerHome.jpg") center -175px / cover no-repeat fixed;
-		padding-top: 11em;
+		padding-top: 45vh;
 	    height: 100vh;
 	}
 
@@ -2791,7 +2791,7 @@
 	}
 
 	#nav nav {
-		font-family: Roboto, Helvetica, sans-serif; /******* MARK CHANGE *******/
+		font-family: "Montserrat", Helvetica, sans-serif; /******* MARK CHANGE *******/
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 5em;
@@ -3034,7 +3034,7 @@
 		border-radius: 5px;
 		border: 0;
 		display: block;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
@@ -3161,7 +3161,7 @@
 		-ms-filter: blur(0);
 		filter: blur(0);
 		opacity: 1;
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 1em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
@@ -3248,7 +3248,7 @@
 /******* Wrappers *******/
 
 	#wrapper > header {
-		padding: 11em 0 2.25em 0 ;
+		padding: 12em 0 0em 0 ;
 	}
 
 	#wrapper > header .inner {
@@ -3259,11 +3259,11 @@
 	#wrapper > header h2 {
 		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		font-size: 2em;
-		padding-top: 15%;
+		/*padding-top: 15%;*/
 	}
 
 	#wrapper > header p {
-		font-family: Roboto, Helvetica, sans-serif;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 1em;
 		font-weight: 200;
 		letter-spacing: 0.1em;
