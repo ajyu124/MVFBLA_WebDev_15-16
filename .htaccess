@@ -1,7 +1,7 @@
 RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.php [QSA,L]
-
 RewriteCond %{HTTP_HOST} ^beta.panettiere.ml
 RewriteRule ^(.*)$ https://panettiere.ml/beta/$1 [L,NC,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
