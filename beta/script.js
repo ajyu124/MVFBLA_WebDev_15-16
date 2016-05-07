@@ -2,16 +2,16 @@
 	var nav = false;
 	$("#pages").hide();
 	$("#pages").click(function () {
-		$("#pages").hide();
+		$("#pages").fadeOut();
 		nav = false;
 	});
 	$(".close").click(function () {
-		$("#pages").hide();
+		$("#pages").fadeOut();
 		nav = false;
 	});
 	$("a[href='#pages']").click(function () {
 		var t = nav;
-		t = t ? $("#pages").hide() :$("#pages").show();
+		t = t ? $("#pages").fadeOut() :$("#pages").fadeIn();
 		nav = !nav;
 	});
 })($);
