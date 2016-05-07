@@ -1,7 +1,7 @@
+Options +FollowSymLinks
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} ^beta.panettiere.ml
-RewriteRule ^(.*)$ https://panettiere.ml/beta/$1 [L,NC,QSA]
+RewriteRule ^$ index.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.php [QSA,L]
+RewriteRule ^ 404.php [QSA,L]
