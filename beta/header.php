@@ -15,7 +15,7 @@
 				<a href="#pages">Pages</a>
 			</nav>
 		</div>
-		<nav id="pages">
+		<nav id="pages" style="display: none">
 			<div class="inner">
 				<h2>Pages</h2>
 				<ul class="links">
