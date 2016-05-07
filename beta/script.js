@@ -1,17 +1,17 @@
 (function ($) {
 	var nav = false;
-	$("#pages").hide();
+	$("#pages").hide().css("opacity", 0);
 	$("#pages").click(function () {
-		$("#pages").fadeOut();
+		$("#pages").css("opacity", 0).hide();
 		nav = false;
 	});
 	$(".close").click(function () {
-		$("#pages").fadeOut();
+		$("#pages").css("opacity", 0).hide();
 		nav = false;
 	});
 	$("a[href='#pages']").click(function () {
 		var t = nav;
-		t = t ? $("#pages").fadeOut() :$("#pages").fadeIn();
+		t = t ? $("#pages").css("opacity", 0).hide() : $("#pages").show().css("opacity", 1);
 		nav = !nav;
 	});
 })($);
