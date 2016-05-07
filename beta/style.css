@@ -893,6 +893,28 @@ there.
   display: inline-block;
 }
 
+#nav nav a[href="#pages"] {
+  text-decoration: none;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+  padding: 0 1.35em;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+#nav nav a[href="#pages"]:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
 #nav nav a[href="#pages"]:before {
   content: '\f0c9';
 }
