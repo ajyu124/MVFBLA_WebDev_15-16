@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<div id="nav">
-			<h1><a href="http://www.panettiere.ml/"><img src="/images/logo3.png" class="logo"></a></h1>
+			<h1><a href="/"><img src="/images/logo3.png" class="logo"></a></h1>
 			<nav>
 				<a href="#pages">Pages</a>
 			</nav>
