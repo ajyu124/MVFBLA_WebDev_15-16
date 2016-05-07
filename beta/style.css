@@ -914,8 +914,8 @@ there.
   letter-spacing: 0.1em;
 }
 
-#nav nav a[href="#pages"]:before {
-  float: right;
+#nav nav a[href="#pages"]:after {
+  content: '\f0c9';
   margin-left: 0.75em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -923,10 +923,6 @@ there.
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
-}
-
-#nav nav a[href="#pages"]:before {
-  content: '\f0c9';
 }
 
 #nav nav a[href="#pages"]:hover {
