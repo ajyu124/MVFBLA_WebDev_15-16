@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<div id="nav">
-			<h1><a href="/"><img src="/images/logo3.png" class="logo"></a></h1>
+			<a href="/"><img src="/images/logo3.png" class="logo"></a>
 			<nav>
 				<a href="#pages">Pages</a>
 			</nav>

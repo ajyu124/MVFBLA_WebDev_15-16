@@ -869,17 +869,27 @@ there.
   transition: background-color 0.2s ease-in-out;
   background-color: #CBBCA9;
 
-  height: 4em;
+  height: 6rem;
   left: 0;
-  line-height: 4em;
-  padding: 0 1.75em;
+  line-height: 6rem;
+  padding: 0 1.75rem;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10000;
 
   box-shadow: 0 0 3px rgba(0,0,0,0.5);
-  height: 70px;
+}
+
+#nav img {
+  height: 6em;
+  width: auto;
+  display: inline-block;
+}
+#nav nav {
+  float: right;
+  margin-right: 5rem;
+  display: inline-block;
 }
 
 #nav nav a[href="#pages"]:before {
@@ -924,11 +934,9 @@ there.
   cursor: default;
   height: 100%;
   left: 0;
-  opacity: 0;
   position: fixed;
   text-align: center;
   top: 0;
-  visibility: hidden;
   width: 100%;
 }
 
@@ -947,7 +955,6 @@ there.
   border-radius: 5px;
   display: block;
   max-width: 100%;
-  opacity: 0;
   position: relative;
   width: 18em;
 }
