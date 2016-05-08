@@ -1124,3 +1124,12 @@ a.special:active:before {
   width: 100%;
   height: auto;
 }
+.box {
+  padding: 1.75em 1.75em 0.1em 1.75em;
+  background-color: rgb(119, 79, 56);
+  border-radius: 5px;
+  margin: 1.5em 3em 1.5em 0;
+}
+.box h3 {
+  font-size: 0.75em;
+}

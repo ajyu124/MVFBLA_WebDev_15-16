@@ -14,13 +14,13 @@ require_once("header.php");
 	<div class="row">
 		<div class="columns six box">
 			<img src="/images/bakeryFeature.jpg" class="image"/>
-			<h4>Panettiere Bakery</h4>
+			<h3>Panettiere Bakery</h3>
 			<p>Start your morning with fresh bread and a warm cup of coffee, or freshen up your afternoon with a gourmet pastry. All gluten and wheat-free, of course.</p>
 			<a href="menu.php#breads" class="special">See our baked goods</a>
 		</div>
 		<div class="columns six box">
 			<img src="/images/restaurantFeature.jpg" class="image">
-			<h4>Panettiere Restaurant</h4>
+			<h3>Panettiere Restaurant</h3>
 			<p>Whether it's a quick lunch or a full dinner party, Panettiere Restaurant has got you covered with a variety of appealing dishes for everyone to enjoy.</p>
 			<a href="menu.php#restaurant" class="special">See our menu</a>
 		</div>
