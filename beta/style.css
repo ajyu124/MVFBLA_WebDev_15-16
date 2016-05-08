@@ -579,6 +579,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  padding-bottom: 1em;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
   font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700; }
 h1 { font-size: 4.0rem; line-height: 1.2;  /*letter-spacing: -.1rem;*/ }
@@ -993,7 +995,10 @@ there.
 
 #pages h2 {
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-  padding-bottom: 1em;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  margin: 0;
+  color: #ffffff;
 }
 
 #pages .close {
@@ -1029,12 +1034,14 @@ there.
   border: 0;
   display: block;
   font-family: "Montserrat", Helvetica, sans-serif;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: 200;
   letter-spacing: 0.1em;
   line-height: 1.85em;
   padding: 0.75em 0;
   text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 #pages .links li a:hover {
@@ -1046,6 +1053,7 @@ there.
   display: block;
   width: 100%;
   height: 100vh;
+  margin-bottom: 5em;
 }
 .window.half {
   height: 50rem;
@@ -1058,9 +1066,11 @@ there.
   font-size: 0.9em;
   line-height: 2;
 }
+/*
 .innerWindow h2 {
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
+*/
 .innerWindow p {
   font-family: "Montserrat";
   text-transform: uppercase;
@@ -1068,5 +1078,5 @@ there.
 
 .window {
   padding-top: 45vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/headerHome.jpg") center -175px / cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/headerHome.jpg") center center / cover no-repeat fixed;
 }
