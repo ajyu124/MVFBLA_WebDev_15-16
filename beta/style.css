@@ -564,12 +564,12 @@ html {
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #F1D4AF; /******* fallback for old browsers *******/
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), -webkit-linear-gradient(to top left, #F1D4AF , #E08E79); /******* Chrome 10-25, Safari 5.1-6 *******/
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(to top left, #F1D4AF , #E08E79); /******* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *******/
-  color: #222; }
+  color: #fff; }
 
 
 /* Typography
@@ -909,7 +909,6 @@ there.
   border-radius: 5px;
   box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
   padding: 0.75em 1.35em;
-  color: #ffffff;
   font-weight: 700;
   font-family: "Montserrat";
   text-transform: uppercase;
@@ -998,7 +997,6 @@ there.
   padding-bottom: 2rem;
   font-size: 2rem;
   margin: 0;
-  color: #ffffff;
 }
 
 #pages .close {
@@ -1041,7 +1039,6 @@ there.
   padding: 0.75em 0;
   text-transform: uppercase;
   text-decoration: none;
-  color: #ffffff;
 }
 
 #pages .links li a:hover {
@@ -1063,7 +1060,6 @@ there.
 .innerWindow {
   max-width: 100rem;
   margin: 0 auto;
-  color: #FFFFFF;
   letter-spacing: 0.1em;
   font-size: 0.9em;
   line-height: 2;
@@ -1092,6 +1088,7 @@ a.special {
   letter-spacing: 0.1em;
   margin: 0 0 2em 0;
   text-transform: uppercase;
+  color: #fff;
 }
 a.special:before {
   -moz-osx-font-smoothing: grayscale;
@@ -1110,7 +1107,7 @@ a.special:before {
   display: inline-block;
   font-size: 1.25em;
   height: 2em;
-  line-height: 1.65em;
+  line-height: 1.9em;
   margin-right: 0.85em;
   text-align: center;
   text-indent: 0.15em;
