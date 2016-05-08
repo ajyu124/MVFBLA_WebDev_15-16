@@ -8,9 +8,13 @@ require_once("header.php");
 	</div>
 </header>
 <div class="container">
-	<h3>Our mission</h3>
-	<p>As a modern-day bakery and restaurant, we strive to provide quality, healthy, and wholesome food for everyone. As experts in the food industry, we know that maintaining a gluten-free lifestyle can be challenging. At Panettiere, we uphold this standard, and more. We bring high-quality food to the table without neglecting the various dietary needs needs in today's society. Learn more about our philosophy below.</p>
-	<a href="about.php" class="special">Read more</a>
+	<div class="row">
+		<div class="columns one">
+			<h3>Our mission</h3>
+			<p>As a modern-day bakery and restaurant, we strive to provide quality, healthy, and wholesome food for everyone. As experts in the food industry, we know that maintaining a gluten-free lifestyle can be challenging. At Panettiere, we uphold this standard, and more. We bring high-quality food to the table without neglecting the various dietary needs needs in today's society. Learn more about our philosophy below.</p>
+			<a href="about.php" class="special">Read more</a>
+		</div>
+	</div>
 	<div class="row">
 		<div class="columns six box">
 			<img src="/images/bakeryFeature.jpg" class="image"/>
