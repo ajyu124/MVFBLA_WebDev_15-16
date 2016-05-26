@@ -562,9 +562,9 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 300;
+  font-weight: 200;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #F1D4AF; /******* fallback for old browsers *******/
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), -webkit-linear-gradient(to top left, #F1D4AF , #E08E79); /******* Chrome 10-25, Safari 5.1-6 *******/
@@ -610,6 +610,16 @@ a {
   color: #1EAEDB; }
 a:hover {
   color: #0FA0CE; }
+a {
+  color: #fff;
+  border-bottom: 1px dotted #fff;
+  transition: all 400ms ease;
+  text-decoration: none;
+}
+a:hover {
+  color: #eee;
+  border-bottom: 1px dotted #eee;
+}
 
 
 /* Buttons
@@ -1057,6 +1067,7 @@ there.
   height: 50rem;
   padding-top: 20rem;
 }
+/*
 .innerWindow {
   max-width: 100rem;
   margin: 0 auto;
@@ -1064,14 +1075,24 @@ there.
   font-size: 0.9em;
   line-height: 2;
 }
+*/
 /*
 .innerWindow h2 {
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
 */
+/*
 .innerWindow p {
   font-family: "Montserrat";
   text-transform: uppercase;
+}
+*/
+.window p {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9em;
+  line-height: 2;
 }
 
 #windowHome {
