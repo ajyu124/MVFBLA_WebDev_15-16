@@ -1130,7 +1130,6 @@ there.
   padding: 0.5em 0 0.75em 0;
   width: 100%;
 }
-
 .footer .copyright li {
   border-left: solid 2px rgba(255, 255, 255, 0.125);
   /*color: rgba(255, 255, 255, 0.35);*/
@@ -1142,26 +1141,22 @@ there.
   padding: 0;
   padding-left: 1em;
 }
-
 .footer .copyright li:first-child {
   border-left: 0;
   margin-left: 0;
   padding-left: 0;
   margin: 0 0;
 }
-
 ul.contact {
   list-style: none;
   padding: 0;
 }
-
 ul.contact li {
   text-decoration: none;
   margin: 1.5em 0 0 0;
   padding: 0 0 0 3.25em;
   position: relative;
 }
-
 ul.contact li:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -1170,7 +1165,6 @@ ul.contact li:before {
   font-weight: normal;
   text-transform: none !important;
 }
-
 ul.contact li:before {
   border-radius: 100%;
   border: solid 2px rgba(255, 255, 255, 0.125);
@@ -1184,9 +1178,48 @@ ul.contact li:before {
   top: 0;
   width: 2.5em;
 }
-
 ul.contact li:first-child {
   margin-top: 0;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: 5px;
+  border: none;
+  border: solid 2px rgba(255, 255, 255, 0.125);
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  width: 100%;
+}
+input[type="text"]:invalid,
+input[type="password"]:invalid,
+input[type="email"]:invalid,
+input[type="tel"]:invalid,
+select:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+  border-color: rgb(236,229,206);
+}
+form input[type="submit"] {
+  color: #fff;
 }
 
 a.special {
@@ -1250,5 +1283,5 @@ a.special:active:before {
   width: calc(100% + 3.5em);
 }
 .box h3 {
-  font-size: 0.85em;
+  font-size: 1.15em;
 }

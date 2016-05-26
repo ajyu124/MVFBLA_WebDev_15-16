@@ -35,7 +35,7 @@
 					</div>
 					<div class="row">
 						<div class="columns twelve">
-							<label for="message">Message (required)</label>
+							<label for="message">Message</label>
 							<textarea name="message" id="message" rows="3" class="u-full-width" placeholder="What's on your mind?" required></textarea>
 						</div>
 					</div>
