@@ -912,7 +912,7 @@ there.
 }
 #nav nav {
   float: right;
-  margin-right: 5rem;
+  margin-right: 3rem;
   display: inline-block;
 }
 
@@ -1256,6 +1256,7 @@ a.special {
   margin: 0 0 2em 0;
   text-transform: uppercase;
   color: #fff;
+  width: 105%;
 }
 a.special:before {
   -moz-osx-font-smoothing: grayscale;
@@ -1295,6 +1296,7 @@ a.special:active:before {
   padding: 1.75em 1.75em 0.1em 1.75em;
   background-color: rgb(119, 79, 56);
   border-radius: 5px;
+  margin-bottom: 1em;
 }
 .box .image {
   border-radius: 5px 5px 0 0;
