@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  /*padding-bottom: 1em;*/
+  padding-bottom: 1em;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
   font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700; }
@@ -1087,6 +1087,9 @@ there.
   text-transform: uppercase;
 }
 */
+.window h2 {
+  padding-bottom: 0.4em;
+}
 .window p {
   font-family: "Montserrat";
   text-transform: uppercase;
