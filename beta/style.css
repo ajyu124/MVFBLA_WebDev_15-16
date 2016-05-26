@@ -1111,17 +1111,18 @@ there.
   background-size: auto, cover;
   background-position: center, center;
 }
-
+/*
 .footer form {
   margin: 0 1em -2em 2.5em;
   width: calc(50% - 2em);
 }
-
+*/
+/*
 .footer .contact {
   width: calc(50% - 1.5em);
   margin-bottom: -2em;
 }
-
+*/
 .footer .copyright {
   border-top: solid 2px rgba(255, 255, 255, 0.125);
   list-style: none;
@@ -1132,7 +1133,8 @@ there.
 
 .footer .copyright li {
   border-left: solid 2px rgba(255, 255, 255, 0.125);
-  color: rgba(255, 255, 255, 0.35);
+  /*color: rgba(255, 255, 255, 0.35);*/
+  opacity: 0.35;
   display: inline-block;
   font-size: 0.9em;
   line-height: 1.4;
@@ -1155,7 +1157,7 @@ ul.contact {
 
 ul.contact li {
   text-decoration: none;
-  margin: 1.0em 0 0 0;
+  margin: 1.5em 0 0 0;
   padding: 0 0 0 3.25em;
   position: relative;
 }

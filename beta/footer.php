@@ -1,5 +1,5 @@
 
-<footer id="footer" style="padding-top: 40px">
+<footer class="footer" style="padding-top: 40px">
 	<div class="container">
 		<h5>Want to check us out?</h5>
 		<div class="row">
@@ -19,23 +19,28 @@
 				</ul>
 			</div>
 			<div class="columns six">
-				<form id="form">
 				<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. </p>
-				<div class="field">
-					<label for="name">Name (required)</label>
-					<input type="text" name="name" id="name" placeholder="Hi, what's your name?" required />
-				</div>
-				<div class="field">
-					<label for="email">Email (required)</label>
-					<input type="email" name="email" id="email" placeholder="How should we get back to you?" required />
-				</div>
-				<div class="field">
-					<label for="message">Message (required)</label>
-					<textarea name="message" id="message" rows="3" placeholder="What's on your mind?" required></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" /></li>
-				</ul>
+				<form id="form">
+					<div class="row">
+						<div class="columns twelve">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" class="u-full-width" placeholder="Hi, what's your name?" required />
+						</div>
+					</div>
+					<div class="row">
+						<div class="columns twelve">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" class="u-full-width" placeholder="How should we get back to you?" required />
+						</div>
+					</div>
+					<div class="row">
+						<div class="columns twelve">
+							<label for="message">Message (required)</label>
+							<textarea name="message" id="message" rows="3" class="u-full-width" placeholder="What's on your mind?" required></textarea>
+						</div>
+					</div>
+					<!--<div class="field"></div>-->
+					<input type="submit" value="Send Message" />
 			</form>
 			</div>
 		</div>
