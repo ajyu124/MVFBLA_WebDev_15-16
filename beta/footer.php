@@ -19,28 +19,28 @@
 				</ul>
 			</div>
 			<div class="columns six">
-				<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. </p>
 				<form id="form">
-					<div class="row">
+					<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. </p>
+					<div class="row field">
 						<div class="columns twelve">
 							<label for="name">Name</label>
 							<input type="text" name="name" id="name" class="u-full-width" placeholder="Hi, what's your name?" required />
 						</div>
 					</div>
-					<div class="row">
+					<div class="row field">
 						<div class="columns twelve">
 							<label for="email">Email</label>
 							<input type="email" name="email" id="email" class="u-full-width" placeholder="How should we get back to you?" required />
 						</div>
 					</div>
-					<div class="row">
+					<div class="row field">
 						<div class="columns twelve">
 							<label for="message">Message</label>
 							<textarea name="message" id="message" rows="3" class="u-full-width" placeholder="What's on your mind?" required></textarea>
 						</div>
 					</div>
 					<!--<div class="field"></div>-->
-					<input type="submit" value="Send Message" />
+					<input class="actions" type="submit" value="Send Message" />
 			</form>
 			</div>
 		</div>
