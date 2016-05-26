@@ -1,5 +1,5 @@
 
-<footer class="footer" style="padding-top: 40px">
+<footer class="footer">
 	<div class="container">
 		<h5>Want to check us out?</h5>
 		<div class="row">
