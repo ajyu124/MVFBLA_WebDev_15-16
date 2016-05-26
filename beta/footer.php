@@ -1,7 +1,7 @@
 
 <footer id="footer" style="padding-top: 40px">
 	<div class="container">
-		<h3>Want to check us out?</h3>
+		<h5>Want to check us out?</h5>
 		<div class="row">
 			<div class="columns six">
 				<!--<p>Reservations can be made through the Yelp app using SeatMe, available on <a href="https://itunes.apple.com/us/app/yelp/id284910350?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yelp.android&hl=en">Android.</a> You can also call us at (408)-320-9455 at least 1 hour before your desired time.</p>-->

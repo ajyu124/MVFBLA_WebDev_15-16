@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
   font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700; }
@@ -1093,9 +1093,6 @@ there.
   text-transform: uppercase;
 }
 */
-.window h2 {
-  padding-bottom: 0.4em;
-}
 .window p {
   font-family: "Montserrat";
   text-transform: uppercase;
@@ -1109,7 +1106,8 @@ there.
 }
 
 .footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../images/footer.jpg") center -250px / cover no-repeat fixed;
+  margin-top: 5em;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/footer.jpg") center -250px / cover no-repeat fixed;
   background-size: auto, cover;
   background-position: center, center;
 }
@@ -1148,6 +1146,45 @@ there.
   margin-left: 0;
   padding-left: 0;
   margin: 0 0;
+}
+
+ul.contact {
+  list-style: none;
+  padding: 0;
+}
+
+ul.contact li {
+  text-decoration: none;
+  margin: 1.0em 0 0 0;
+  padding: 0 0 0 3.25em;
+  position: relative;
+}
+
+ul.contact li:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+ul.contact li:before {
+  border-radius: 100%;
+  border: solid 2px rgba(255, 255, 255, 0.125);
+  display: inline-block;
+  font-size: 0.8em;
+  height: 2.5em;
+  left: 0;
+  line-height: 2.35em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 2.5em;
+}
+
+ul.contact li:first-child {
+  margin-top: 0;
 }
 
 a.special {

@@ -10,7 +10,7 @@ require_once("header.php");
 <div class="container">
 	<div class="row">
 		<div class="columns twelve">
-			<h3>Our mission</h3>
+			<h4>Our mission</h4>
 			<p>As a modern-day bakery and restaurant, we strive to provide quality, healthy, and wholesome food for everyone. As experts in the food industry, we know that maintaining a gluten-free lifestyle can be challenging. At Panettiere, we uphold this standard, and more. We bring high-quality food to the table without neglecting the various dietary needs needs in today's society. Learn more about our philosophy below.</p>
 			<a href="about.php" class="special">Read more</a>
 		</div>
@@ -18,13 +18,13 @@ require_once("header.php");
 	<div class="row">
 		<div class="columns six box">
 			<img src="/images/bakeryFeature.jpg" class="image"/>
-			<h3>Panettiere Bakery</h3>
+			<h2>Panettiere Bakery</h2>
 			<p>Start your morning with fresh bread and a warm cup of coffee, or freshen up your afternoon with a gourmet pastry. All gluten and wheat-free, of course.</p>
 			<a href="menu.php#breads" class="special">See our baked goods</a>
 		</div>
 		<div class="columns six box">
 			<img src="/images/restaurantFeature.jpg" class="image">
-			<h3>Panettiere Restaurant</h3>
+			<h2>Panettiere Restaurant</h2>
 			<p>Whether it's a quick lunch or a full dinner party, Panettiere Restaurant has got you covered with a variety of appealing dishes for everyone to enjoy.</p>
 			<a href="menu.php#restaurant" class="special">See our menu</a>
 		</div>
