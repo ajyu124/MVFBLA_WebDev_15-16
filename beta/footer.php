@@ -1,20 +1,22 @@
 
 <footer id="footer" style="padding-top: 40px">
 	<div class="container">
-		<h3 class="major">Want to check us out?</h3>
+		<h3>Want to check us out?</h3>
 		<div class="row">
 			<div class="columns six">
 				<!--<p>Reservations can be made through the Yelp app using SeatMe, available on <a href="https://itunes.apple.com/us/app/yelp/id284910350?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yelp.android&hl=en">Android.</a> You can also call us at (408)-320-9455 at least 1 hour before your desired time.</p>-->
-				<li class="fa-home">
-					<a href="https://goo.gl/maps/pD5L1BYHgpE2">21840 McClellan Rd <br>
-							Cupertino, CA 95014</a> <br>
-							Mon - Fri: 5:30 AM - 2:00 PM | 5:00 PM - 9:30 PM <br>
-							Sat - Sun: 6:30 AM - 2:00 PM | 5:00 PM - 11:00 PM
-				</li>
-				<li class="fa-phone"><a href="tel:(408)-320-9455">(408)-320-9455</a></li>
-				<li class="fa-envelope"><a href="mailto:hello@panettiere.ml">hello@panettiere.ml</a></li>
-				<li class="fa-facebook"><a href="https://www.facebook.com/panettierebakery">/panettierebakery/</a></li>
-				<li class="fa-instagram"><a href="https://www.instagram.com/panettierebakery/">/panettierebakery/</a></li>
+				<ul class="contact">
+					<li class="fa-home">
+						<a href="https://goo.gl/maps/pD5L1BYHgpE2">21840 McClellan Rd <br>
+								Cupertino, CA 95014</a> <br>
+								Mon - Fri: 5:30 AM - 2:00 PM | 5:00 PM - 9:30 PM <br>
+								Sat - Sun: 6:30 AM - 2:00 PM | 5:00 PM - 11:00 PM
+					</li>
+					<li class="fa-phone"><a href="tel:(408)-320-9455">(408)-320-9455</a></li>
+					<li class="fa-envelope"><a href="mailto:hello@panettiere.ml">hello@panettiere.ml</a></li>
+					<li class="fa-facebook"><a href="https://www.facebook.com/panettierebakery">/panettierebakery/</a></li>
+					<li class="fa-instagram"><a href="https://www.instagram.com/panettierebakery/">/panettierebakery/</a></li>
+				</ul>
 			</div>
 			<div class="columns six">
 				<form id="form">

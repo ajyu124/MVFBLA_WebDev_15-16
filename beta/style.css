@@ -564,7 +564,7 @@ html {
 body {
   font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 200;
+  font-weight: 300;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #F1D4AF; /******* fallback for old browsers *******/
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), -webkit-linear-gradient(to top left, #F1D4AF , #E08E79); /******* Chrome 10-25, Safari 5.1-6 *******/
@@ -1100,6 +1100,48 @@ there.
 
 #windowHome {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/headerHome.jpg") center center / cover no-repeat fixed;
+}
+
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../images/footer.jpg") center -250px / cover no-repeat fixed;
+  background-size: auto, cover;
+  background-position: center, center;
+}
+
+.footer form {
+  margin: 0 1em -2em 2.5em;
+  width: calc(50% - 2em);
+}
+
+.footer .contact {
+  width: calc(50% - 1.5em);
+  margin-bottom: -2em;
+}
+
+.footer .copyright {
+  border-top: solid 2px rgba(255, 255, 255, 0.125);
+  list-style: none;
+  margin: 4em 0 0em 0;
+  padding: 0.5em 0 0.75em 0;
+  width: 100%;
+}
+
+.footer .copyright li {
+  border-left: solid 2px rgba(255, 255, 255, 0.125);
+  color: rgba(255, 255, 255, 0.35);
+  display: inline-block;
+  font-size: 0.9em;
+  line-height: 1.4;
+  margin-left: 1em;
+  padding: 0;
+  padding-left: 1em;
+}
+
+.footer .copyright li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+  margin: 0 0;
 }
 
 a.special {
