@@ -1225,6 +1225,9 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   color: #eee;
 }
+textarea {
+  padding: 0.5em 1em;
+}
 ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.35) !important;
   opacity: 1.0;
