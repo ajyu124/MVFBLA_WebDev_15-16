@@ -47,7 +47,90 @@ require_once("header.php");
 				<div id="date_container"></div>
 			</div>
 			<div class="columns six">
-				<div id="table_container"></div>
+				<label for="tables">Table</label>
+				<div id="tables_container">
+					<table class="tables">
+						<tbody>
+							<tr>
+								<td rowspan="2" class="tables-table">2</td>
+								<td></td>
+								<td rowspan="2" class="tables-table">3</td>
+								<td></td>
+								<td></td>
+								<td rowspan="2" class="tables-table">4</td>
+								<td></td>
+								<td rowspan="2" class="tables-table">5</td>
+								<td></td>
+								<td rowspan="2" class="tables-table">6</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td rowspan="2" class="tables-table">7</td>
+								<td></td>
+								<td rowspan="2" class="tables-table">8</td>
+								<td></td>
+								<td rowspan="2" class="tables-table">9</td>
+							</tr>
+							<tr>
+								<td rowspan="2" colspan="3" class="tables-table">1</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td rowspan="2" colspan="2" class="tables-table">10</td>
+								<td></td>
+								<td rowspan="2" colspan="2" class="tables-table">11</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
 	</form>
