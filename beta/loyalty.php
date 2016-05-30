@@ -1,7 +1,7 @@
 <?php
 require_once("header.php");
 ?>
-<header class="window half" id="windowAbout">
+<header class="window half" id="windowLoyalty">
 	<div class="container">
 		<h2>Loyalty Rewards</h2>
 		<p>More than great food. Great rewards.</p>
@@ -17,7 +17,7 @@ require_once("header.php");
 	</div>
 	<div class="row">
 		<div class="columns twelve">
-			<h4>Find out what rewards you match up for!</h4>
+			<h5 class="plain pushtop">Find out what rewards you match up for!</h5>
 			<div class="table-wrapper">
 				<table>
 					<thead>

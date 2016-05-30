@@ -576,10 +576,10 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.25em;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
   font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700; }
@@ -1093,6 +1093,9 @@ there.
   text-transform: uppercase;
 }
 */
+.window h2 {
+  margin-bottom: 2rem;
+}
 .window p {
   font-family: "Montserrat";
   text-transform: uppercase;
@@ -1105,19 +1108,19 @@ there.
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/home.jpg") center center / cover no-repeat fixed;
 }
 #windowAbout {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/about.jpg") center center / cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/images/header/about.jpg") center center / cover no-repeat fixed;
 }
 #windowMenu {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/menu.jpg") center center / cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/images/header/menu.jpg") center center / cover no-repeat fixed;
 }
 #windowReservations {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/reservations.jpg") center center / cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/images/header/reservations.jpg") center center / cover no-repeat fixed;
 }
 #windowLoyalty {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/loyalty.jpg") center center / cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/images/header/loyalty.jpg") center center / cover no-repeat fixed;
 }
 #windowReviews {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/reviews.jpg") center center / cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/images/header/reviews.jpg") center center / cover no-repeat fixed;
 }
 
 
@@ -1325,6 +1328,7 @@ a.special:active:before {
 }
 .box h3 {
   font-size: 1.15em;
+  margin-bottom: 2rem;
 }
 /******* Tables *******/
 .table-wrapper {
@@ -1385,4 +1389,14 @@ blockquote {
   font-style: italic;
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 2em;
+}
+.plain {
+  border: 0;
+}
+.pushtop {
+  margin-top: 3rem;
+}
+h6 {
+  border: 0;
+  margin-bottom: 0;
 }
