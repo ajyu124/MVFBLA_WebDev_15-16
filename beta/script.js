@@ -144,7 +144,7 @@
 			$("#s #s_name").css("border-color", "rgba(192,0,0,0.5)");
 			good = false;
 		}
-		if ($("#s #s_email").val().trim() == "" || $("#form #email").val().indexOf("@") == -1 || $("#form #email").val().indexOf(".") == -1) {
+		if ($("#s #s_email").val().trim() == "" || $("#s #s_email").val().indexOf("@") == -1 || $("#s #s_email").val().indexOf(".") == -1) {
 			$("#s #s_email").css("border-color", "rgba(192,0,0,0.5)");
 			good = false;
 		}

@@ -1484,28 +1484,25 @@ h6.plain {
   }
 }
 
-.tables {
-  border: 0px solid #eee;
-  border-color: rgba(255,255,255,0.25);
-}
 .tables .left {
   border-left: 2px solid #eee;
-  border-color: inherit;
+  border-color: rgba(255,255,255,0.25);
 }
 .tables .right {
   border-right: 2px solid #eee;
-  border-color: inherit;
+  border-color: rgba(255,255,255,0.25);
 }
 .tables .up {
   border-top: 2px solid #eee;
-  border-color: inherit;
+  border-color: rgba(255,255,255,0.25);
 }
 .tables .down {
   border-bottom: 2px solid #eee;
-  border-color: inherit;
+  border-color: rgba(255,255,255,0.25);
 }
 
-#date_container {
+#date_container, .tables {
+  border: 2px solid transparent;
   border-radius: 5px;
 }
 
