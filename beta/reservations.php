@@ -51,7 +51,7 @@ require_once("header.php");
 				<div id="tables_container">
 					<table class="tables">
 						<tbody>
-							<tr class="top">
+							<tr class="up">
 								<td rowspan="2" class="tables-table left">2</td>
 								<td></td>
 								<td rowspan="2" class="tables-table">3</td>
@@ -124,7 +124,7 @@ require_once("header.php");
 								<td></td>
 								<td></td>
 								<td></td>
-								<td class="right down"></td>
+								<td class="right"></td>
 								<td class="down"></td>
 								<td class="down"></td>
 							</tr>
