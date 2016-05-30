@@ -175,9 +175,9 @@
 			"type": "POST",
 			"data": {
 				"type": "review",
-				"name": $("#s #name").val(),
-				"email": $("#s #email").val(),
-				"message": $("#s #review").val(),
+				"name": $("#s #s_name").val(),
+				"email": $("#s #s_email").val(),
+				"message": $("#s #s_review").val(),
 				"submit": true
 			}
 		}).done(function () {
