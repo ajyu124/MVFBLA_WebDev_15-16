@@ -80,58 +80,58 @@ require_once("header.php");
 					<dl>
 						<dt class="menu-name">Zuppa Toscana</dt>
 						<dt class="menu-price">$5.99</dt>
-						<dd></dd>
+						<dd>Spicy sausage, fresh kale and russet potatoes in a creamy broth.</dd>
 						<dt class="menu-name">Pasta e Fagioli</dt>
 						<dt class="menu-price">$5.99</dt>
-						<dd></dd>
-						<dt class="menu-name">Chicken & Gnocchi</dt>
+						<dd>White and red beans, ground beef, tomatoes and pasta in a savory broth.</dd>
+						<dt class="menu-name">Chicken &amp; Gnocchi</dt>
 						<dt class="menu-price">$5.99</dt>
-						<dd></dd>
+						<dd>Roasted chicken, traditional Italian potato dumplings, onion, celery, carrots and spinach, all in a chicken broth half and half mix for a light yet creamy base.</dd>
 						<dt class="menu-name">Minestrone</dt>
 						<dt class="menu-price">$5.99</dt>
-						<dd></dd>
+						<dd>Hearty vegetables like spinach, zucchini, carrots and celery simmer with northern beans and shell pasta in a light tomato broth.</dd>
 						<dt class="menu-name">Chicken Piccata</dt>
 						<dt class="menu-price">$8.99</dt>
-						<dd></dd>
+						<dd>Grilled chicken topped with a lemon garlic butter sauce, sundried tomatoes and capers. Served with parmesan-crusted zucchini.</dd>
 						<dt class="menu-name">Tilapia Piccata</dt>
 						<dt class="menu-price">$9.99</dt>
-						<dd></dd>
+						<dd>Delicate white fish baked in a lemon garlic butter sauce topped with sundried tomatoes and capers. Served with parmesan-crusted zucchini.</dd>
 						<dt class="menu-name">Citrus Chicken Sorrento</dt>
 						<dt class="menu-price">$8.99</dt>
-						<dd></dd>
+						<dd>Marianated chicken breast on top of shell pasta with a tangy citrus twist. Topped with mariara sauce.</dd>
 						<dt class="menu-name">Garlic Rosemary Chicken</dt>
 						<dt class="menu-price">$8.99</dt>
-						<dd></dd>
+						<dd>Marinated grilled chicken breast topped with garlic and rosemary. Served with garlic-parmesan mashed potatoes and spinach.</dd>
 						<dt class="menu-name">Ravioli di Portobello</dt>
 						<dt class="menu-price">$7.99</dt>
-						<dd></dd>
+						<dd>Ravioli filled with portobello mushrooms, topped with a creamy, smoked cheese and sun-dried tomato sauce.</dd>
 						<dt class="menu-name">Chicken Caesar Salad</dt>
-						<dt class="menu-price">$11.99</dt>
-						<dd></dd>
+						<dt class="menu-price">$9.99</dt>
+						<dd>Grilled chicken, romaine, parmesan and homemade black pepper focaccia croutons tossed with Caesar dressing. Sprinkled with mozzarella cheese.</dd>
 						<dt class="menu-name">Chicken Scampi</dt>
 						<dt class="menu-price">$8.99</dt>
-						<dd></dd>
+						<dd>Bell peppers and red onions sautéed with chicken tenderloins in a creamy scampi sauce. Served over angel hair pasta.</dd>
 						<dt class="menu-name">Chicken Parmigiana</dt>
 						<dt class="menu-price">$8.99</dt>
-						<dd></dd>
+						<dd>Two lightly fried parmesan-breaded chicken breasts smothered with homemade marinara sauce and melted Italian cheeses.</dd>
 						<dt class="menu-name">Eggplant Parmigiana</dt>
 						<dt class="menu-price">$9.99</dt>
-						<dd></dd>
+						<dd>Lightly fried, topped with homemade marinara and melted mozzarella. Served with a side of spaghetti.</dd>
 						<dt class="menu-name">Fettuccine Alfredo</dt>
 						<dt class="menu-price">$7.99</dt>
-						<dd></dd>
+						<dd>Parmesan cheese, heavy cream, and garlic. Served with fettuccine pasta.</dd>
 						<dt class="menu-name">Chicken Alfredo</dt>
 						<dt class="menu-price">$8.99</dt>
-						<dd></dd>
+						<dd>Fettuccine pasta richly topped with butter, cream and parmesan cheese, with a side of sliced grilled chicken.</dd>
 						<dt class="menu-name">Shrimp Alfredo</dt>
 						<dt class="menu-price">$9.99</dt>
-						<dd></dd>
+						<dd>Creamy, homemade fettuccine alfredo tossed with sautéed shrimp.</dd>
 						<dt class="menu-name">Cheese Ravioli</dt>
 						<dt class="menu-price">$7.99</dt>
-						<dd></dd>
+						<dd>Filled with a blend of indulgent Italian cheeses, topped with your choice of homemade marinara or meat sauce and melted mozzarella.</dd>
 						<dt class="menu-name">5 Cheese Ziti al Forno</dt>
 						<dt class="menu-price">$8.99</dt>
-						<dd></dd>
+						<dd>Baked blend of Italian cheeses, pasta and our signature five cheese marinara.</dd>
 					</dl>
 					<h6>Desserts</h6>
 					<dl>
@@ -619,7 +619,7 @@ require_once("header.php");
 				</div>
 				<div class="menu-item restaurant soups" style="background-image:url('/images/menu/519.jpg')">
 					<div class="details">
-						<span class="name small">Chicken & Gnocchi</span>
+						<span class="name small">Chicken &amp; Gnocchi</span>
 						<span class="price">$5.99</span>
 					</div>
 				</div>
@@ -662,7 +662,7 @@ require_once("header.php");
 				<div class="menu-item restaurant entrees" style="background-image:url('/images/menu/527.jpg')">
 					<div class="details">
 						<span class="name small">Chicken Caesar Salad</span>
-						<span class="price">$11.99</span>
+						<span class="price">$9.99</span>
 					</div>
 				</div>
 				<div class="menu-item restaurant entrees" style="background-image:url('/images/menu/528.jpg')">
