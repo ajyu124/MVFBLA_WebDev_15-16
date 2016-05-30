@@ -28,6 +28,7 @@ require_once("header.php");
 	<div class="row">
 		<div class="columns twelve">
 			<h4 class="pushtop">Reviews</h4>
+			<p>Additional reviews may be found on Yelp, available <a href="https://yelp.com">online</a> or on your mobile device, available on <a href="https://itunes.apple.com/us/app/yelp/id284910350">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yelp.android">Android.</a></p>
 			<h6>"Astounding gluten free food"</h6>
 			<blockquote> It's not very easy to find gluten free restaurants and bakeries today, and it's even harder to find ones that have 
 			good tasting food as well! I can safely say that I have found <i>the best</i> gluten free restaurant and bakery in the Bay Area, 

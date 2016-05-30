@@ -57,3 +57,14 @@
 		});
 	});
 })($);
+
+(function ($) {
+	$("#r_time").timepicker({
+		'scrollDefault': 'now',
+		'disableTimeRanges': [
+			['2pm', '5pm'],
+			['11pm', '5:30am']
+		]
+	});
+	$('#date_container div').datepicker({});
+})($);

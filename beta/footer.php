@@ -4,7 +4,7 @@
 		<h5>Want to check us out?</h5>
 		<div class="row">
 			<div class="columns six">
-				<!--<p>Reservations can be made through the Yelp app using SeatMe, available on <a href="https://itunes.apple.com/us/app/yelp/id284910350?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yelp.android&hl=en">Android.</a> You can also call us at (408)-320-9455 at least 1 hour before your desired time.</p>-->
+				<!--</p>-->
 				<ul class="contact">
 					<li class="fa-home">
 						<a href="https://goo.gl/maps/pD5L1BYHgpE2">21840 McClellan Rd <br>
@@ -19,7 +19,7 @@
 				</ul>
 			</div>
 			<div class="columns six">
-				<form id="form">
+				<form id="form" class="form">
 					<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. </p>
 					<div class="row field">
 						<div class="columns twelve">
@@ -51,7 +51,7 @@
 </footer>
 	<!-- Scripts -->
 	<!--<script src="/assets/js/skel.min.js"></script>-->
-	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.all.js"></script>
 	<script src="script.js"></script>
 	<!--<script src="/assets/js/jquery.scrollex.min.js"></script>-->
 	<!--<script src="/assets/js/util.js"></script>-->
