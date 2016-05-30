@@ -1614,12 +1614,18 @@ li.ui-timepicker-selected .ui-timepicker-duration,
   margin: 1rem 0;
   text-align: center;
 }
+hr.cata-contain {
+  opacity: 0;
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {
   .cata-contain {
     margin: 2.5rem 0;
     text-align: left;
+  }
+  hr.cata-contain {
+    opacity: 1;
   }
   .subcats {
     margin-top: 0;
@@ -1662,6 +1668,7 @@ li.ui-timepicker-selected .ui-timepicker-duration,
   position: absolute;
   bottom: 0;
   left: 0;
+  text-align: left;
   padding: 5px 10px;
   width: 70%;
 }

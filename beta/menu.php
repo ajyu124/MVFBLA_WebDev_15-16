@@ -36,7 +36,7 @@ require_once("header.php");
 				<li class="subcata restaurant desserts"><a href="#desserts" class="button small">Desserts</a></li>
 				<li class="subcata fullmenu menu"><a href="#menu" class="button small">Menu</a></li>
 			</ul>
-			<div>
+			<div class="u-center">
 				<div class="menu-item fullmenu menu">Special</div>
 				<div class="menu-item bakery breads" style="background-image:url('/images/menu/132.jpg')">
 					<div class="details">
