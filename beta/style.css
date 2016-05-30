@@ -1436,8 +1436,30 @@ h6 {
   line-height: 2;
   text-align: center;
 }
+.tables tr {
+  background: none !important;
+  border: 0;
+  height: 1rem;
+}
+.tables td {
+  border: 0;
+  width: 1rem;
+  padding: 0;
+}
+.tables td[colspan="2"] {
+  width: 2rem;
+}
+.tables td[colspan="3"] {
+  width: 3rem;
+}
+.tables td[rowspan="2"] {
+  height: 2rem;
+}
+
+
 .tables-table {
   background: rgba(255,255,255,0.15);
+  transition: all 400ms ease;
 }
 .tables-table:hover {
   background: rgba(255,255,255,0.5);
