@@ -1,4 +1,6 @@
 <?php
+require_once("header.php");
+
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $server = $url["host"];
 $username = $url["user"];
@@ -10,8 +12,6 @@ if ($conn->connect_errno) {
     printf("Connect failed: %s\n", $mysqli->connect_error);
     exit();
 }
-
-require_once("header.php");
 ?>
 <header class="window half" id="windowHome">
 	<div class="container">
