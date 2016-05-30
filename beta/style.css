@@ -1485,6 +1485,23 @@ h6 {
   }
 }
 
+.tables .left {
+  border-left: 1px solid #eee;
+  border-color: rgba(255,255,255,0.25);
+}
+.tables .right {
+  border-right: 1px solid #eee;
+  border-color: rgba(255,255,255,0.25);
+}
+.tables .up {
+  border-top: 1px solid #eee;
+  border-color: rgba(255,255,255,0.25);
+}
+.tables .down {
+  border-bottom: 1px solid #eee;
+  border-color: rgba(255,255,255,0.25);
+}
+
 #date_container, .tables {
   border: 2px solid transparent;
   border-radius: 5px;

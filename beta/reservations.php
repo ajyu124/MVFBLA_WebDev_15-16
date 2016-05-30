@@ -51,8 +51,8 @@ require_once("header.php");
 				<div id="tables_container">
 					<table class="tables">
 						<tbody>
-							<tr>
-								<td rowspan="2" class="tables-table">2</td>
+							<tr class="top">
+								<td rowspan="2" class="tables-table left">2</td>
 								<td></td>
 								<td rowspan="2" class="tables-table">3</td>
 								<td></td>
@@ -61,7 +61,7 @@ require_once("header.php");
 								<td></td>
 								<td rowspan="2" class="tables-table">5</td>
 								<td></td>
-								<td rowspan="2" class="tables-table">6</td>
+								<td rowspan="2" class="tables-table right">6</td>
 							</tr>
 							<tr>
 								<td></td>
@@ -71,6 +71,7 @@ require_once("header.php");
 								<td></td>
 							</tr>
 							<tr>
+								<td class="left"></td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -79,11 +80,10 @@ require_once("header.php");
 								<td></td>
 								<td></td>
 								<td></td>
-								<td></td>
-								<td></td>
+								<td class="right"></td>
 							</tr>
 							<tr>
-								<td></td>
+								<td class="left"></td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -92,19 +92,10 @@ require_once("header.php");
 								<td></td>
 								<td rowspan="2" class="tables-table">8</td>
 								<td></td>
-								<td rowspan="2" class="tables-table">9</td>
+								<td rowspan="2" class="tables-table right">9</td>
 							</tr>
 							<tr>
-								<td rowspan="2" colspan="3" class="tables-table">1</td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td rowspan="2" colspan="3" class="tables-table left">1</td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -116,17 +107,26 @@ require_once("header.php");
 								<td></td>
 								<td></td>
 								<td></td>
-								<td rowspan="2" colspan="2" class="tables-table">10</td>
 								<td></td>
-								<td rowspan="2" colspan="2" class="tables-table">11</td>
+								<td class="right"></td>
+							</tr>
+							<tr>
+								<td class="left down"></td>
+								<td class="down"></td>
+								<td class="down"></td>
+								<td class="down"></td>
+								<td></td>
+								<td rowspan="2" colspan="2" class="tables-table down">10</td>
+								<td></td>
+								<td rowspan="2" colspan="2" class="tables-table right down">11</td>
 							</tr>
 							<tr>
 								<td></td>
 								<td></td>
 								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td class="right down"></td>
+								<td class="down"></td>
+								<td class="down"></td>
 							</tr>
 						</tbody>
 					</table>
