@@ -146,8 +146,8 @@
 			$("#s #email").css("border-color", "rgba(192,0,0,0.5)");
 			good = false;
 		}
-		if ($("#s #message").val().trim() == "") {
-			$("#s #message").css("border-color", "rgba(192,0,0,0.5)");
+		if ($("#s #review").val().trim() == "") {
+			$("#s #review").css("border-color", "rgba(192,0,0,0.5)");
 			good = false;
 		}
 		return good;
@@ -166,7 +166,7 @@
 			"data": {
 				"name": $("#form #name").val(),
 				"email": $("#form #email").val(),
-				"message": $("#form #message").val(),
+				"message": $("#form #review").val(),
 				"submit": false
 			}
 		}).done(function () {

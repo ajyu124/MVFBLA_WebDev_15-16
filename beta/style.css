@@ -576,7 +576,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   overflow: hidden;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -930,6 +930,10 @@ there.
   display: inline-block;
 }
 
+#nav a {
+  border: 0;
+}
+
 #nav nav a[href="#pages"] {
   text-decoration: none;
   -moz-transition: background-color 0.2s ease-in-out;
@@ -1107,9 +1111,6 @@ there.
   text-transform: uppercase;
 }
 */
-.window h2 {
-  margin-bottom: 2rem;
-}
 .window p {
   font-family: "Montserrat";
   text-transform: uppercase;
@@ -1351,7 +1352,6 @@ a.special:active:before {
 }
 .box h3 {
   font-size: 1.15em;
-  margin-bottom: 2rem;
 }
 /******* Tables *******/
 .table-wrapper {
