@@ -1416,12 +1416,11 @@ blockquote {
 .plain {
   border: 0;
 }
+h6.plain {
+  margin-bottom: 0;
+}
 .pushtop {
   margin-top: 3rem;
-}
-h6 {
-  border: 0;
-  margin-bottom: 0;
 }
 .u-center {
   text-align: center;
@@ -1705,8 +1704,23 @@ hr.cata-contain {
   cursor: inherit;
   text-align: left;
 }
-.menu dt {
+.menu h6 {
+  text-align: right;
+}
+.menu dl {
+  /**/
+}
+.menu .menu-name {
+  float: left;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.menu .menu-price {
+  float: right;
+}
+.menu dd {
   clear: both;
+  font-weight: 200;
 }
 .menu .money {
   float: right;

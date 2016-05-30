@@ -32,7 +32,7 @@ require_once("header.php");
 				<li class="subcata bakery cookies"><a href="#cookies" class="button small">Cookies</a></li>
 				<li class="subcata restaurant appetizers"><a href="#appetizers" class="button small">Appetizers</a></li>
 				<li class="subcata restaurant soups"><a href="#soups" class="button small">Soups</a></li>
-				<li class="subcata restaurant entrees"><a href="#entrees" class="button small">Entrees</a></li>
+				<li class="subcata restaurant entrees"><a href="#entrees" class="button small">Entrées</a></li>
 				<li class="subcata restaurant desserts"><a href="#desserts" class="button small">Desserts</a></li>
 				<li class="subcata fullmenu menu"><a href="#menu" class="button small">Menu</a></li>
 			</ul>
@@ -47,7 +47,118 @@ require_once("header.php");
 						<dd>Golden-fried mozzarella cheese, topped with an alfredo drizzle. Served with marinara sauce.</dd>
 						<dt class="menu-name">Cheese Stuffed Meatballs</dt>
 						<dt class="menu-price">$3.99</dt>
-						<dd>100% Organic beef meatballs, stuffed with mozzarella cheese. Served in mariara sauce, drizzled with alfredo.</dd>
+						<dd>100% organic beef meatballs, stuffed with mozzarella cheese. Served in mariara sauce.</dd>
+						<dt class="menu-name">5 Italian Cheese Fonduta</dt>
+						<dt class="menu-price">$4.99</dt>
+						<dd>Oven-baked smoked provolone, parmesan, fontina, mozzarella and romano cheeses served with breadsticks.</dd>
+						<dt class="menu-name">Classic Calamari</dt>
+						<dt class="menu-price">$4.99</dt>
+						<dd>Lightly breaded and fried. Served with parmesan-peppercorn sauce and marinara.</dd>
+						<dt class="menu-name">Stuffed Mushrooms</dt>
+						<dt class="menu-price">$4.99</dt>
+						<dd>Baked with clams, parmesan, romano, mozzarella and herb breadcrumbs.</dd>
+						<dt class="menu-name">Lasagna Fritta</dt>
+						<dt class="menu-price">$4.99</dt>
+						<dd>Fried parmesan-breaded lasagna, topped with parmesan cheese and marinara sauce, with creamy alfredo.</dd>
+						<dt class="menu-name">Shrimp Scampi Fritta</dt>
+						<dt class="menu-price">$4.99</dt>
+						<dd>Lightly breaded and fried, tossed with garlic and a white wine butter sauce.</dd>
+						<dt class="menu-name">Spicy Shrimp Scampi Fritta</dt>
+						<dt class="menu-price">$4.99</dt>
+						<dd>Lightly breaded and fried, tossed with garlic and a spicy cherry pepper sauce.</dd>
+						<dt class="menu-name">Crispy Risotto Bites</dt>
+						<dt class="menu-price">$3.99</dt>
+						<dd>Bite-sized blend of Italian cheeses and rice, lightly fried and served with marinara sauce.</dd>
+						<dt class="menu-name">Bruschetta Caprese</dt>
+						<dt class="menu-price">$3.99</dt>
+						<dd>Traditional topping of roma tomatoes, fresh mozzarella, basil extra-virgin olive oil and balsamic drizzle. Served with breadstick crostini.</dd>
+						<dt class="menu-name">Breadsticks</dt>
+						<dt class="menu-price">$2.99</dt>
+						<dd>Enjoy a freshly-baked favorite. Add an extra dozen or half dozen breadsticks to your order.</dd>
+					</dl>
+					<h6>Entrées</h6>
+					<dl>
+						<dt class="menu-name">Zuppa Toscana</dt>
+						<dt class="menu-price">$5.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Pasta e Fagioli</dt>
+						<dt class="menu-price">$5.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Chicken & Gnocchi</dt>
+						<dt class="menu-price">$5.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Minestrone</dt>
+						<dt class="menu-price">$5.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Chicken Piccata</dt>
+						<dt class="menu-price">$8.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Tilapia Piccata</dt>
+						<dt class="menu-price">$9.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Citrus Chicken Sorrento</dt>
+						<dt class="menu-price">$8.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Garlic Rosemary Chicken</dt>
+						<dt class="menu-price">$8.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Ravioli di Portobello</dt>
+						<dt class="menu-price">$7.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Chicken Caesar Salad</dt>
+						<dt class="menu-price">$11.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Chicken Scampi</dt>
+						<dt class="menu-price">$8.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Chicken Parmigiana</dt>
+						<dt class="menu-price">$8.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Eggplant Parmigiana</dt>
+						<dt class="menu-price">$9.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Fettuccine Alfredo</dt>
+						<dt class="menu-price">$7.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Chicken Alfredo</dt>
+						<dt class="menu-price">$8.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Shrimp Alfredo</dt>
+						<dt class="menu-price">$9.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Cheese Ravioli</dt>
+						<dt class="menu-price">$7.99</dt>
+						<dd></dd>
+						<dt class="menu-name">5 Cheese Ziti al Forno</dt>
+						<dt class="menu-price">$8.99</dt>
+						<dd></dd>
+					</dl>
+					<h6>Desserts</h6>
+					<dl>
+						<dt class="menu-name">Warm Apple Crostata</dt>
+						<dt class="menu-price">$2.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Seasonal Sicilian Cheesecake</dt>
+						<dt class="menu-price">$1.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Tiramisu</dt>
+						<dt class="menu-price">$2.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Lemon Cream Cake</dt>
+						<dt class="menu-price">$1.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Black Tie Mousse Cake</dt>
+						<dt class="menu-price">$1.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Chocolate Mousse Cake</dt>
+						<dt class="menu-price">$1.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Zeppoli</dt>
+						<dt class="menu-price">$2.99</dt>
+						<dd></dd>
+						<dt class="menu-name">Dolcini</dt>
+						<dt class="menu-price">$2.99</dt>
+						<dd></dd>
 					</dl>
 				</div>
 				<div class="menu-item bakery breads" style="background-image:url('/images/menu/132.jpg')">
