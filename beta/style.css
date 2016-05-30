@@ -1689,5 +1689,5 @@ hr.cata-contain {
 }
 
 .subcata, .menu-item {
-  display: none;
+  visibility: hidden;
 }
