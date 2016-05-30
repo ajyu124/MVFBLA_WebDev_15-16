@@ -11,7 +11,7 @@ require_once("header.php");
 	<div class="row">
 		<div class="columns twelve">
 			<p>Despite being a relatively new bakery and restaurant, Panettiere Bakery has received recognition from multiple sources. Not only are we a Grade A Restaurant in terms of service and cleanliness per Santa Clara County Laws, but we are an Occupational Health and Safety Association (OSHA) recognized establishment for our service and safety to employees and customers. Furthermore, we have also received a couple of awards which you can see below!</p>
-			<h4>Awards</h4>
+			<h4 class="pushtop">Awards</h4>
 		</div>
 	</div>
 	<div class="row">
