@@ -16,6 +16,7 @@ require_once("header.php");
 <header class="window half" id="windowHome">
 	<div class="container">
 		<h2>Admin Panel</h2>
+		<p>View logs, check messages, update pages, and collect reservations.</p>
 	</div>
 </header>
 <div class="container">
@@ -35,8 +36,8 @@ if ($result = $conn->query("SELECT * FROM `items` WHERE `type`='contact' ORDER B
 		echo "<td>" . $row['id'] . "</td>";
 		echo "<td>" . $row['timestamp'] . "</td>";
 		echo "<td>" . $row['name'] . "</td>";
-		echo "<td>" . $row['contact'] . "</td>";
-		echo "<td>" . $row['message'] . "</td>";
+		echo "<td>" . str_replace("\n", "<br>", $row['contact']) . "</td>";
+		echo "<td>" . str_replace("\n", "<br>", $row['message']) . "</td>";
 		echo "</tr>";
 	}
     $result->close();
@@ -62,8 +63,8 @@ if ($result = $conn->query("SELECT * FROM `items` WHERE `type`='review' ORDER BY
 		echo "<td>" . $row['id'] . "</td>";
 		echo "<td>" . $row['timestamp'] . "</td>";
 		echo "<td>" . $row['name'] . "</td>";
-		echo "<td>" . $row['contact'] . "</td>";
-		echo "<td>" . $row['message'] . "</td>";
+		echo "<td>" . str_replace("\n", "<br>", $row['contact']) . "</td>";
+		echo "<td>" . str_replace("\n", "<br>", $row['message']) . "</td>";
 		echo "</tr>";
 	}
     $result->close();
@@ -89,8 +90,8 @@ if ($result = $conn->query("SELECT * FROM `items` WHERE `type`='reservation' ORD
 		echo "<td>" . $row['id'] . "</td>";
 		echo "<td>" . $row['timestamp'] . "</td>";
 		echo "<td>" . $row['name'] . "</td>";
-		echo "<td>" . $row['contact'] . "</td>";
-		echo "<td>" . $row['message'] . "</td>";
+		echo "<td>" . str_replace("\n", "<br>", $row['contact']) . "</td>";
+		echo "<td>" . str_replace("\n", "<br>", $row['message']) . "</td>";
 		echo "</tr>";
 	}
     $result->close();
