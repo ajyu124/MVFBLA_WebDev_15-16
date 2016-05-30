@@ -1581,7 +1581,7 @@ li.ui-timepicker-selected .ui-timepicker-duration,
   margin: 5px 0;
   padding: 0 7px;
   box-sizing: border-box;
-  width: 50%;
+  width: 49%;
 }
 .subcats .subcata .button {
   color: #fff;
@@ -1589,7 +1589,8 @@ li.ui-timepicker-selected .ui-timepicker-duration,
   border-color: rgba(255,255,255,0.25);
 
   margin: 0;
-  padding: 0 28px;
+  /*padding: 0 28px;*/
+  text-align: center;
   width: 100%;
   height: 28px;
   line-height: 28px;
@@ -1625,6 +1626,9 @@ li.ui-timepicker-selected .ui-timepicker-duration,
   }
   .subcats .subcata {
     width: auto;
+  }
+  .subcats .subcata .button {
+    padding: 0 28px;
   }
 }
 
