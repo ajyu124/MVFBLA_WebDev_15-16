@@ -1705,6 +1705,12 @@ hr.cata-contain {
   cursor: inherit;
   text-align: left;
 }
+.menu dt {
+  clear: both;
+}
+.menu .money {
+  float: right;
+}
 /*
 .subcata, .menu-item {
   visibility: hidden;
