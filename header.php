@@ -1,3 +1,22 @@
+<?php
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$server = $url["host"];
+$username = $url["user"];
+$password = $url["pass"];
+$db = substr($url["path"], 1);
+
+$conn = new mysqli($server, $username, $password, $db);
+if ($conn->connect_errno) { /*fail quietly*/ echo "<!--conn fail:" . $conn->connect_error . "-->\n";  }
+else {
+	if ($conn->query("INSERT INTO `views` (ip, useragent, page) VALUES ('" . (getenv('HTTP_CLIENT_IP')?:getenv('HTTP_X_FORWARDED_FOR')?:getenv('HTTP_X_FORWARDED')?:getenv('HTTP_FORWARDED_FOR')?:getenv('HTTP_FORWARDED')?:getenv('REMOTE_ADDR')?:"UNKNOWN") . "', '" . $_SERVER['HTTP_USER_AGENT'] . "', '" . $_SERVER['PHP_SELF'] . "')") === TRUE) {
+		//congrats
+	}
+	else {
+		/*fail quietly*/ echo "<!--query fail:" . $conn->error . "-->\n";
+	}
+}
+$conn->close();
+?>
 <!DOCTYPE html>
 <html>
 	<head>
