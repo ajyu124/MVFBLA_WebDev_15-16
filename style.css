@@ -1213,7 +1213,7 @@ ul.contact li:before {
   line-height: 2.6em;
   position: absolute;
   text-align: center;
-  top: 0;
+  top: -0.35em;
   width: 2.5em;
 }
 ul.contact li:first-child {
