@@ -103,7 +103,7 @@
 			good = false;
 		}
 		if ($(".tables-table.active").length < 1) {
-			$("#r .tables").css("border-color", "rgba(192,0,0,0.5)");
+			$("#r #tables_container").css("border-color", "rgba(192,0,0,0.5)");
 			good = false;
 		}
 		return good;

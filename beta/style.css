@@ -1501,7 +1501,7 @@ h6.plain {
   border-color: rgba(255,255,255,0.25);
 }
 
-#date_container, .tables {
+#date_container, #tables_container {
   border: 2px solid transparent;
   border-radius: 5px;
 }
