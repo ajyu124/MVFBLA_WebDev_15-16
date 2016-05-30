@@ -1,4 +1,5 @@
-(function ($) {
+(function ($, run) {
+	if (!run) return;
 	var nav = false;
 	$("#pages").css("opacity", 0) && setTimeout(function () {$("#pages").css("display", "none");}, 350);
 	$("#pages").click(function () {
@@ -14,9 +15,10 @@
 		t = t ? $("#pages").css("opacity", 0) && setTimeout(function () {$("#pages").css("display", "none");}, 350) : $("#pages").css("display", "flex") && setTimeout(function () {$("#pages").css("opacity", 1);}, 1);
 		nav = !nav;
 	});
-})($);
+})($, true);
 
-(function($) {
+(function($, run) {
+	if (!run) return;
 	var validate = function() {
 		var good = true;
 		if ($("#form #name").val().trim() == "") {
@@ -57,9 +59,10 @@
 			$("#form .actions").hide();
 		});
 	});
-})($);
+})($, true);
 
-(function ($) {
+(function ($, run) {
+	if (!run) return;
 	$("#r_time").timepicker({
 		'scrollDefault': 'now',
 		'disableTimeRanges': [
@@ -69,9 +72,10 @@
 		]
 	});
 	$('#date_container').datepicker({});
-})($);
+})($, $("#r_time").length > 0);
 
-(function($) {
+(function($, run) {
+	if (!run) return;
 	$(".tables-table").click(function () {
 		$(".tables-table.active").removeClass("active");
 		$(this).addClass("active");
@@ -135,9 +139,10 @@
 			//$("#r .row").hide();
 		});
 	});
-})($);
+})($, $("#r").length > 0);
 
-(function($) {
+(function($, run) {
+	if (!run) return;
 	var validate = function() {
 		var good = true;
 		if ($("#s #s_name").val().trim() == "") {
@@ -176,9 +181,10 @@
 			$("#s").html("<div class='row'><div class='columns twelve'><p>Thank you for your review! We will get back to you soon, and possibly feature your review on the Panettiere website!</p></div></div>");
 		});
 	});
-})($);
+})($, $("#s").length > 0);
 
-(function ($) {
+(function ($, run) {
+	if (!run) return;
 	$(".menu-item").hide();
 	$(".cata.bakery").click(function () { $(".subcata:not(.bakery)").hide().siblings(".bakery").show().first().children().click(); });
 	$(".cata.restaurant").click(function () { $(".subcata:not(.restaurant)").hide().siblings(".restaurant").show().first().children().click(); });
@@ -197,4 +203,4 @@
 	else
 		$(".cata.fullmenu").click();
 	$(".subcata." + location.hash.substring(1)).click();
-})($);
+})($, $(".menu-item").length > 0);
