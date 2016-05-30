@@ -45,7 +45,7 @@
 			return;
 		}
 		$.ajax({
-			"url": "_process.php", //TODO
+			"url": "/_process.php",
 			"type": "POST",
 			"data": {
 				"type": "contact",
@@ -123,7 +123,7 @@
 			return;
 		}
 		$.ajax({
-			"url": "_process.php", //TODO
+			"url": "/_process.php",
 			"type": "POST",
 			"data": {
 				"type": "reservation",
@@ -171,7 +171,7 @@
 			return;
 		}
 		$.ajax({
-			"url": "_process.php", //TODO
+			"url": "/_process.php",
 			"type": "POST",
 			"data": {
 				"type": "review",

@@ -4,7 +4,6 @@
 		<h5>Want to check us out?</h5>
 		<div class="row">
 			<div class="columns six">
-				<!--</p>-->
 				<ul class="contact">
 					<li class="fa-home">
 						<a href="https://goo.gl/maps/pD5L1BYHgpE2">21840 McClellan Rd <br>
@@ -49,15 +48,8 @@
 		</ul>
 	</div>
 </footer>
-	<!-- Scripts -->
-	<!--<script src="/assets/js/skel.min.js"></script>-->
 	<script src="/assets/js/jquery.all.js"></script>
-	<script src="script.js"></script>
-	<!--<script src="/assets/js/jquery.scrollex.min.js"></script>-->
-	<!--<script src="/assets/js/util.js"></script>-->
-	<!--<script src="/assets/js/main.js"></script>-->
-	<!--<script src="/assets/js/contact.js"></script>-->
-	
+	<script src="/script.js"></script>
 	<!--
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

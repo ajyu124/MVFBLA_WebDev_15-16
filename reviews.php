@@ -15,7 +15,6 @@ require_once("header.php");
 		</div>
 	</div>
 	<div class="row">
-		<!--<h4>Awards</h4>-->
 		<div class="columns six box">
 			<h3>Best New Bakery - American Bakers Association 2016</h3>
 			<p>We are proud to announce that we received the "Best New Bakery Award" from the American Bakers Association for our food and service to our customers. We thank the American Bakers Association greatly for this award.</p>
