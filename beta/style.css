@@ -1573,37 +1573,60 @@ li.ui-timepicker-selected .ui-timepicker-duration,
 
 .cata-contain {
   margin: 1rem 0;
+  text-align: center;
 }
 /* Larger than phablet */
 @media (min-width: 550px) {
   .cata-contain {
     margin: 2.5rem 0;
+    text-align: left;
   }
+  .subcats {
+    margin-top: 0;
+  }
+  /*
+  .subcats .subcata {
+    width: auto;
+  }
+  .subcats .subcata .button {
+    width: 100%;
+  }
+  */
 }
 
 .subcats {
   list-style: none;
   text-align: center;
+  margin-top: 3rem;
 }
 .subcats .subcata {
   display: inline-block;
+  margin: 0 7px;
+  box-sizing: border-box;
+  width: auto;
 }
 .subcats .subcata .button {
   color: #fff;
   border-color: #eee;
   border-color: rgba(255,255,255,0.25);
+
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
 }
 .subcats .subcata .button:hover {
   text-decoration: none;
   border-color: #bbb;
   border-color: rgba(255,255,255,0.15);
 }
+/*
 .button.small {
-  height: 28px;
-  line-height: 28px;
   padding: 0 20px;
   margin: 0 7px;
 }
+*/
 .button.active {
   background: #bbb;
   background: rgba(255,255,255,0.4);
