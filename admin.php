@@ -111,7 +111,7 @@ else {
 					</thead>
 					<tbody>
 <?php
-if ($result = $conn->query("SELECT * FROM `views` ORDER BY `id` DESC LIMIT 20")) {
+if ($result = $conn->query("SELECT * FROM `views` ORDER BY `id` DESC LIMIT 50")) {
 	while ($row = $result->fetch_array()) {
 		echo "<tr>";
 		echo "<td>" . $row['id'] . "</td>";
