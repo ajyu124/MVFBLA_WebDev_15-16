@@ -47,7 +47,7 @@ require_once("header.php");
 				<div id="date_container"></div>
 			</div>
 			<div class="columns six">
-				<label for="tables">Table</label>
+				<label class="pushtop" for="tables">Table</label>
 				<div id="tables_container">
 					<table class="tables">
 						<tbody>
