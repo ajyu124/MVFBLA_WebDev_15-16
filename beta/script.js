@@ -189,7 +189,9 @@
 		location.hash = "#bakery";
 	if ($(".subcata." + location.hash.substring(1)).hasClass("bakery"))
 		$(".cata.bakery").click();
-	else
+	else if ($(".subcata." + location.hash.substring(1)).hasClass("restaurant"))
 		$(".cata.restaurant").click();
+	else
+		$(".cata.fullmenu").click();
 	$(".subcata." + location.hash.substring(1)).click();
 })($);
