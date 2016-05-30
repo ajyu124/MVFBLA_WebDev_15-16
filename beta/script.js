@@ -134,3 +134,43 @@
 		});
 	});
 })($);
+
+(function($) {
+	var validate = function() {
+		var good = true;
+		if ($("#s #name").val().trim() == "") {
+			$("#s #name").css("border-color", "rgba(192,0,0,0.5)");
+			good = false;
+		}
+		if ($("#s #email").val().trim() == "" || $("#form #email").val().indexOf("@") == -1 || $("#form #email").val().indexOf(".") == -1) {
+			$("#s #email").css("border-color", "rgba(192,0,0,0.5)");
+			good = false;
+		}
+		if ($("#s #message").val().trim() == "") {
+			$("#s #message").css("border-color", "rgba(192,0,0,0.5)");
+			good = false;
+		}
+		return good;
+	}
+
+	$("#s input[type='submit']").click(function () {
+		$("#s input").attr("disabled", true);
+		var ok = validate();
+		if (!ok) {
+			$("#s input").attr("disabled", false);
+			return;
+		}
+		$.ajax({
+			"url": "/_contact.php",
+			"type": "POST",
+			"data": {
+				"name": $("#form #name").val(),
+				"email": $("#form #email").val(),
+				"message": $("#form #message").val(),
+				"submit": false
+			}
+		}).done(function () {
+			$("#s").html("<div class='row'><div class='columns twelve'><p>Thank you for your review! We will get back to you soon, and possibly feature your review on the Panettiere website!</p></div></div>");
+		});
+	});
+})($);

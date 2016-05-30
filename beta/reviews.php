@@ -63,6 +63,33 @@ require_once("header.php");
 			</blockquote>
 		</div>
 	</div>
+	<form id="s" class="form">
+		<div class="row">
+			<div class="columns twelve">
+				<h4 class="pushtop">Submit your Review</h4>
+					<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="columns six">
+				<label for="s_name">Name</label>
+				<input type="text" name="s_name" id="s_name" placeholder="Name" required />
+			</div>
+			<div class="columns six">
+				<label for="s_email">Email</label>
+				<input type="email" name="s_email" id="s_email" placeholder="Email" required />
+			</div>
+		</div>
+		<div class="row">
+			<div class="columns twelve">
+				<label for="s_review">Review</label>
+				<textarea name="s_review" id="s_review" rows="3" placeholder="Review" required></textarea>
+				<ul class="actions">
+					<li><input type="submit" value="Submit Review" /></li>
+				</ul>
+			</div>
+		</div>
+	</form>
 </div>
 <?php
 require_once("footer.php");
