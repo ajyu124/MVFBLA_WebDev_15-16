@@ -1652,3 +1652,11 @@ li.ui-timepicker-selected .ui-timepicker-duration,
   width: 30%;
   height: 35px;
 }
+.menu-item.menu {
+  display: block;
+  width: auto;
+  height: auto;
+  box-shadow: none;
+  background: none;
+  cursor: inherit;
+}

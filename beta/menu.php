@@ -15,8 +15,8 @@ require_once("header.php");
 	</div>
 	<div class="row">
 		<div class="columns three">
-			<h6 class="cata-contain"><a href="#restaurant" class="cata restaurant">Restaurant</a></h6>
 			<h6 class="cata-contain"><a href="#bakery" class="cata bakery">Bakery</a></h6>
+			<h6 class="cata-contain"><a href="#restaurant" class="cata restaurant">Restaurant</a></h6>
 			<hr class="cata-contain" />
 			<h6 class="cata-contain"><a href="#fullmenu" class="cata fullmenu">Full Menu</a></h6>
 		</div>

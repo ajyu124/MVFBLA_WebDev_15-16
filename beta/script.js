@@ -186,7 +186,7 @@
 		$(".menu-item:not(."+$(this).attr("href").substring(1)+")").hide().siblings("."+$(this).attr("href").substring(1)).fadeIn();
 	});
 	if (location.hash.substring(1) == "")
-		location.hash = "#breads";
+		location.hash = "#bakery";
 	if ($(".subcata." + location.hash.substring(1)).hasClass("bakery"))
 		$(".cata.bakery").click();
 	else
