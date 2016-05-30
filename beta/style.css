@@ -1102,8 +1102,24 @@ there.
 }
 
 #windowHome {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/headerHome.jpg") center center / cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/home.jpg") center center / cover no-repeat fixed;
 }
+#windowAbout {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/about.jpg") center center / cover no-repeat fixed;
+}
+#windowMenu {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/menu.jpg") center center / cover no-repeat fixed;
+}
+#windowReservations {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/reservations.jpg") center center / cover no-repeat fixed;
+}
+#windowLoyalty {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/loyalty.jpg") center center / cover no-repeat fixed;
+}
+#windowReviews {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/header/reviews.jpg") center center / cover no-repeat fixed;
+}
+
 
 .footer {
   margin-top: 5em;

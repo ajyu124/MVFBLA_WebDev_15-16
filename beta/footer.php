@@ -39,7 +39,6 @@
 							<textarea name="message" id="message" rows="3" class="u-full-width" placeholder="What's on your mind?" required></textarea>
 						</div>
 					</div>
-					<!--<div class="field"></div>-->
 					<input class="actions" type="submit" value="Send Message" />
 			</form>
 			</div>
