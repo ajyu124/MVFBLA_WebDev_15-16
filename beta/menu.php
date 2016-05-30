@@ -37,7 +37,19 @@ require_once("header.php");
 				<li class="subcata fullmenu menu"><a href="#menu" class="button small">Menu</a></li>
 			</ul>
 			<div class="u-center">
-				<div class="menu-item fullmenu menu">Special</div>
+				<div class="menu-item fullmenu menu">
+					<h3>Panettiere Restaurant Menu</h3>
+					<p>Open for lunch &amp; dinner, every day.</p><br>
+					<h4>Appetizers</h4>
+					<dl>
+						<dt>Fried Mozzarella</dt>
+						<dt class="money">$3.99</dt>
+						<dd>Golden-fried mozzarella cheese, topped with an alfredo drizzle. Served with marinara sauce.</dd>
+						<dt>Cheese Stuffed Meatballs</dt>
+						<dt class="money">$3.99</dt>
+						<dd>100% Organic beef meatballs, stuffed with mozzarella cheese. Served in mariara sauce, drizzled with alfredo.</dd>
+					</dl>
+				</div>
 				<div class="menu-item bakery breads" style="background-image:url('/images/menu/132.jpg')">
 					<div class="details">
 						<span class="name">Country</span>

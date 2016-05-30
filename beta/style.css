@@ -1703,6 +1703,7 @@ hr.cata-contain {
   box-shadow: none;
   background: none;
   cursor: inherit;
+  text-align: left;
 }
 /*
 .subcata, .menu-item {
