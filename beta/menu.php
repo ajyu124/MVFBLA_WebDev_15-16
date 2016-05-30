@@ -137,28 +137,28 @@ require_once("header.php");
 					<dl>
 						<dt class="menu-name">Warm Apple Crostata</dt>
 						<dt class="menu-price">$2.99</dt>
-						<dd></dd>
+						<dd>Northern Spy apples baked inside a crispy pastry crust. Served warm and topped with vanilla ice cream and a caramel drizzle.</dd>
 						<dt class="menu-name">Seasonal Sicilian Cheesecake</dt>
 						<dt class="menu-price">$1.99</dt>
-						<dd></dd>
+						<dd>Our ricotta cheesecake features a shortbread cookie crust and is topped with seasonal strawberry sauce.</dd>
 						<dt class="menu-name">Tiramisu</dt>
 						<dt class="menu-price">$2.99</dt>
-						<dd></dd>
+						<dd>The classic Italian dessert. A layer of creamy custard set atop espresso-soaked ladyfingers.</dd>
 						<dt class="menu-name">Lemon Cream Cake</dt>
 						<dt class="menu-price">$1.99</dt>
-						<dd></dd>
+						<dd>Delicate white cake and lemon cream filling with a vanilla crumb topping.</dd>
 						<dt class="menu-name">Black Tie Mousse Cake</dt>
 						<dt class="menu-price">$1.99</dt>
-						<dd></dd>
+						<dd>Rich layers of chocolate cake, dark chocolate cheesecake and creamy custard mousse.</dd>
 						<dt class="menu-name">Chocolate Mousse Cake</dt>
 						<dt class="menu-price">$1.99</dt>
-						<dd></dd>
+						<dd>Rich, chocolate-filled layers of cake, cheesecake and creamy custard mousse.</dd>
 						<dt class="menu-name">Zeppoli</dt>
 						<dt class="menu-price">$2.99</dt>
-						<dd></dd>
+						<dd>Soft, traditional Italian doughnuts dusted with powdered sugar, served with chocolate sauce for dipping.</dd>
 						<dt class="menu-name">Dolcini</dt>
 						<dt class="menu-price">$2.99</dt>
-						<dd></dd>
+						<dd>Piccoli Dolci "little dessert treats", layered with cake, mousse, pastry creams and berries.</dd>
 					</dl>
 				</div>
 				<div class="menu-item bakery breads" style="background-image:url('/images/menu/132.jpg')">
