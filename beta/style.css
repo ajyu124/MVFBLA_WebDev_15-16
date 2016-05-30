@@ -1615,7 +1615,7 @@ li.ui-timepicker-selected .ui-timepicker-duration,
   text-align: center;
 }
 hr.cata-contain {
-  opacity: 0;
+  opacity: 0.25;
 }
 
 /* Larger than phablet */
@@ -1623,9 +1623,6 @@ hr.cata-contain {
   .cata-contain {
     margin: 2.5rem 0;
     text-align: left;
-  }
-  hr.cata-contain {
-    opacity: 1;
   }
   .subcats {
     margin-top: 0;
@@ -1678,7 +1675,7 @@ hr.cata-contain {
   bottom: 0;
   right: 0;
   text-align: right;
-  padding: 5px;
+  padding: 5px 10px 5px 5px;
   width: 30%;
   height: 35px;
 }
@@ -1689,4 +1686,8 @@ hr.cata-contain {
   box-shadow: none;
   background: none;
   cursor: inherit;
+}
+
+.subcata, .menu-item {
+  display: none;
 }

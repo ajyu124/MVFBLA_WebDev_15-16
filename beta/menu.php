@@ -10,7 +10,7 @@ require_once("header.php");
 <div class="container">
 	<div class="row">
 		<div class="columns twelve">
-			<p>Hungry <em>right now</em>? Order Panettiere food directly to your door with services like <a href="https://doordash.com">DoorDash</a>, who we are partnered with.</p>
+			<p>Hungry <em>right now</em>? Order food directly to your door with services like <a href="https://doordash.com">DoorDash</a>, a delivery service Panettiere is partnered with.</p>
 		</div>
 	</div>
 	<div class="row">
