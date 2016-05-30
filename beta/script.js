@@ -34,7 +34,8 @@
 		return good;
 	}
 
-	$("#form input[type='submit']").click(function () {
+	$("#form input[type='submit']").click(function (e) {
+		e.preventDefault();
 		$("#form input").attr("disabled", true);
 		var ok = validate();
 		if (!ok) {
@@ -108,7 +109,8 @@
 		return good;
 	}
 
-	$("#r input[type='submit']").click(function () {
+	$("#r input[type='submit']").click(function (e) {
+		e.preventDefault();
 		$("#r input").attr("disabled", true);
 		var ok = validate();
 		if (!ok) {
@@ -153,7 +155,8 @@
 		return good;
 	}
 
-	$("#s input[type='submit']").click(function () {
+	$("#s input[type='submit']").click(function (e) {
+		e.preventDefault();
 		$("#s input").attr("disabled", true);
 		var ok = validate();
 		if (!ok) {
