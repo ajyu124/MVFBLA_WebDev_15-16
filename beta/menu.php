@@ -76,7 +76,7 @@ require_once("header.php");
 						<dt class="menu-price">$2.99</dt>
 						<dd>Enjoy a freshly-baked favorite. Add an extra dozen or half dozen breadsticks to your order.</dd>
 					</dl>
-					<h6>Entrées</h6>
+					<h6>Soups</h6>
 					<dl>
 						<dt class="menu-name">Zuppa Toscana</dt>
 						<dt class="menu-price">$5.99</dt>
@@ -90,6 +90,9 @@ require_once("header.php");
 						<dt class="menu-name">Minestrone</dt>
 						<dt class="menu-price">$5.99</dt>
 						<dd>Hearty vegetables like spinach, zucchini, carrots and celery simmer with northern beans and shell pasta in a light tomato broth.</dd>
+					</dl>
+					<h6>Entrées</h6>
+					<dl>
 						<dt class="menu-name">Chicken Piccata</dt>
 						<dt class="menu-price">$8.99</dt>
 						<dd>Grilled chicken topped with a lemon garlic butter sauce, sundried tomatoes and capers. Served with parmesan-crusted zucchini.</dd>
