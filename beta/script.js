@@ -137,7 +137,7 @@
 				"submit": true
 			}
 		}).done(function () {
-			$("#r").html("<div class='row'><div class='columns twelve'><p>Your reservation has been placed!</p></div></div>");
+			$("#r").html("<div class='row'><div class='columns twelve'><p class='pushtop'>Thank you! Your reservation has been placed.</p></div></div>");
 			//$("#r .row").hide();
 		});
 	});
@@ -181,7 +181,7 @@
 				"submit": true
 			}
 		}).done(function () {
-			$("#s").html("<div class='row'><div class='columns twelve'><p>Thank you for your review! We will get back to you soon, and possibly feature your review on the Panettiere website!</p></div></div>");
+			$("#s").html("<div class='row'><div class='columns twelve'><p class='pushtop'>Thank you for your review! We will get back to you soon, and possibly feature your review on the Panettiere website!</p></div></div>");
 		});
 	});
 })($, $("#s").length > 0);

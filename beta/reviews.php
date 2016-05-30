@@ -84,7 +84,7 @@ require_once("header.php");
 			<div class="columns twelve">
 				<label for="s_review">Review</label>
 				<textarea name="s_review" id="s_review" rows="3" class="u-full-width" placeholder="Review" required></textarea>
-				<input class="actions pushtop" type="submit" value="Send Message" />
+				<input class="actions pushtop" type="submit" value="Submit Review" />
 			</div>
 		</div>
 	</form>

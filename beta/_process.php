@@ -2,24 +2,19 @@
 //CREATE TABLE `items` ( `id` INT NOT NULL AUTO_INCREMENT , `timestamp` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , `type` VARCHAR(15) NOT NULL , `name` TEXT NULL , `contact` TEXT NULL , `message` TEXT NULL , PRIMARY KEY (`id`));
 if (isset($_POST["submit"])) {
 	$type = $_POST["type"];
-	$name = "";
-	$contact = "";
+	$name = $_POST["name"];
+	$contact = $_POST["email"];
 	$message = "";
 	switch ($type) {
 		case "contact":
-			$name = $_POST["name"];
-			$contact = $_POST["email"];
 			$message = $_POST["message"];
 			break;
 		case "review":
-			$name = $_POST["s_name"];
-			$contact = $_POST["s_email"];
-			$message = $_POST["s_review"];
+			$message = $_POST["review"];
 			break;
 		case "reservation":
-			$name = $_POST["r_name"];
-			$contact = $_POST["r_email"] . "\n" . $_POST["r_phone"];
-			$message = "Guests: " . $_POST["r_guests"] . "\nWhen: " . $_POST["r_date"] . " " . $_POST["r_time"] . "\nTable: " . $_POST["r_table"];
+			$contact .= "\n" . $_POST["phone"];
+			$message = "Guests: " . $_POST["guests"] . "\nWhen: " . $_POST["date"] . " " . $_POST["time"] . "\nTable: " . $_POST["table"];
 			break;
 	}
 
