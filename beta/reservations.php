@@ -19,7 +19,7 @@ require_once("header.php");
 			<p>Additionally, you can reserve a table via our online interface immediately.</p>
 		</div>
 	</div>
-	<form class="form">
+	<form id="r" class="form">
 		<div class="row">
 			<div class="columns six">
 				<label for="r_name">Name</label>
@@ -36,8 +36,8 @@ require_once("header.php");
 				<input type="email" name="r_email" id="r_email" class="u-full-width" placeholder="Email" required />
 			</div>
 			<div class="columns six">
-				<label for="r_number">Phone Number</label>
-				<input type="tel" name="r_number" id="r_number" class="u-full-width" placeholder="Phone Number" required />
+				<label for="r_phone">Phone Number</label>
+				<input type="tel" name="r_phone" id="r_phone" class="u-full-width" placeholder="Phone Number" required />
 			</div>
 		</div>
 		<div class="row">
@@ -131,6 +131,11 @@ require_once("header.php");
 						</tbody>
 					</table>
 				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="columns twelve">
+				<input class="actions" type="submit" value="Reserve your table" />
 			</div>
 		</div>
 	</form>

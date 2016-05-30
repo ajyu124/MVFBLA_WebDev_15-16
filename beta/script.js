@@ -20,15 +20,15 @@
 	var validate = function() {
 		var good = true;
 		if ($("#form #name").val().trim() == "") {
-			$("#form #name").css("border-color", "rgba(0,0,0,0.5)");
+			$("#form #name").css("border-color", "rgba(192,0,0,0.5)");
 			good = false;
 		}
 		if ($("#form #email").val().trim() == "" || $("#form #email").val().indexOf("@") == -1 || $("#form #email").val().indexOf(".") == -1) {
-			$("#form #email").css("border-color", "rgba(0,0,0,0.5)");
+			$("#form #email").css("border-color", "rgba(192,0,0,0.5)");
 			good = false;
 		}
 		if ($("#form #message").val().trim() == "") {
-			$("#form #message").css("border-color", "rgba(0,0,0,0.5)");
+			$("#form #message").css("border-color", "rgba(192,0,0,0.5)");
 			good = false;
 		}
 		return good;
@@ -68,4 +68,69 @@
 		]
 	});
 	$('#date_container').datepicker({});
+})($);
+
+(function($) {
+	$(".tables-table").click(function () {
+		$(".tables-table.active").removeClass("active");
+		$(this).addClass("active");
+	});
+	var validate = function() {
+		var good = true;
+		if ($("#r #r_name").val().trim() == "") {
+			$("#r #r_name").css("border-color", "rgba(192,0,0,0.5)");
+			good = false;
+		}
+		if ($("#r #r_guests").val().trim() == "") {
+			$("#r #r_guests").css("border-color", "rgba(192,0,0,0.5)");
+			good = false;
+		}
+		if ($("#r #r_email").val().trim() == "") {
+			$("#r #r_email").css("border-color", "rgba(192,0,0,0.5)");
+			good = false;
+		}
+		if ($("#r #r_phone").val().trim() == "") {
+			$("#r #r_phone").css("border-color", "rgba(192,0,0,0.5)");
+			good = false;
+		}
+		if ($("#r #r_time").val().trim() == "") {
+			$("#r #r_time").css("border-color", "rgba(192,0,0,0.5)");
+			good = false;
+		}
+		if ($('#r #date_container').datepicker('getDate') == null) {
+			$("#r #date_container").css("border-color", "rgba(192,0,0,0.5)");
+			good = false;
+		}
+		if ($(".tables-table.active").length < 1) {
+			$("#r .tables").css("border-color", "rgba(192,0,0,0.5)");
+			good = false;
+		}
+		return good;
+	}
+
+	$("#r input[type='submit']").click(function () {
+		$("#r input").attr("disabled", true);
+		var ok = validate();
+		if (!ok) {
+			$("#r input").attr("disabled", false);
+			return;
+		}
+		$.ajax({
+			"url": "/_contact.php", //TODO
+			"type": "POST",
+			"data": {
+				"name": $("#r #r_name").val(),
+				"guests": $("#r #r_guests").val()
+				"email": $("#r #r_email").val(),
+				"phone": $("#r #r_phone").val(),
+				"time": $("#r #r_time").val(),
+				"date": $('#r #date_container').datepicker('getDate').toDateString(),
+				"table": $(".tables-table.active").text().trim()
+				"submit": false //TODO
+			}
+		}).done(function () {
+			$("#r").html("<div class='row'><div class='columns twelve'><p>Your reservation has been placed!</p></div></div>");
+			$("#r .row").hide();
+		});
+	});
 })($);

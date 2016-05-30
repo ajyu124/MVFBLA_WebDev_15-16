@@ -1431,8 +1431,6 @@ h6 {
 }
 .tables {
   margin: 2rem auto;
-  border: 0;
-  color: #333;
 }
 .tables tr {
   background: none !important;
@@ -1456,10 +1454,15 @@ h6 {
   height: 6rem;
 }
 
+#date_container, .tables {
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
 
 .tables-table {
   background: rgba(255,255,255,0.15);
   transition: all 400ms ease;
+  cursor: pointer;
 }
 .tables-table:hover {
   background: rgba(255,255,255,0.5);
@@ -1467,7 +1470,6 @@ h6 {
 .tables-table.active {
   background: rgba(255,255,255,0.6);
 }
-
 #date_container > div {
   margin: 0 auto;
 }
