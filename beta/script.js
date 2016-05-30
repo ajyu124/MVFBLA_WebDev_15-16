@@ -49,7 +49,7 @@
 				"name": $("#form #name").val(),
 				"email": $("#form #email").val(),
 				"message": $("#form #message").val(),
-				"submit": true
+				"submit": false //TODO
 			}
 		}).done(function () {
 			$("#form p").css("margin-top", "30px").html("Thank you for your comments! We'll be in touch shortly.");
@@ -170,7 +170,7 @@
 				"name": $("#form #name").val(),
 				"email": $("#form #email").val(),
 				"message": $("#form #review").val(),
-				"submit": false
+				"submit": false //TODO
 			}
 		}).done(function () {
 			$("#s").html("<div class='row'><div class='columns twelve'><p>Thank you for your review! We will get back to you soon, and possibly feature your review on the Panettiere website!</p></div></div>");
