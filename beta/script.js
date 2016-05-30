@@ -177,9 +177,9 @@
 
 (function ($) {
 	$(".menu-item").hide();
-	$(".cata.bakery").click(function () { $(".subcata.restaurant").hide().siblings(".bakery").show().first().children().click(); });
-	$(".cata.restaurant").click(function () { $(".subcata.bakery").hide().siblings(".restaurant").show().first().children().click(); });
-	$(".cata.fullmenu").click(function () { $(".subcata.fullmenu").hide().siblings(".fullmenu").show().first().children().click(); });
+	$(".cata.bakery").click(function () { $(".subcata:not(.bakery)").hide().siblings(".bakery").show().first().children().click(); });
+	$(".cata.restaurant").click(function () { $(".subcata:not(.restaurant)").hide().siblings(".restaurant").show().first().children().click(); });
+	$(".cata.fullmenu").click(function () { $(".subcata:not(.fullmenu)").hide().siblings(".fullmenu").show().first().children().click(); });
 	$(".subcata a").click(function () {
 		$(this).parent().siblings().children().removeClass("active");
 		$(this).addClass("active");
