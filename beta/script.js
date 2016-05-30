@@ -140,16 +140,16 @@
 (function($) {
 	var validate = function() {
 		var good = true;
-		if ($("#s #name").val().trim() == "") {
-			$("#s #name").css("border-color", "rgba(192,0,0,0.5)");
+		if ($("#s #s_name").val().trim() == "") {
+			$("#s #s_name").css("border-color", "rgba(192,0,0,0.5)");
 			good = false;
 		}
-		if ($("#s #email").val().trim() == "" || $("#form #email").val().indexOf("@") == -1 || $("#form #email").val().indexOf(".") == -1) {
-			$("#s #email").css("border-color", "rgba(192,0,0,0.5)");
+		if ($("#s #s_email").val().trim() == "" || $("#form #email").val().indexOf("@") == -1 || $("#form #email").val().indexOf(".") == -1) {
+			$("#s #s_email").css("border-color", "rgba(192,0,0,0.5)");
 			good = false;
 		}
-		if ($("#s #review").val().trim() == "") {
-			$("#s #review").css("border-color", "rgba(192,0,0,0.5)");
+		if ($("#s #s_review").val().trim() == "") {
+			$("#s #s_review").css("border-color", "rgba(192,0,0,0.5)");
 			good = false;
 		}
 		return good;
