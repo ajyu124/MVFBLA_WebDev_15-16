@@ -692,6 +692,7 @@ input[type="button"].button-primary:focus {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 input[type="email"],
 input[type="number"],
+input[type="time"],
 input[type="search"],
 input[type="text"],
 input[type="tel"],
@@ -709,6 +710,7 @@ select {
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
+input[type="time"],
 input[type="search"],
 input[type="text"],
 input[type="tel"],
@@ -724,6 +726,7 @@ textarea {
   padding-bottom: 6px; }
 input[type="email"]:focus,
 input[type="number"]:focus,
+input[type="time"]:focus,
 input[type="search"]:focus,
 input[type="text"]:focus,
 input[type="tel"]:focus,
@@ -1427,6 +1430,10 @@ h6 {
   min-width: 12rem;
 }
 
+#date_container > div {
+  margin: 0 auto;
+}
+
 /*!
  * Timepicker jQuery
  */
@@ -1491,8 +1498,4 @@ li.ui-timepicker-selected .ui-timepicker-duration,
 .ui-timepicker-list li.ui-timepicker-disabled:hover,
 .ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
   background: #f2f2f2;
-}
-
-#date_container {
-  margin: 0 auto;
 }
