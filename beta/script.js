@@ -66,5 +66,5 @@
 			['11pm', '5:30am']
 		]
 	});
-	$('#date_container div').datepicker({});
+	$('#date_container').datepicker({});
 })($);

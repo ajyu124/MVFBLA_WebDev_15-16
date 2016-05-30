@@ -42,10 +42,9 @@ require_once("header.php");
 		</div>
 		<div class="row">
 			<div class="columns six">
-				<label for="r_time">Time</label>
+				<label for="r_time">Date &amp; Time</label>
 				<input type="time" name="r_time" id="r_time" class="u-full-width" placeholder="Time" required />
-				<label for="r_date">Date</label>
-				<div id="date_container"><div></div></div>
+				<div id="date_container"></div>
 			</div>
 			<div class="columns six">
 				<div id="table_container"></div>
