@@ -120,12 +120,12 @@
 			"type": "POST",
 			"data": {
 				"name": $("#r #r_name").val(),
-				"guests": $("#r #r_guests").val()
+				"guests": $("#r #r_guests").val(),
 				"email": $("#r #r_email").val(),
 				"phone": $("#r #r_phone").val(),
 				"time": $("#r #r_time").val(),
 				"date": $('#r #date_container').datepicker('getDate').toDateString(),
-				"table": $(".tables-table.active").text().trim()
+				"table": $(".tables-table.active").text().trim(),
 				"submit": false //TODO
 			}
 		}).done(function () {
