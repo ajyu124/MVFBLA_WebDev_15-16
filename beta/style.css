@@ -1484,21 +1484,21 @@ h6.plain {
   }
 }
 
-.tables .left {
-  border-left: 2px solid #eee;
+.tables {
+  border-color: 0px solid #eee;
   border-color: rgba(255,255,255,0.25);
+}
+.tables .left {
+  border-left: 2px solid inherit;
 }
 .tables .right {
-  border-right: 2px solid #eee;
-  border-color: rgba(255,255,255,0.25);
+  border-right: 2px solid inherit;
 }
 .tables .up {
-  border-top: 2px solid #eee;
-  border-color: rgba(255,255,255,0.25);
+  border-top: 2px solid inherit;
 }
 .tables .down {
-  border-bottom: 2px solid #eee;
-  border-color: rgba(255,255,255,0.25);
+  border-bottom: 2px solid inherit;
 }
 
 #date_container, .tables {
