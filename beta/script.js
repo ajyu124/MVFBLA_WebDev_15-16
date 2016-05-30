@@ -130,7 +130,7 @@
 			}
 		}).done(function () {
 			$("#r").html("<div class='row'><div class='columns twelve'><p>Your reservation has been placed!</p></div></div>");
-			$("#r .row").hide();
+			//$("#r .row").hide();
 		});
 	});
 })($);
