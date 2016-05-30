@@ -1570,3 +1570,40 @@ li.ui-timepicker-selected .ui-timepicker-duration,
 .ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
   background: #f2f2f2;
 }
+
+.cata-contain {
+  margin: 1rem 0;
+}
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .cata-contain {
+    margin: 2.5rem 0;
+  }
+}
+
+.subcats {
+  list-style: none;
+  text-align: center;
+}
+.subcats .subcata {
+  display: inline-block;
+}
+.subcats .subcata .button {
+  color: #fff;
+  border-color: #eee;
+  border-color: rgba(255,255,255,0.25);
+}
+.subcats .subcata .button:hover {
+  text-decoration: none;
+  border-color: #bbb;
+  border-color: rgba(255,255,255,0.15);
+}
+.button.small {
+  height: 28px;
+  line-height: 28px;
+  padding: 0 20px;
+}
+.button.active {
+  background: #bbb;
+  background: rgba(255,255,255,0.4);
+}

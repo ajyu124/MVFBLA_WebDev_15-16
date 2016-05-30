@@ -177,12 +177,13 @@
 
 (function ($) {
 	$(".menu-item").hide();
-	$(".cata.bakery").click(function () { $(".subcata.restaurant").hide2().siblings(".bakery").showInst().first().children().click(); });
-	$(".cata.restaurant").click(function () { $(".subcata.bakery").hide2().siblings(".restaurant").showInst().first().children().click(); });
+	$(".cata.bakery").click(function () { $(".subcata.restaurant").hide().siblings(".bakery").show().first().children().click(); });
+	$(".cata.restaurant").click(function () { $(".subcata.bakery").hide().siblings(".restaurant").show().first().children().click(); });
+	$(".cata.fullmenu").click(function () { $(".subcata.fullmenu").hide().siblings(".fullmenu").show().first().children().click(); });
 	$(".subcata a").click(function () {
-		$(this).parent().siblings().children().removeClass("special");
-		$(this).addClass("special");
-		$(".menu-item:not(."+$(this).attr("href").substring(1)+")").hide2().siblings("."+$(this).attr("href").substring(1)).show2();
+		$(this).parent().siblings().children().removeClass("active");
+		$(this).addClass("active");
+		$(".menu-item:not(."+$(this).attr("href").substring(1)+")").hide().siblings("."+$(this).attr("href").substring(1)).fadeIn();
 	});
 	if (location.hash.substring(1) == "")
 		location.hash = "#breads";

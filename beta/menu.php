@@ -15,10 +15,10 @@ require_once("header.php");
 	</div>
 	<div class="row">
 		<div class="columns three">
-			<p><a href="#restaurant" class="cata restaurant">Restaurant</a></p>
-			<p><a href="#bakery" class="cata bakery">Bakery</a></p>
-			<hr></div>
-			<p><a href="#fullmenu" class="cata fullmenu">Full Menu</a></p>
+			<h6 class="cata-contain"><a href="#restaurant" class="cata restaurant">Restaurant</a></h6>
+			<h6 class="cata-contain"><a href="#bakery" class="cata bakery">Bakery</a></h6>
+			<hr class="cata-contain" />
+			<h6 class="cata-contain"><a href="#fullmenu" class="cata fullmenu">Full Menu</a></h6>
 		</div>
 		<div class="columns nine">
 			<ul class="actions small subcats">
@@ -27,7 +27,7 @@ require_once("header.php");
 				<li class="subcata bakery pastries"><a href="#pastries" class="button small">Pastries</a></li>
 				<li class="subcata bakery croissants"><a href="#croissants" class="button small">Croissants</a></li>
 				<li class="subcata bakery muffins"><a href="#muffins" class="button small">Muffins</a></li>
-				<li class="subcata bakery rollsbuns"><a href="#rollsbuns" class="button small">Rolls & Buns</a></li>
+				<li class="subcata bakery rollsbuns"><a href="#rollsbuns" class="button small">Rolls &amp; Buns</a></li>
 				<li class="subcata bakery scones"><a href="#scones" class="button small">Scones</a></li>
 				<li class="subcata bakery cookies"><a href="#cookies" class="button small">Cookies</a></li>
 				<li class="subcata restaurant appetizers"><a href="#appetizers" class="button small">Appetizers</a></li>
