@@ -1086,6 +1086,7 @@ there.
   height: 100vh;
   padding-top: 45vh;
   margin-bottom: 5em;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 .window.half {
   height: 50rem;
@@ -1207,7 +1208,7 @@ ul.contact li:before {
   font-size: 0.8em;
   height: 2.5em;
   left: 0;
-  line-height: 2.35em;
+  line-height: 2.6em;
   position: absolute;
   text-align: center;
   top: 0;
