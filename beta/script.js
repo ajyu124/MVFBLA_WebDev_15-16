@@ -176,7 +176,7 @@
 })($);
 
 (function ($) {
-	//$(".menu-item").hide();
+	$(".menu-item").hide();
 	$(".cata.bakery").click(function () { $(".subcata:not(.bakery)").hide().siblings(".bakery").show().first().children().click(); });
 	$(".cata.restaurant").click(function () { $(".subcata:not(.restaurant)").hide().siblings(".restaurant").show().first().children().click(); });
 	$(".cata.fullmenu").click(function () { $(".subcata:not(.fullmenu)").hide().siblings(".fullmenu").show().first().children().click(); });
