@@ -1584,14 +1584,9 @@ li.ui-timepicker-selected .ui-timepicker-duration,
   .subcats {
     margin-top: 0;
   }
-  /*
   .subcats .subcata {
     width: auto;
   }
-  .subcats .subcata .button {
-    width: 100%;
-  }
-  */
 }
 
 .subcats {
@@ -1601,9 +1596,9 @@ li.ui-timepicker-selected .ui-timepicker-duration,
 }
 .subcats .subcata {
   display: inline-block;
-  margin: 0 7px;
+  margin: 5px 7px;
   box-sizing: border-box;
-  width: auto;
+  width: 50%;
 }
 .subcats .subcata .button {
   color: #fff;
