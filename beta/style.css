@@ -1695,6 +1695,9 @@ hr.cata-contain {
   width: 30%;
   height: 35px;
 }
+.subcata.menu {
+  opacity: 0;
+}
 .menu-item.menu {
   display: block;
   width: auto;
@@ -1703,9 +1706,10 @@ hr.cata-contain {
   background: none;
   cursor: inherit;
   text-align: left;
+  margin-top: -3rem;
 }
 .menu h6 {
-  text-align: right;
+  text-align: center;
 }
 .menu dl {
   /**/

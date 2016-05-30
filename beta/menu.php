@@ -15,10 +15,10 @@ require_once("header.php");
 	</div>
 	<div class="row">
 		<div class="columns three">
-			<h6 class="cata-contain"><a href="#bakery" class="cata bakery">Bakery</a></h6>
-			<h6 class="cata-contain"><a href="#restaurant" class="cata restaurant">Restaurant</a></h6>
+			<h6 class="cata-contain plain"><a href="#bakery" class="cata bakery">Bakery</a></h6>
+			<h6 class="cata-contain plain"><a href="#restaurant" class="cata restaurant">Restaurant</a></h6>
 			<hr class="cata-contain" />
-			<h6 class="cata-contain"><a href="#fullmenu" class="cata fullmenu">Full Menu</a></h6>
+			<h6 class="cata-contain plain"><a href="#fullmenu" class="cata fullmenu">Full Menu</a></h6>
 		</div>
 		<div class="columns nine">
 			<ul class="actions small subcats">
@@ -38,7 +38,7 @@ require_once("header.php");
 			</ul>
 			<div class="u-center">
 				<div class="menu-item fullmenu menu">
-					<h4>Panettiere Restaurant Menu</h4>
+					<h4 class="plain">Panettiere Restaurant Menu</h4>
 					<p>Serving you delicious food since 2015. Open for lunch &amp; dinner, every day.</p><br>
 					<h6>Appetizers</h6>
 					<dl>
@@ -50,7 +50,7 @@ require_once("header.php");
 						<dd>100% organic beef meatballs, stuffed with mozzarella cheese. Served in mariara sauce.</dd>
 						<dt class="menu-name">5 Italian Cheese Fonduta</dt>
 						<dt class="menu-price">$4.99</dt>
-						<dd>Oven-baked smoked provolone, parmesan, fontina, mozzarella and romano cheeses served with breadsticks.</dd>
+						<dd>Oven-baked smoked provolone, parmesan, fontina, mozzarella and romano cheeses served with breadstick crostini.</dd>
 						<dt class="menu-name">Classic Calamari</dt>
 						<dt class="menu-price">$4.99</dt>
 						<dd>Lightly breaded and fried. Served with parmesan-peppercorn sauce and marinara.</dd>
