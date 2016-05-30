@@ -45,13 +45,14 @@
 			return;
 		}
 		$.ajax({
-			"url": "/_contact.php",
+			"url": "_process.php", //TODO
 			"type": "POST",
 			"data": {
+				"type": "contact",
 				"name": $("#form #name").val(),
 				"email": $("#form #email").val(),
 				"message": $("#form #message").val(),
-				"submit": false //TODO
+				"submit": true
 			}
 		}).done(function () {
 			$("#form p").css("margin-top", "30px").html("Thank you for your comments! We'll be in touch shortly.");
@@ -122,9 +123,10 @@
 			return;
 		}
 		$.ajax({
-			"url": "/_contact.php", //TODO
+			"url": "_process.php", //TODO
 			"type": "POST",
 			"data": {
+				"type": "reservation",
 				"name": $("#r #r_name").val(),
 				"guests": $("#r #r_guests").val(),
 				"email": $("#r #r_email").val(),
@@ -132,7 +134,7 @@
 				"time": $("#r #r_time").val(),
 				"date": $('#r #date_container').datepicker('getDate').toDateString(),
 				"table": $(".tables-table.active").text().trim(),
-				"submit": false //TODO
+				"submit": true
 			}
 		}).done(function () {
 			$("#r").html("<div class='row'><div class='columns twelve'><p>Your reservation has been placed!</p></div></div>");
@@ -169,13 +171,14 @@
 			return;
 		}
 		$.ajax({
-			"url": "/_contact.php",
+			"url": "_process.php", //TODO
 			"type": "POST",
 			"data": {
+				"type": "review",
 				"name": $("#form #name").val(),
 				"email": $("#form #email").val(),
 				"message": $("#form #review").val(),
-				"submit": false //TODO
+				"submit": true
 			}
 		}).done(function () {
 			$("#s").html("<div class='row'><div class='columns twelve'><p>Thank you for your review! We will get back to you soon, and possibly feature your review on the Panettiere website!</p></div></div>");
