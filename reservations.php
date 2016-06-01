@@ -43,7 +43,7 @@ require_once("header.php");
 		<div class="row">
 			<div class="columns six">
 				<label for="r_time">Date &amp; Time</label>
-				<input type="time" name="r_time" id="r_time" class="u-full-width" placeholder="Time" required />
+				<input type="text" name="r_time" id="r_time" class="u-full-width" placeholder="Time" required /><!--HOTFIX-->
 				<div id="date_container"></div>
 			</div>
 			<div class="columns six">
