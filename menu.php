@@ -47,7 +47,7 @@ require_once("header.php");
 						<dd>Golden-fried mozzarella cheese, topped with an alfredo drizzle. Served with marinara sauce.</dd>
 						<dt class="menu-name">Cheese Stuffed Meatballs</dt>
 						<dt class="menu-price">$3.99</dt>
-						<dd>100% organic beef meatballs, stuffed with mozzarella cheese. Served in mariara sauce.</dd>
+						<dd>100% organic beef meatballs, stuffed with mozzarella cheese. Served in marinara sauce.</dd>
 						<dt class="menu-name">5 Italian Cheese Fonduta</dt>
 						<dt class="menu-price">$4.99</dt>
 						<dd>Oven-baked smoked provolone, parmesan, fontina, mozzarella and romano cheeses served with breadstick crostini.</dd>
