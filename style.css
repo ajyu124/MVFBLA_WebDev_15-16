@@ -1652,6 +1652,14 @@ hr.cata-contain {
   .subcats .subcata .button {
     padding: 0 28px;
   }
+  #mcr.sticky > .three {
+    position: fixed;
+    top: 80px;
+    width: 17.6%;
+  }
+  #mcr.sticky > .nine {
+    margin-left: 26%;
+  }
 }
 
 .menu-item {
@@ -1737,11 +1745,3 @@ hr.cata-contain {
   visibility: hidden;
 }
 */
-#mcr.sticky > .three {
-  position: fixed;
-  top: 80px;
-  width: 17.6%;
-}
-#mcr.sticky > .nine {
-  margin-left: 26%;
-}
