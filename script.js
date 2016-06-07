@@ -192,7 +192,7 @@
 		if ($(window).scrollTop() > 550)
 			$("#mcr").addClass("sticky");
 		else
-			$("#mc").removeClass("sticky");
+			$("#mcr").removeClass("sticky");
 	});
 	//
 	$(".menu-item").hide();
