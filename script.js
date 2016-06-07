@@ -189,8 +189,12 @@
 (function ($, run) {
 	if (!run) return;
 	$(window).on('scroll', function () {
-		if ($(window).scrollTop() > 550)
-			$("#mcr").addClass("sticky");
+		if ($(window).width() > 960) {
+			if ($(window).scrollTop() > 550)
+				$("#mcr").addClass("sticky");
+			else
+				$("#mcr").removeClass("sticky");
+		}
 		else
 			$("#mcr").removeClass("sticky");
 	});

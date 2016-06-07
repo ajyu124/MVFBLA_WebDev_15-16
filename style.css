@@ -1740,6 +1740,7 @@ hr.cata-contain {
 #mcr.sticky > .three {
   position: fixed;
   top: 80px;
+  width: 17.6%;
 }
 #mcr.sticky > .nine {
   margin-left: 26%;
