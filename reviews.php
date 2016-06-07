@@ -70,17 +70,15 @@ require_once("header.php");
 			</div>
 		</div>
 		<div class="row">
-			<div class="columns six">
+			<div class="columns four">
 				<label for="s_name">Name</label>
 				<input type="text" name="s_name" id="s_name" class="u-full-width" placeholder="Name" required />
 			</div>
-			<div class="columns six">
+			<div class="columns four">
 				<label for="s_email">Email</label>
 				<input type="email" name="s_email" id="s_email" class="u-full-width" placeholder="Email" required />
 			</div>
-		</div>
-		<div class="row">
-			<div class="columns twelve">
+			<div class="columns four">
 				<label for="s_rating">Rating</label>
 				<div class="stars">
 					<span data-val="1">&#9733;</span>
