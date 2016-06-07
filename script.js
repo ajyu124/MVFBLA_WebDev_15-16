@@ -148,7 +148,7 @@
 
 	$(".stars span").click(function () {
 		$(this).addClass("active").siblings().removeClass("active");
-		$("$s_rating").val($(this).attr("data-val"));
+		$("#s_rating").val($(this).attr("data-val"));
 	});
 
 	var validate = function() {
@@ -183,7 +183,7 @@
 				"type": "review",
 				"name": $("#s #s_name").val(),
 				"email": $("#s #s_email").val(),
-				"message": $("#s $s_rating").val() + "\n" + $("#s #s_review").val(),
+				"message": $("#s #s_rating").val() + "\n" + $("#s #s_review").val(),
 				"submit": true
 			}
 		}).done(function () {
