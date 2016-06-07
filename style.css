@@ -1374,6 +1374,8 @@ a.special:active:before {
   .img {
     width: 40%;
   }
+}
+@media (min-width: 1000px) {
   .hidesmall {
     display: inherit;
   }
