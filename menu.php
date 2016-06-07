@@ -13,7 +13,7 @@ require_once("header.php");
 			<p>Hungry <em>right now</em>? Order food directly to your door with services like <a href="https://doordash.com">DoorDash</a>, a delivery service Panettiere is partnered with.</p>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row" id="mcr">
 		<div class="columns three">
 			<h6 class="cata-contain plain"><a href="#bakery" class="cata bakery">Bakery</a></h6>
 			<h6 class="cata-contain plain"><a href="#restaurant" class="cata restaurant">Restaurant</a></h6>

@@ -918,7 +918,7 @@ there.
   width: 100%;
   z-index: 100;
 
-  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
 #nav img {
@@ -1737,3 +1737,10 @@ hr.cata-contain {
   visibility: hidden;
 }
 */
+#mcr.sticky > .three {
+  position: fixed;
+  top: 80px;
+}
+#mcr.sticky > .nine {
+  margin-left: 26%;
+}

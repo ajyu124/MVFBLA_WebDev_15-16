@@ -188,6 +188,13 @@
 
 (function ($, run) {
 	if (!run) return;
+	$(window).on('scroll', function () {
+		if ($(window).scrollTop() > 550)
+			$("#mcr").addClass("stick");
+		else
+			$("#mc").removeClass("stick");
+	});
+	//
 	$(".menu-item").hide();
 	$(".cata.bakery").click(function () { $(".subcata:not(.bakery)").hide().siblings(".bakery").show().first().children().click(); });
 	$(".cata.restaurant").click(function () { $(".subcata:not(.restaurant)").hide().siblings(".restaurant").show().first().children().click(); });
