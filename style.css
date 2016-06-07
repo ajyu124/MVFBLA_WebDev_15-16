@@ -1367,9 +1367,15 @@ a.special:active:before {
 .img.right {
   float: right;
 }
+.hidesmall {
+  display: none;
+}
 @media (min-width: 550px) {
   .img {
     width: 40%;
+  }
+  .hidesmall {
+    display: inherit;
   }
 }
 
