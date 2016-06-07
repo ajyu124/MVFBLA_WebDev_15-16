@@ -124,7 +124,7 @@ require_once("header.php");
 								<td></td>
 								<td></td>
 								<td></td>
-								<td class="right"></td>
+								<td class="right door"><div></div></td>
 								<td class="down"></td>
 								<td class="down"></td>
 							</tr>

@@ -1503,6 +1503,20 @@ h6.plain {
   border-bottom: 2px solid #eee;
   border-color: rgba(255,255,255,0.25);
 }
+.tables .door {
+  border-width: 4px;
+  border-color: rgba(255,255,255,0.4);
+}
+.tables .door > div {
+  width: 100%;
+  height: 100%;
+  max-width: 3rem;
+  float: right;
+  border-top-left-radius: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
 
 #date_container, #tables_container {
   border: 2px solid transparent;
@@ -1655,7 +1669,7 @@ hr.cata-contain {
   #mcr.sticky > .three {
     position: fixed;
     top: 80px;
-    width: 17.6%;
+    width: 14.4%;
   }
   #mcr.sticky > .nine {
     margin-left: 26%;
