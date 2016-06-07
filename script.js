@@ -190,9 +190,9 @@
 	if (!run) return;
 	$(window).on('scroll', function () {
 		if ($(window).scrollTop() > 550)
-			$("#mcr").addClass("stick");
+			$("#mcr").addClass("sticky");
 		else
-			$("#mc").removeClass("stick");
+			$("#mc").removeClass("sticky");
 	});
 	//
 	$(".menu-item").hide();
