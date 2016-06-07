@@ -1356,6 +1356,23 @@ a.special:active:before {
 .box h3 {
   font-size: 1.15em;
 }
+
+.img {
+  width: 100%;
+  height: auto;
+}
+.img.left {
+  float: left;
+}
+.img.right {
+  float: right;
+}
+@media (min-width: 550px) {
+  .img {
+    width: 40%;
+  }
+}
+
 /******* Tables *******/
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
