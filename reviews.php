@@ -28,8 +28,8 @@ require_once("header.php");
 		<div class="columns twelve">
 			<h4 class="pushtop">Reviews</h4>
 			<p>Additional reviews may be found on Yelp, available <a href="https://yelp.com">online</a> or on your mobile device, available on <a href="https://itunes.apple.com/us/app/yelp/id284910350">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yelp.android">Android.</a></p>
-			<h6 class="plain">"Astounding gluten free food"</h6>
-			<blockquote> It's not very easy to find gluten free restaurants and bakeries today, and it's even harder to find ones that have 
+			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "Astounding gluten free food"</h6>
+			<blockquote>It's not very easy to find gluten free restaurants and bakeries today, and it's even harder to find ones that have 
 			good tasting food as well! I can safely say that I have found <i>the best</i> gluten free restaurant and bakery in the Bay Area, 
 			and perhaps even California. The pastries are amazing and the entrees are even better. Their customer service is stellar and they
 			have really found a unique way to merge with technology through their mobile stamp card. I fully recommend that everyone visit this bakery.
@@ -37,25 +37,25 @@ require_once("header.php");
 			- Mark C, Santa Clara, CA
 			</blockquote>
 				
-			<h6 class="plain">"I have never been disappointed"</h6>
+			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "I have never been disappointed"</h6>
 			<blockquote>I cannot say enough about this bakery! I've been coming here for a couple months now and have never been disappointed! Everything always tastes amazing and looks just as good as it tastes. However, today I'm specifically writing because of the service I received. I was ordering at the last minute, having to go back and forth with my committee for a project on what to order and had a special request for them to accommodate our schedule and without hesitation, they were able to deliver! Like I said, I've been a customer for many times and will continue coming back and referring my family and friends because they've earned the business! Keep up the great work!! 
 			<br><br> 
 			- Jon S, San Jose, CA
 			</blockquote>
 				
-			<h6 class="plain">"Customer Service is great!!"</h6>
+			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "Customer Service is great!!"</h6>
 			<blockquote>Amazing. ..the people are all about customer service and the treats look delicious... I can hardly wait to bite into my chocolate croissant...my blueberry muffin and my crunchy oatmeal cookie. My only problem is which to eat first! Oh, my mouth is watering just writing this review! 
 			<br><br>
 			- Jane C, San Francisco, CA
 			</blockquote>
 
-			<h6 class="plain">"Just. Delicious."</h6>
+			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "Just. Delicious."</h6>
 			<blockquote>Panettiere is delish! I literally bought one of everything for my office and they all loved them. I got croissants for myself and they seriously taste better than ones that they sell at professional bakeries. Even my boss agrees with me! So amazing. I'll be coming back for sure.
 			<br><br> 
 			- Kavita G, Saratoga, CA
 			</blockquote>
 
-			<h6 class="plain">"Best bakery in the Bay Area!"</h6>
+			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "Best bakery in the Bay Area!"</h6>
 			<blockquote>Excellent service! Excellent food! Wonderful pastries with a very cozy atmosphere. The only setback is that there was a long line and wait around dinner time which was slightly annoying. Overall, an excellent place to eat and very inexpensive too!
 			<br><br>
 			- Guillermo F, Cupertino, CA
@@ -77,6 +77,19 @@ require_once("header.php");
 			<div class="columns six">
 				<label for="s_email">Email</label>
 				<input type="email" name="s_email" id="s_email" class="u-full-width" placeholder="Email" required />
+			</div>
+		</div>
+		<div class="row">
+			<div class="columns twelve">
+				<label for="s_rating">Rating</label>
+				<div class="stars">
+					<span data-val="1">&#9733;</span>
+					<span data-val="2">&#9733;</span>
+					<span data-val="3">&#9733;</span>
+					<span data-val="4">&#9733;</span>
+					<span data-val="5" class="active">&#9733;</span>
+				</div>
+				<input type="hidden" name="s_rating" id="s_rating" value="5" />
 			</div>
 		</div>
 		<div class="row">

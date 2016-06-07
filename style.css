@@ -1429,6 +1429,22 @@ h6.plain {
   text-align: center;
 }
 
+.stars span {
+  opacity: 1.0;
+  cursor: pointer;
+  float: left;
+  padding: 0 1px;
+}
+.stars .active ~ span {
+  opacity: 0.15;
+}
+.stars:hover span {
+  opacity: 1.0;
+}
+.stars:hover span:hover ~ span {
+  opacity: 0.15;
+}
+
 /*!
  * Datepicker for Bootstrap v1.6.1 (https://github.com/eternicode/bootstrap-datepicker)
  *

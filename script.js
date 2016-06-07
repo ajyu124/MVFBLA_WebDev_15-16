@@ -145,6 +145,12 @@
 
 (function($, run) {
 	if (!run) return;
+
+	$(".stars span").click(function () {
+		$(this).addClass("active").siblings().removeClass("active");
+		$("$s_rating").val($(this).attr("data-val"));
+	});
+
 	var validate = function() {
 		var good = true;
 		if ($("#s #s_name").val().trim() == "") {
@@ -177,7 +183,7 @@
 				"type": "review",
 				"name": $("#s #s_name").val(),
 				"email": $("#s #s_email").val(),
-				"message": $("#s #s_review").val(),
+				"message": $("#s $s_rating").val() + "\n" + $("#s #s_review").val(),
 				"submit": true
 			}
 		}).done(function () {
@@ -188,13 +194,14 @@
 
 (function ($, run) {
 	if (!run) return;
+
 	$(window).on('scroll', function () {
 		if ($(window).scrollTop() > 550)
 			$("#mcr").addClass("sticky");
 		else
 			$("#mcr").removeClass("sticky");
 	});
-	//
+
 	$(".menu-item").hide();
 	$(".cata.bakery").click(function () { $(".subcata:not(.bakery)").hide().siblings(".bakery").show().first().children().click(); });
 	$(".cata.restaurant").click(function () { $(".subcata:not(.restaurant)").hide().siblings(".restaurant").show().first().children().click(); });
