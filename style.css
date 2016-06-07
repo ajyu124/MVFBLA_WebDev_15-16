@@ -1262,6 +1262,12 @@ select:focus,
 textarea:focus {
   border-color: rgb(236,229,206);
 }
+input[type="submit"]:disabled,
+input[type="reset"]:disabled,
+input[type="button"]:disabled,
+button:disabled {
+  opacity: 0.25;
+}
 .form input[type="submit"] {
   color: #fff;
 }
