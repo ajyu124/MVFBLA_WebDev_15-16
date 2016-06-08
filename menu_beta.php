@@ -10,7 +10,7 @@ require_once("header.php");
 <div class="container">
 	<div class="row">
 		<div class="columns twelve">
-			<p>Hungry <em>right now</em>? Order food for pick up or to be delivered directly to your door from this online menu.</p>
+			<p>Hungry <em>right now</em>? Order food online from this menu for in-store pick up, or use services such as <a href="http://doordash.com">DoorDash</a> to get food delivered to your door instantly.</p>
 		</div>
 	</div>
 	<div class="row" id="mcr">

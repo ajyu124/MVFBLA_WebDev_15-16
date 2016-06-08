@@ -246,7 +246,7 @@
 		$("#modal .modal-content h5").html($(this).children(".details").children(".name").html());
 		$("#modal .modal-content p").html(description($(this).children(".details").children(".name").html()));
 		$("#modal .modal-footer .price").html($(this).children(".details").children(".price").html());
-		$("#modal .modal-footer a").attr("href", "#");
+		$("#modal .modal-footer a").attr("href", "/cart.php?add=" + btoa($(this).children(".details").children(".name").html()));
 		//
 		var t = modal;
 		t = t ? $(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350) : $(".modal-container").css("display", "block") && setTimeout(function () {$(".modal-container").css("opacity", 1);}, 1);

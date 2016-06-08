@@ -27,7 +27,7 @@ require_once("header.php");
 			</div>
 			<div class="columns six">
 				<label for="r_guests">Number of Guests</label>
-				<input type="number" name="r_guests" id="r_guests" class="u-full-width" placeholder="Number of Guests" min="1" step="0" required />
+				<input type="number" name="r_guests" id="r_guests" class="u-full-width" placeholder="Number of Guests" min="1" step="1" required />
 			</div>
 		</div>
 		<div class="row">

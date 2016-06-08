@@ -1960,6 +1960,23 @@ hr.cata-contain {
     margin-left: -480px;
   }
 }
+#cart > .head > tr > th {
+  text-align: left;
+}
+#cart .name {
+  width: 25%;
+}
+#cart .desc {
+  width: 55%;
+}
+#cart .price {
+  width: 10%;
+  text-align: center;
+}
+#cart .quant {
+  width: 10%;
+  text-align: center;
+}
 
 
 ::-moz-selection {
