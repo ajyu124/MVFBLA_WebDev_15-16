@@ -1,4 +1,18 @@
-
+<?php
+$open = false;
+$time = intval(date("Hi"));
+switch (date("w")) {
+	case "0":
+	case "6":
+		if (($time >= 630 && $time <= 1400) || ($time >= 1700 && $time <= 2300))
+			$open = true;
+		break;
+	default:
+		if (($time >= 530 && $time <= 1400) || ($time >= 1700 && $time <= 2130))
+			$open = true;
+		break;
+}
+?>
 <footer class="footer">
 	<div class="container">
 		<h5>Want to check us out?</h5>
@@ -8,7 +22,8 @@
 					<li class="fa-home">
 						<a href="https://goo.gl/maps/pD5L1BYHgpE2">21840 McClellan Rd<br>Cupertino, CA 95014</a>
 					</li>
-					<li class="fa-clock-o">Mon - Fri: 5:30 AM - 2:00 PM | 5:00 PM - 9:30 PM<br>
+					<li class="fa-clock-o"><strong><?php if ($open) ?>Open right now!<?php } else { ?>Closed now<?php } ?></strong><br>
+										Mon - Fri: 5:30 AM - 2:00 PM | 5:00 PM - 9:30 PM<br>
 										Sat - Sun: 6:30 AM - 2:00 PM | 5:00 PM - 11:00 PM</li>
 					<li class="fa-phone"><a href="tel:+14083209455">(408) 320-9455</a></li>
 					<li class="fa-envelope"><a href="mailto:hello@panettiere.ml">hello@panettiere.ml</a></li>
