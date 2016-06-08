@@ -231,9 +231,11 @@
 	var modal = false;
 	$(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
 	$(".modal-container").click(function (e) {
-		console.log(e);
-		$(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
-		modal = false;
+		if (e.target == $(this)[0])
+		{
+			$(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
+			modal = false;
+		}
 	});
 	$(".modal-container .close").click(function () {
 		$("#modal").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
