@@ -798,6 +798,7 @@ require_once("header.php");
 		</div>
 	</div>
 </div>
+<script src="/assets/js/items.js"></script>
 <?php
 require_once("footer.php")
 ?>

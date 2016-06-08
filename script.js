@@ -226,7 +226,7 @@
 (function ($, run) {
 	if (!run) return;
 	var description = function(name) {
-		return "Description";
+		return menu[name] || "";
 	}
 	var modal = false;
 	$(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
