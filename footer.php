@@ -10,7 +10,7 @@
 					</li>
 					<li class="fa-clock-o">Mon - Fri: 5:30 AM - 2:00 PM | 5:00 PM - 9:30 PM<br>
 										Sat - Sun: 6:30 AM - 2:00 PM | 5:00 PM - 11:00 PM</li>
-					<li class="fa-phone"><a href="tel:(408)-320-9455">(408)-320-9455</a></li>
+					<li class="fa-phone"><a href="tel:+14083209455">(408) 320-9455</a></li>
 					<li class="fa-envelope"><a href="mailto:hello@panettiere.ml">hello@panettiere.ml</a></li>
 					<li class="fa-facebook"><a href="https://www.facebook.com/panettierebakery">/panettierebakery/</a></li>
 					<li class="fa-instagram"><a href="https://www.instagram.com/panettierebakery/">/panettierebakery/</a></li>
@@ -42,7 +42,7 @@
 			</div>
 		</div>
 		<ul class="copyright">
-			<li>&copy; 2016 Panettiere Inc. All rights reserved.</li>
+			<li>&copy; Copyright 2015-2016 Panettiere, LLC. All rights reserved.</li>
 			<li>This work and all works (including images) used in its creation are licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">CCA 4.0 International License.</a></li>
 		</ul>
 	</div>
