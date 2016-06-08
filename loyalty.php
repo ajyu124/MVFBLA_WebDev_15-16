@@ -43,10 +43,6 @@ require_once("header.php");
 					</tbody>
 				</table>
 			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="columns twelve">
 			<p>Additionally, as you accumulate points, you may be invited to join our exclusive bronze, silver, and gold membership clubs! These are based on the lifetime number of points you accumulate, and provide you with exclusive free goodies and other seasonal benefits. Don't miss out!</p>
 			<h5 class="plain pushtop">Membership Levels</h5>
 			<div class="table-wrapper">
