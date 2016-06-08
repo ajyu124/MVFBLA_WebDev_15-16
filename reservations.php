@@ -135,7 +135,7 @@ require_once("header.php");
 		</div>
 		<div class="row">
 			<div class="columns twelve">
-				<input class="actions pushtop" type="submit" value="Reserve your table" />
+				<input class="actions pushtop button" type="submit" value="Reserve your table" />
 			</div>
 		</div>
 	</form>
