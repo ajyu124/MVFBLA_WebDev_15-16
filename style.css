@@ -1871,6 +1871,25 @@ hr.cata-contain {
   width: 95%;
   left: 2.5%;
 }
+.modal .close {
+  background-image: url("/images/close.svg");
+  background-position: 75% 25%;
+  background-repeat: no-repeat;
+  background-size: 2em 2em;
+  border: 0;
+  content: '';
+  display: block;
+  height: 4em;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-indent: 4em;
+  top: 0;
+  width: 4em;
+  z-index: 350;
+  opacity: 0.6;
+}
 .modal .modal-image {
   position: absolute;
   width: 100%;
@@ -1886,8 +1905,16 @@ hr.cata-contain {
   height: 50%;
   top: 50%;
   left: 0;
-  padding: 10px 15px;
+  padding: 20px 15px;
   overflow-y: auto;
+  box-sizing: border-box;
+}
+.modal .modal-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: right;
 }
 .modal .modal-content h5 {
   max-height: 28px;
