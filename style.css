@@ -1916,7 +1916,12 @@ hr.cata-contain {
     left: 50%;
     padding: 40px;
   }
-  
+}
+@media (min-width: 1200px) {
+  .modal {
+    left: 50%;
+    margin-left: -480px;
+  }
 }
 
 
