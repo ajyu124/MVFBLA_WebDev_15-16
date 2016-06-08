@@ -1360,6 +1360,9 @@ a.special:hover:before {
 a.special:active:before {
   background-color: rgba(255, 255, 255, 0.075);
 }
+a.special.reverse:before {
+  content: '\f104';
+}
 .image {
   width: 100%;
   height: auto;
@@ -1964,20 +1967,61 @@ hr.cata-contain {
   text-align: left;
 }
 #cart .name {
-  width: 25%;
+  width: 20%;
+  font-weight: bold;
 }
 #cart .desc {
-  width: 55%;
+  width: 50%;
 }
 #cart .price {
   width: 10%;
   text-align: center;
 }
 #cart .quant {
-  width: 10%;
+  width: 20%;
   text-align: center;
 }
-
+#cart .quant input {
+  margin: 0;
+  width: 7rem;
+  display: inline-block;
+}
+#cart .quant .close {
+  background-image: url("/images/close.svg");
+  background-position: 75% 25%;
+  background-repeat: no-repeat;
+  background-size: 2em 2em;
+  border: 0;
+  content: '';
+  display: inline-block;
+  height: 3rem;
+  overflow: hidden;
+  width: 3rem;
+  opacity: 0.6;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+#cart-side {
+  /**/
+}
+#cart-side tr {
+  background: none !important;
+  border: 0;
+}
+#cart-side td {
+  border: 0;
+  padding: 0;
+}
+#cart-side tr:last-child {
+  font-weight: bold;
+  border-top: 1px solid rgba(255,255,255,0.5);
+}
+#cart-side tr td:first-child {
+  text-align: right;
+}
+#cart-side + input {
+  color: #fff;
+}
 
 ::-moz-selection {
   background: #e5d5be;

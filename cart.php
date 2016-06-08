@@ -12,11 +12,11 @@ require_once("header.php");
 		<div class="columns nine">
 			<a class="special reverse">Back to Menu</a>
 			<div class="table-wrapper">
-				<table id="cart">
+				<table id="cart" class="pushtop">
 					<thead class="head">
 						<tr>
 							<!--<th></th>-->
-							<th class="name">Name</th>
+							<th class="name">Item</th>
 							<th class="desc">Description</th>
 							<th class="price">Price</th>
 							<th class="quant">Quantity</th>
