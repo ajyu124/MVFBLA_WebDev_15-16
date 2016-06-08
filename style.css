@@ -1086,10 +1086,10 @@ there.
 
 @media (min-width: 400px) {
   #nav > div > a {
-    margin-left: -2rem;
+    margin-left: -4rem;
   }
   #nav > div > nav {
-    margin-right: -2rem;
+    margin-right: -4rem;
   }
 }
 
