@@ -1928,6 +1928,10 @@ hr.cata-contain {
 .modal .modal-footer a {
   margin: 0 0 1rem -4rem;
 }
+.modal .modal-footer .price {
+  float: left;
+  padding: 5px 20px;
+}
 @media (min-width: 400px) {
   .modal { width: 85%; left: 7.5%;  }
   .modal .modal-content h5 { max-height: inherit; }

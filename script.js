@@ -225,6 +225,9 @@
 
 (function ($, run) {
 	if (!run) return;
+	var description = function(name) {
+		return "Description";
+	}
 	var modal = false;
 	$("#modal").css("opacity", 0) && setTimeout(function () {$("#modal").css("display", "none");}, 350);
 	$("#modal").click(function () {
@@ -236,6 +239,12 @@
 		modal = false;
 	});
 	$(".menu-item").click(function () {
+		$("#modal .modal-image").css("background-image", $(this).css("background-image"));
+		$("#modal .modal-content h5").html($(this).children(".details").children(".name").html());
+		$("#modal .modal-content p").html(description($(this).children(".details").children(".name").html()));
+		$("#modal .modal-footer .price").html($(this).children(".details").children(".price").html());
+		$("#modal .modal-footer a").attr("href", "#");
+		//
 		var t = modal;
 		t = t ? $("#modal").css("opacity", 0) && setTimeout(function () {$("#modal").css("display", "none");}, 350) : $("#modal").css("display", "block") && setTimeout(function () {$("#modal").css("opacity", 1);}, 1);
 		modal = !modal;
