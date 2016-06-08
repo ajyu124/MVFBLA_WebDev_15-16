@@ -38,12 +38,14 @@ if (isset($_REQUEST["add"])) {
 						</tr>
 					</thead>
 					<tbody class="body">
+					<!--
 						<tr>
 							<td class="name">Fried Mozzarella</td>
 							<td class="desc">Golden-fried mozzarella cheese, topped with an alfredo drizzle. Served with marinara sauce.</td>
 							<td class="price">$3.99</td>
 							<td class="quant"><input type="number" min="1" step="1" value="1" /><a href="" class="close"></a></td>
 						</tr>
+					-->
 					</tbody>
 				</table>
 			</div>
