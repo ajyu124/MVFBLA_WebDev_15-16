@@ -49,7 +49,7 @@ require_once("header.php");
 				<table>
 					<thead>
 						<tr>
-							<th style="min-width: 15%;">Lifetime Points</th>
+							<th style="width: 15%;">Lifetime Points</th>
 							<th>Level</th>
 							<th>Description</th>
 						</tr>
