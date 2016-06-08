@@ -1146,7 +1146,7 @@ there.
 .footer {
   margin-top: 5em;
   padding-top: 5em;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/footer.jpg") center -250px / cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/header/footer.jpg") center -250px / cover no-repeat fixed;
   background-size: auto, cover;
   background-position: center, center;
 }

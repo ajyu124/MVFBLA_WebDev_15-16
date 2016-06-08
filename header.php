@@ -28,7 +28,7 @@ $conn->close();
 	</head>
 	<body>
 		<div id="nav">
-			<a href="/"><img src="/images/logo3.png" class="logo"></a>
+			<a href="/"><img src="/images/brand/logo.png" class="logo"></a>
 			<nav>
 				<a href="#pages">Pages</a>
 			</nav>
