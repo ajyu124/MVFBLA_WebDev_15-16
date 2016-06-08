@@ -22,7 +22,7 @@ require_once("header.php");
 		</div>
 		<div class="columns nine">
 			<ul class="actions small subcats">
-				<li class="subcata bakery breads"><a href="#breads" class="button small">Breads</a></li>
+				<!--<li class="subcata bakery breads"><a href="#breads" class="button small">Breads</a></li>-->
 				<li class="subcata bakery bagels"><a href="#bagels" class="button small">Bagels</a></li>
 				<li class="subcata bakery pastries"><a href="#pastries" class="button small">Pastries</a></li>
 				<li class="subcata bakery croissants"><a href="#croissants" class="button small">Croissants</a></li>
@@ -39,7 +39,7 @@ require_once("header.php");
 			<div class="u-center">
 				<div class="menu-item fullmenu menu">
 					<h4 class="plain">Panettiere Restaurant Menu</h4>
-					<p>Serving you delicious food since 2015. Open for lunch &amp; dinner, every day.</p><br>
+					<p>Serving you delicious food since 2015. Open for breakfast, lunch, and dinner – every day of the week.</p><br>
 					<h6>Appetizers</h6>
 					<dl>
 						<dt class="menu-name">Fried Mozzarella</dt>
@@ -272,12 +272,14 @@ require_once("header.php");
 						<span class="price">$2.99</span>
 					</div>
 				</div>
+				<!--
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/153.jpg')">
 					<div class="details">
 						<span class="name small">Whole Grain Bagel</span>
 						<span class="price">$2.99</span>
 					</div>
 				</div>
+				-->
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/154.jpg')">
 					<div class="details">
 						<span class="name small">Chocolate Chip Bagel</span>
@@ -302,12 +304,14 @@ require_once("header.php");
 						<span class="price">$2.99</span>
 					</div>
 				</div>
+				<!--
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/158.jpg')">
 					<div class="details">
 						<span class="name small">Sprouted Grain Bagel Flat</span>
 						<span class="price">$2.99</span>
 					</div>
 				</div>
+				-->
 				<div class="menu-item bakery pastries" style="background-image:url('/images/menu/101.jpg')">
 					<div class="details">
 						<span class="name">Bear Claw</span>
@@ -766,5 +770,16 @@ require_once("header.php");
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div id="modal" class="container modal box">
+	<div class="modal-image"></div>
+	<div class="modal-content">
+		<h5>Spicy Shrimp Scampi Fritta</h5>
+		<h5>Asiago Cheese Focaccia</h5>
+		<h5>Seasonal Sicilian Cheesecake</h5>
+		<h5>Black Tie Mousse Cake</h5>
+		<h5>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h5>
+		<p>Rich layers of chocolate cake, dark chocolate cheesecake and creamy custard mousse.</p>
 	</div>
 </div>

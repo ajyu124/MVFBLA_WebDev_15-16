@@ -196,7 +196,7 @@
 	if (!run) return;
 
 	$(window).on('scroll', function () {
-		if ($(window).scrollTop() > 550 && $(window).scrollTop() < $(".footer")[0].offsetTop-315)
+		if ($(window).scrollTop() >= 550 && $(window).scrollTop() <= $(".footer")[0].offsetTop-315)
 			$("#mcr").addClass("sticky");
 		else
 			$("#mcr").removeClass("sticky");
@@ -210,6 +210,7 @@
 		$(this).parent().siblings().children().removeClass("active");
 		$(this).addClass("active");
 		$(".menu-item:not(."+$(this).attr("href").substring(1)+")").hide().siblings("."+$(this).attr("href").substring(1)).fadeIn();
+		if ($(window).scrollTop() > 550) $(window).scrollTop(550);
 	});
 	if (location.hash.substring(1) == "")
 		location.hash = "#menu";
