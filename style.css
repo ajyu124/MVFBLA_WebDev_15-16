@@ -1886,6 +1886,10 @@ hr.cata-contain {
   height: 50%;
   top: 50%;
   left: 0;
+  padding: 10px;
+}
+.modal .modal-content h5 {
+  max-height: 28px;
 }
 @media (min-width: 400px) {
   .modal { left: 7.5%;  }
@@ -1904,6 +1908,9 @@ hr.cata-contain {
     height: 100%;
     top: 0;
     left: 50%;
+  }
+  .modal .modal-content h5 {
+    max-height: inherit;
   }
 }
 
