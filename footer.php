@@ -43,7 +43,7 @@
 		</div>
 		<ul class="copyright">
 			<li>&copy; Copyright 2015-2016 Panettiere, LLC. All rights reserved.</li>
-			<li>All media used is either public domain or appropriately licensed. Proper attribution has been cited and noted. This work and all works (including images) used in its creation are licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">CCA 4.0 International License.</a></li>
+			<li>All media used on this website and on compansion social media accounts, including images, videos, icons, graphics, etc., is either public domain or appropriately licensed. Proper attribution has been clearly cited and noted wherever neccesary. This work and all works used in its creation and derived from it are licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">CCA 4.0 International License.</a></li>
 		</ul>
 	</div>
 </footer>
