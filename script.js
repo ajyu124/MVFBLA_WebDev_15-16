@@ -238,7 +238,7 @@
 		}
 	});
 	$(".modal-container .close").click(function () {
-		$("#modal").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
+		$(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
 		modal = false;
 	});
 	$(".menu-item:not(.fullmenu)").click(function () {
