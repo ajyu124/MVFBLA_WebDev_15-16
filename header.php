@@ -28,10 +28,12 @@ $conn->close();
 	</head>
 	<body>
 		<div id="nav">
-			<a href="/"><img src="/images/brand/logo.png" class="logo"></a>
-			<nav>
-				<a href="#pages">Pages</a>
-			</nav>
+			<div class="container">
+				<a href="/"><img src="/images/brand/logo.png" class="logo"></a>
+				<nav>
+					<a href="#pages">Pages</a>
+				</nav>
+			</div>
 		</div>
 		<nav id="pages" style="display: none">
 			<div class="inner">
