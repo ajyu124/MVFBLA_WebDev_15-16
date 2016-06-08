@@ -924,8 +924,9 @@ there.
 }
 
 #nav img {
-  height: 6rem;
+  height: 5rem;
   width: auto;
+  padding: 0.5rem 0;
   display: inline-block;
 }
 #nav nav {
