@@ -774,18 +774,16 @@ require_once("header.php");
 </div>
 <div class="modal-container">
 	<div id="modal" class="container modal box">
-		<div class="row">
-			<div class="columns six modal-image">
-				<p></p>
-			</div>
-			<div class="columns six modal-content">
-				<!-- <h5>Spicy Shrimp Scampi Fritta</h5> -->
-				<!-- <h5>Asiago Cheese Focaccia</h5> -->
-				<h5>Seasonal Sicilian Cheesecake</h5>
-				<!-- <h5>Black Tie Mousse Cake</h5> -->
-				<!-- <h5>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h5> -->
-				<p>Rich layers of chocolate cake, dark chocolate cheesecake and creamy custard mousse.</p>
-			</div>
+		<div class="modal-image">
+			<p></p>
+		</div>
+		<div class="modal-content">
+			<!-- <h5>Spicy Shrimp Scampi Fritta</h5> -->
+			<!-- <h5>Asiago Cheese Focaccia</h5> -->
+			<h5>Seasonal Sicilian Cheesecake</h5>
+			<!-- <h5>Black Tie Mousse Cake</h5> -->
+			<!-- <h5>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h5> -->
+			<p>Rich layers of chocolate cake, dark chocolate cheesecake and creamy custard mousse.</p>
 		</div>
 	</div>
 </div>
