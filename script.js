@@ -256,7 +256,15 @@
 
 (function ($, run) {
 	if (!run) return;
+	var items = document.cookie.split("; ");
+	for (var i = 0; i < (items.length || 0); i++)
+		if (items[i].indexOf("cart=") == 0)
+			items = items[i];
+	items = decodeURIComponent(items.substring(5)).replace(/\+/g, " ").split(",");
 	//add all items from cookie
+	for (var i = 0; i < items.length; i++) {
+		$("#cart .body").appendChild($("<tr><td class='name'>" + items[i].substring(0,items[i].indexOf(":")) + "</td><td class='desc'>" + menu[items[i].substring(0,items[i].indexOf(":"))] + "</td><td class='price'>" + "TODO" + "</td><td class='quant'><input type='number' min='1' max='99' step='1' value='" + items[i].substring(items[i].indexOf(":")+1) + "' /><a href='#' class='close'></a></td></tr>"));
+	}
 	//add quantity handler (m.cookie)
 	//add .close handler
 	//add checkout handler
