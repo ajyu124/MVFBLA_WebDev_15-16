@@ -408,12 +408,14 @@ require_once("header.php");
 						<span class="price">$1.99</span>
 					</div>
 				</div>
+				<!--
 				<div class="menu-item bakery muffins" style="background-image:url('/images/menu/1319.jpg')">
 					<div class="details">
 						<span class="name small">Oatmeal Banana Muffin</span>
 						<span class="price">$1.99</span>
 					</div>
 				</div>
+				-->
 				<div class="menu-item bakery muffins" style="background-image:url('/images/menu/1356.jpg')">
 					<div class="details">
 						<span class="name small">Carrot Raisin Muffin</span>
@@ -498,12 +500,14 @@ require_once("header.php");
 						<span class="price">$0.99</span>
 					</div>
 				</div>
+				<!--
 				<div class="menu-item bakery cookies" style="background-image:url('/images/menu/1303.jpg')">
 					<div class="details">
 						<span class="name small">Oatmeal Chocolate Chip</span>
 						<span class="price">$0.99</span>
 					</div>
 				</div>
+				-->
 				<div class="menu-item bakery cookies" style="background-image:url('/images/menu/1305.jpg')">
 					<div class="details">
 						<span class="name">Peanut Butter</span>
@@ -516,12 +520,14 @@ require_once("header.php");
 						<span class="price">$0.99</span>
 					</div>
 				</div>
+				<!--
 				<div class="menu-item bakery cookies" style="background-image:url('/images/menu/1304.jpg')">
 					<div class="details">
 						<span class="name">Oatmeal Raisin</span>
 						<span class="price">$0.99</span>
 					</div>
 				</div>
+				-->
 				<div class="menu-item bakery coffeecake" style="background-image:url('/images/menu/1360.jpg')">
 					<div class="details">
 						<span class="name small">Blueberry Coffee Cake</span>
