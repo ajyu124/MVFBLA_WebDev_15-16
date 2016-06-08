@@ -245,70 +245,70 @@ require_once("header.php");
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/148.jpg')">
 					<div class="details">
 						<span class="name small">Blueberry Bagel</span>
-						<span class="price">$2.49</span>
+						<span class="price">$1.49</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/149.jpg')">
 					<div class="details">
 						<span class="name small">Everything Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/150.jpg')">
 					<div class="details">
 						<span class="name small">French Toast Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/151.jpg')">
 					<div class="details">
 						<span class="name small">Asiago Cheese Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/152.jpg')">
 					<div class="details">
 						<span class="name small">Cinnamon Crunch Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<!--
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/153.jpg')">
 					<div class="details">
 						<span class="name small">Whole Grain Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				-->
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/154.jpg')">
 					<div class="details">
 						<span class="name small">Chocolate Chip Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/155.jpg')">
 					<div class="details">
 						<span class="name small">Cinnamon & Raisin Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/156.jpg')">
 					<div class="details">
 						<span class="name">Plain Bagel</span>
-						<span class="price">$2.49</span>
+						<span class="price">$1.49</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/157.jpg')">
 					<div class="details">
 						<span class="name">Sesame Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<!--
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/158.jpg')">
 					<div class="details">
 						<span class="name small">Sprouted Grain Bagel Flat</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				-->
