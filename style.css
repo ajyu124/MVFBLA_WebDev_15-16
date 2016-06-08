@@ -1667,11 +1667,11 @@ li.ui-timepicker-selected .ui-timepicker-duration,
 
 input.button {
   border-color: #eee;
-  border-color: rgba(255,255,255,0.25);
+  border-color: rgba(255,255,255,0.3);
 }
 input.button:hover {
   border-color: #bbb;
-  border-color: rgba(255,255,255,0.15);
+  border-color: rgba(255,255,255,0.1);
 }
 
 .subcats {
