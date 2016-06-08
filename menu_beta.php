@@ -785,6 +785,7 @@ require_once("header.php");
 			<!-- <h5>Black Tie Mousse Cake</h5> -->
 			<!-- <h5>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h5> -->
 			<p>Rich layers of chocolate cake, dark chocolate cheesecake and creamy custard mousse.</p>
+			<div class="modal-footer"><a href="#" class="special">Add to Order</a></div>
 		</div>
 	</div>
 </div>
