@@ -229,13 +229,13 @@
 		return "Description";
 	}
 	var modal = false;
-	$("#modal").css("opacity", 0) && setTimeout(function () {$("#modal").css("display", "none");}, 350);
-	$("#modal").click(function () {
-		$("#modal").css("opacity", 0) && setTimeout(function () {$("#modal").css("display", "none");}, 350);
+	$(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
+	$(".modal-container").click(function () {
+		$(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
 		modal = false;
 	});
-	$("#modal .close").click(function () {
-		$("#modal").css("opacity", 0) && setTimeout(function () {$("#modal").css("display", "none");}, 350);
+	$(".modal-container .close").click(function () {
+		$("#modal").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
 		modal = false;
 	});
 	$(".menu-item").click(function () {
@@ -246,7 +246,7 @@
 		$("#modal .modal-footer a").attr("href", "#");
 		//
 		var t = modal;
-		t = t ? $("#modal").css("opacity", 0) && setTimeout(function () {$("#modal").css("display", "none");}, 350) : $("#modal").css("display", "block") && setTimeout(function () {$("#modal").css("opacity", 1);}, 1);
+		t = t ? $(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350) : $(".modal-container").css("display", "block") && setTimeout(function () {$(".modal-container").css("opacity", 1);}, 1);
 		modal = !modal;
 	});
 })($, $("#modal").length > 0);
