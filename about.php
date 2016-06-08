@@ -17,7 +17,7 @@ require_once("header.php");
 			<br class="hidesmall"><br class="hidesmall">
 			<img src="/images/features/about_2.png" class="img left hidesmall">
 			<br class="hidesmall">
-			<p>At Panettiere, we uphold this standard, and more. We bring high-quality food to the table without neglecting the various dietary needs needs in today's society. By obtaining all of our ingredients fresh from local farmers and producers daily, we ensure the highest quality, as well as purity, of our food. Our bakers and chefs take extreme caution in preparing every pastry and dish that we serve in order to maintain our high standards.</p>
+			<p>At Panettiere, we uphold this standard, and more. We bring high-quality food to the table without neglecting the various dietary needs in today's society. By obtaining all of our ingredients fresh from local farmers and producers daily, we ensure the highest quality, as well as purity, of our food. Our bakers and chefs take extreme caution in preparing every pastry and dish that we serve in order to maintain our high standards.</p>
 			<br class="hidesmall">
 			<p>Excited about our food yet? Check out our menu <a href="menu.php">here!</a></p>
 		</div>
