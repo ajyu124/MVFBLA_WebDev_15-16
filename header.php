@@ -24,7 +24,7 @@ $conn->close();
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="/style.css" />
-		<link rel="icon" href="/images/favicon.ico">
+		<link rel="icon" href="/images/brand/favicon.ico">
 	</head>
 	<body>
 		<div id="nav">
