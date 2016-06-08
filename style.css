@@ -1875,6 +1875,8 @@ hr.cata-contain {
   position: absolute;
   width: 100%;
   height: 50%;
+  top: 0;
+  left: 0;
   border-radius: 5px 5px 0 0;
   background: url("/images/header/home.jpg") center center / cover no-repeat fixed;
 }
@@ -1882,6 +1884,8 @@ hr.cata-contain {
   position: absolute;
   width: 100%;
   height: 50%;
+  top: 50%;
+  left: 0;
 }
 @media (min-width: 400px) {
   .modal { left: 7.5%;  }
@@ -1898,6 +1902,8 @@ hr.cata-contain {
   .modal .modal-content {
     width: 50%;
     height: 100%;
+    top: 0;
+    left: 50%;
   }
 }
 
