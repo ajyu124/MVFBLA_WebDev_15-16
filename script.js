@@ -240,7 +240,7 @@
 		modal = false;
 	});
 	$(".menu-item").click(function () {
-		$("#modal .modal-image").css("background-image", $(this).css("background-image"));
+		$("#modal .modal-image").css("background-image", $(this).css("background-image").replace("menu", "menuhd"));
 		$("#modal .modal-content h5").html($(this).children(".details").children(".name").html());
 		$("#modal .modal-content p").html(description($(this).children(".details").children(".name").html()));
 		$("#modal .modal-footer .price").html($(this).children(".details").children(".price").html());
