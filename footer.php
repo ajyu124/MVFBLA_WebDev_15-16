@@ -22,7 +22,7 @@ switch (date("w")) {
 					<li class="fa-home">
 						<a href="https://goo.gl/maps/pD5L1BYHgpE2">21840 McClellan Rd<br>Cupertino, CA 95014</a>
 					</li>
-					<li class="fa-clock-o"><strong><?php if ($open) ?>Open right now!<?php } else { ?>Closed now<?php } ?></strong><br>
+					<li class="fa-clock-o"><strong><?php if ($open) { ?>Open right now!<?php } else { ?>Closed now<?php } ?></strong><br>
 										Mon - Fri: 5:30 AM - 2:00 PM | 5:00 PM - 9:30 PM<br>
 										Sat - Sun: 6:30 AM - 2:00 PM | 5:00 PM - 11:00 PM</li>
 					<li class="fa-phone"><a href="tel:+14083209455">(408) 320-9455</a></li>
