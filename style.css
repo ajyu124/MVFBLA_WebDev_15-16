@@ -1867,6 +1867,10 @@ hr.cata-contain {
 }
 .modal .modal-image {
   border-radius: 5px 5px 0 0;
+  height: 100%;
+}
+.modal .modal-content {
+  height: 100%;
 }
 @media (min-width: 550px) {
   .modal .modal-image {
