@@ -10,7 +10,7 @@ require_once("header.php");
 <div class="container">
 	<div class="row">
 		<div class="columns twelve">
-			<img src="/images/features/loyalty.png" class="img right hidesmall">
+			<img src="/images/features/loyalty.png" class="img right offset hidesmall">
 			<h4>Why a reward system?</h4>
 			<p>Here at Panettiere Bakery, we greatly value your individual support and loyalty to our bakery. In order to repay you for your dedication, we have introduced a new <i>rewards program</i> that will not only allow you to receive free drinks and pastries, but also join our special membership club for discounts and more free meals. In order to make it easier for you to access these rewards, we encourage you to download the Panettiere Bakery mobile app that will update you with discounts and serve as your "mobile stamp card." Using our unique QR code technology, simply scan the code on your phone for all kinds of discounts and promotions. We hope you take advantage of this offer and continue to frequent the best restaurant &amp; bakery in the world!</p>
 			<p>Each time you purchase an item at Panettiere, you will receive either 1, 2, or 3 points depending on what you buy. For each drink or pastry, you will receive 1 point. For each entree that you purchase, you will receive 2 points. For every meal that you purchase, you will receive 3 points. These points can then be redeemed for our special loyalty rewards!</p>
@@ -40,21 +40,6 @@ require_once("header.php");
 							<td>Spend 40 points on your mobile stamp card</td>
 							<td>1 free entree!</td>
 						</tr>
-						<tr>
-							<td>100 points</td>
-							<td>Have 100 points on your mobile stamp card</td>
-							<td>Bronze Membership*</td>
-						</tr>
-						<tr>
-							<td>200 points</td>
-							<td>Have 200 points on your mobile stamp card</td>
-							<td>Silver Membership**</td>
-						</tr>
-						<tr>
-							<td>350 points</td>
-							<td>Have 350 points on your mobile stamp card</td>
-							<td>Gold Membership***</td>
-						</tr>
 					</tbody>
 				</table>
 			</div>
@@ -68,7 +53,7 @@ require_once("header.php");
 				<table>
 					<thead>
 						<tr>
-							<th>Lifetime Points</th>
+							<th style="min-width: 15%;">Lifetime Points</th>
 							<th>Level</th>
 							<th>Description</th>
 						</tr>
@@ -92,9 +77,6 @@ require_once("header.php");
 					</tbody>
 				</table>
 			</div>
-			<p>*</p>
-			<p>**</p>
-			<p>*** </p>
 		</div>
 	</div>
 </div>

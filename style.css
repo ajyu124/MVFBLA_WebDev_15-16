@@ -1376,6 +1376,10 @@ a.special:active:before {
 .hidesmall {
   display: none;
 }
+.img.offset {
+  margin-left: 20px;
+  margin-right: -20%;
+}
 @media (min-width: 550px) {
   .img {
     width: 40%;
