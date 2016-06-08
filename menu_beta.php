@@ -774,6 +774,7 @@ require_once("header.php");
 </div>
 <div class="modal-container">
 	<div id="modal" class="container modal box">
+		<a href="#" class="close">Close</a>
 		<div class="modal-image">
 			<p></p>
 		</div>

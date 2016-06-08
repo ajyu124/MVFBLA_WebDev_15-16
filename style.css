@@ -1886,16 +1886,21 @@ hr.cata-contain {
   height: 50%;
   top: 50%;
   left: 0;
-  padding: 10px;
+  padding: 10px 15px;
+  overflow-y: auto;
 }
 .modal .modal-content h5 {
   max-height: 28px;
 }
+.modal .modal-content p {
+  margin: 0;
+}
 @media (min-width: 400px) {
-  .modal { left: 7.5%;  }
+  .modal { width: 85%; left: 7.5%;  }
 }
 @media (min-width: 550px) {
   .modal {
+    width: 80%;
     left: 10%;
   }
   .modal .modal-image {
