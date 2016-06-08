@@ -924,7 +924,9 @@ there.
 
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
-
+#nav > .container {
+  padding: 0;
+}
 #nav img {
   height: 5rem;
   width: auto;
@@ -1088,10 +1090,10 @@ there.
 
 @media (min-width: 400px) {
   #nav > div > a {
-    margin-left: -4rem;
+    margin-left: -2rem;
   }
   #nav > div > nav {
-    margin-right: -4rem;
+    margin-right: -2rem;
   }
 }
 
