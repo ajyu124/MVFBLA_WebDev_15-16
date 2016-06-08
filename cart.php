@@ -62,6 +62,7 @@ if (isset($_REQUEST["add"])) {
 </div>
 <script src="https://checkout.stripe.com/checkout.js"></script>
 <script src="/assets/js/items.js"></script>
+<script src="/assets/js/prices.js"></script>
 <?php
 require_once("footer.php")
 ?>

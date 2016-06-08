@@ -263,7 +263,7 @@
 	items = decodeURIComponent(items.substring(5)).replace(/\+/g, " ").split(",");
 	//add all items from cookie
 	for (var i = 0; i < items.length; i++) {
-		$("#cart .body").append($("<tr><td class='name'>" + items[i].substring(0,items[i].indexOf(":")) + "</td><td class='desc'>" + menu[items[i].substring(0,items[i].indexOf(":"))] + "</td><td class='price'>" + "TODO" + "</td><td class='quant'><input type='number' min='1' max='99' step='1' value='" + items[i].substring(items[i].indexOf(":")+1) + "' /><a href='#' class='close'></a></td></tr>"));
+		$("#cart .body").append($("<tr><td class='name'>" + items[i].substring(0,items[i].indexOf(":")) + "</td><td class='desc'>" + menu[items[i].substring(0,items[i].indexOf(":"))] + "</td><td class='price'>" + prices[items[i].substring(0,items[i].indexOf(":"))] + "</td><td class='quant'><input type='number' min='1' max='99' step='1' value='" + items[i].substring(items[i].indexOf(":")+1) + "' /><a href='#' class='close'></a></td></tr>"));
 	}
 	//add quantity handler (m.cookie)
 	//add .close handler
