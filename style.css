@@ -1925,6 +1925,9 @@ hr.cata-contain {
 .modal .modal-content p {
   margin: 0;
 }
+.modal .modal-footer a {
+  margin: 0 0 1rem -4rem;
+}
 @media (min-width: 400px) {
   .modal { width: 85%; left: 7.5%;  }
   .modal .modal-content h5 { max-height: inherit; }

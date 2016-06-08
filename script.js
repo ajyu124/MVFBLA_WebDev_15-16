@@ -6,7 +6,7 @@
 		$("#pages").css("opacity", 0) && setTimeout(function () {$("#pages").css("display", "none");}, 350);
 		nav = false;
 	});
-	$(".close").click(function () {
+	$("#pages .close").click(function () {
 		$("#pages").css("opacity", 0) && setTimeout(function () {$("#pages").css("display", "none");}, 350);
 		nav = false;
 	});
@@ -222,3 +222,22 @@
 		$(".cata.fullmenu").click();
 	$(".subcata." + location.hash.substring(1)).click();
 })($, $(".menu-item").length > 0);
+
+(function ($, run) {
+	if (!run) return;
+	var modal = false;
+	$("#modal").css("opacity", 0) && setTimeout(function () {$("#modal").css("display", "none");}, 350);
+	$("#modal").click(function () {
+		$("#modal").css("opacity", 0) && setTimeout(function () {$("#modal").css("display", "none");}, 350);
+		modal = false;
+	});
+	$("#modal .close").click(function () {
+		$("#modal").css("opacity", 0) && setTimeout(function () {$("#modal").css("display", "none");}, 350);
+		modal = false;
+	});
+	$(".menu-item").click(function () {
+		var t = modal;
+		t = t ? $("#modal").css("opacity", 0) && setTimeout(function () {$("#modal").css("display", "none");}, 350) : $("#modal").css("display", "block") && setTimeout(function () {$("#modal").css("opacity", 1);}, 1);
+		modal = !modal;
+	});
+})($, $("#modal").length > 0);
