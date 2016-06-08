@@ -2018,6 +2018,7 @@ hr.cata-contain {
 }
 #cart-side tr td:first-child {
   text-align: right;
+  padding-right: 1rem;
 }
 #cart-side + input {
   color: #fff;

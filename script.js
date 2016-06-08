@@ -253,3 +253,11 @@
 		modal = !modal;
 	});
 })($, $("#modal").length > 0);
+
+(function ($, run) {
+	if (!run) return;
+	//add all items from cookie
+	//add quantity handler (m.cookie)
+	//add .close handler
+	//add checkout handler
+})($, $("#cart").length > 0);

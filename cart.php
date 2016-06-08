@@ -1,5 +1,19 @@
 <?php
 require_once("header.php");
+
+if (isset($_REQUEST["add"])) {
+	$cookie = "";
+	if (isset($_COOKIE["cart"])) {
+		$cookie = $_COOKIE["cart"];
+		if (strpos($cookie, $_REQUEST["add"]) === false) {
+			$cookie .= "," . $_REQUEST["add"] . ":1";
+		}
+	}
+	else {
+		$cookie = $_REQUEST["add"] . ":1";
+	}
+	setcookie("cart", $cookie);
+}
 ?>
 <header class="window half" id="windowMenu">
 	<div class="container">
@@ -10,7 +24,7 @@ require_once("header.php");
 <div class="container">
 	<div class="row">
 		<div class="columns nine">
-			<a class="special reverse">Back to Menu</a>
+			<a class="special reverse" href="/menu.php">Back to Menu</a>
 			<div class="table-wrapper">
 				<table id="cart" class="pushtop">
 					<thead class="head">
@@ -44,6 +58,7 @@ require_once("header.php");
 		</div>
 	</div>
 </div>
+<script src="https://checkout.stripe.com/checkout.js"></script>
 <?php
 require_once("footer.php")
 ?>
