@@ -68,7 +68,14 @@ switch (date("w")) {
 		<div id="nav">
 			<div class="container">
 				<a href="/"><img src="/images/brand/logo.png" class="logo"></a>
-				<nav>
+				<nav id="nav-bar">
+					<a href="/about.php"><h6 class="plain">About</h6></a>
+					<a href="/menu.php"><h6 class="plain">Menu</h6></a>
+					<a href="/reservations.php"><h6 class="plain">Reserve</h6></a>
+					<a href="/loyalty.php"><h6 class="plain">Rewards</h6></a>
+					<a href="/reviews.php"><h6 class="plain">Reviews</h6></a>
+				</nav>
+				<nav id="nav-pages">
 					<a href="#pages">Pages</a>
 				</nav>
 			</div>
