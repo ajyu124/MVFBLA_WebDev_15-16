@@ -4,8 +4,8 @@ require_once("header.php");
 ?>
 <header class="window half" id="windowMenu">
 	<div class="container">
-		<h2>Menu</h2>
-		<p>A listing of our regular offerings</p>
+		<h2 class="animated fadeInDown">Menu</h2>
+		<p class="animated fadeInUp">A listing of our regular offerings</p>
 	</div>
 </header>
 <div class="container">

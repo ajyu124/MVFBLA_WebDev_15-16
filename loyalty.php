@@ -4,8 +4,8 @@ require_once("header.php");
 ?>
 <header class="window half" id="windowLoyalty">
 	<div class="container">
-		<h2>Loyalty Rewards</h2>
-		<p>More than great food. Great rewards.</p>
+		<h2 class="animated fadeInDown">Loyalty Rewards</h2>
+		<p class="animated fadeInUp">More than great food. Great rewards.</p>
 	</div>
 </header>
 <div class="container">

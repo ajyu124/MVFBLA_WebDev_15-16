@@ -18,8 +18,8 @@ if (isset($_REQUEST["add"])) {
 ?>
 <header class="window half" id="windowMenu">
 	<div class="container">
-		<h2>Your order</h2>
-		<p>Order food online for in-store pick up</p>
+		<h2 class="animated fadeInDown">Your order</h2>
+		<p class="animated fadeInUp">Order food online for in-store pick up</p>
 	</div>
 </header>
 <div class="container">

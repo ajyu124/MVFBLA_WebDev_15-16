@@ -4,8 +4,8 @@ require_once("header.php");
 ?>
 <header class="window half" id="windowReservations">
 	<div class="container">
-		<h2>Reservations</h2>
-		<p>Reserve your seat at Panettiere</p>
+		<h2 class="animated fadeInDown">Reservations</h2>
+		<p class="animated fadeInUp">Reserve your seat at Panettiere</p>
 	</div>
 </header>
 <div class="container">

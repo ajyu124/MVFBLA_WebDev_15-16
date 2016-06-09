@@ -4,8 +4,8 @@ require_once("header.php");
 ?>
 <header class="window half" id="windowReviews">
 	<div class="container">
-		<h2>Awards and Reviews</h2>
-		<p>Don't just take our word for it&mdash;see what others have to say about us.</p>
+		<h2 class="animated fadeInDown">Awards and Reviews</h2>
+		<p class="animated fadeInUp">Don't just take our word for it&mdash;see what others have to say about us.</p>
 	</div>
 </header>
 <div class="container">
