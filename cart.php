@@ -41,7 +41,7 @@ if (isset($_REQUEST["add"])) {
 				</table>
 			</div>
 		</div>
-		<div class="columns three u-center">
+		<div class="columns three pushtop u-center">
 			<table id="cart-side">
 				<tbody>
 					<tr><td>Subtotal</td><td class="sub">$3.99</td></tr>

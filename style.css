@@ -1995,6 +1995,7 @@ hr.cata-contain {
   }
   #cart .desc {
     width: 50%;
+    display: table-cell;
   }
   #cart .price {
     width: 10%;
