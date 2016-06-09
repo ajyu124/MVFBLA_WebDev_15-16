@@ -74,7 +74,7 @@ echo ($page == 2) . "\n";
 echo (isset($page) && $page == 2) . "\n";
 echo $page . "\n";
 echo ($page - 2) . "\n";
-aip(2);
+if (aip(2)) { echo "yes\n"; }
 ?>-->
 	<body>
 		<div id="nav">
