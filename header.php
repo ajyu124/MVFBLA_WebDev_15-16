@@ -34,6 +34,7 @@ switch (date("w")) {
 }
 
 function aip($id) {
+	echo " data='$page'";
 	return isset($page) && $page == $id;
 }
 ?>
