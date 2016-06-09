@@ -21,7 +21,7 @@
 		setTimeout(function () { $("#nav #nav-bar").css("display", ""); }, 5);
 	}
 	navFix();
-	setInterval(navFix, 60*1000);
+	setInterval(navFix, 1000);
 })($, true);
 
 (function($, run) {
@@ -242,7 +242,7 @@
 (function ($, run) {
 	if (!run) return;
 	var description = function(name) {
-		return menu[name] || "";
+		return menu[name.replace("&amp;","&")] || "";
 	}
 	var modal = false;
 	$(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);

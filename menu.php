@@ -791,11 +791,7 @@ require_once("header.php");
 			<p></p>
 		</div>
 		<div class="modal-content">
-			<!-- <h5>Spicy Shrimp Scampi Fritta</h5> -->
-			<!-- <h5>Asiago Cheese Focaccia</h5> -->
 			<h5>Seasonal Sicilian Cheesecake</h5>
-			<!-- <h5>Black Tie Mousse Cake</h5> -->
-			<!-- <h5>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h5> -->
 			<p>Rich layers of chocolate cake, dark chocolate cheesecake and creamy custard mousse.</p>
 			<div class="modal-footer">
 				<span class="price">$9.99</span>
