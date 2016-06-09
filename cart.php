@@ -3,7 +3,7 @@ require_once("header.php");
 
 if (isset($_REQUEST["add"])) {
 	$cookie = "";
-	if (isset($_COOKIE["cart"])) {
+	if (isset($_COOKIE["cart"]) && $_COOKIE["cart"] != "") {
 		$cookie = $_COOKIE["cart"];
 		if (strpos($cookie, $_REQUEST["add"]) === false) {
 			$cookie .= "," . $_REQUEST["add"] . ":1";

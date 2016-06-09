@@ -10,13 +10,13 @@ require_once("header.php");
 <div class="container">
 	<div class="row">
 		<div class="columns twelve">
-			<?php if (isset($_COOKIE["cart"])) { ?><a class="special order" href="/cart.php">View your Order</a><?php } ?>
+			<?php if (isset($_COOKIE["cart"]) && $_COOKIE["cart"] != "") { ?><a class="special order" href="/cart.php">View your Order</a><?php } ?>
 			<p>Hungry <em>right now</em>? Order food online from this menu for in-store pick up, or use services such as <a href="http://doordash.com">DoorDash</a> to get food delivered to your door instantly.</p>
 		</div>
 	</div>
 	<div class="row" id="mcr">
 		<div class="columns three">
-			<?php if (isset($_COOKIE["cart"])) { ?>
+			<?php if (isset($_COOKIE["cart"]) && $_COOKIE["cart"] != "") { ?>
 			<h6 class="cata-contain plain"><a href="/cart.php" class="cata order">Your Order</a></h6>
 			<hr class="cata-contain" />
 			<?php } ?>
