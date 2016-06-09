@@ -2023,12 +2023,12 @@ hr.cata-contain {
 #cart-side + input {
   color: #fff;
 }
-.order {
+a.special.order {
   padding: 10px;
   margin-left: 20px;
 }
 @media (min-width: 550px) {
-  .order {
+  a.special.order {
     float: right;
     width: auto;
   }

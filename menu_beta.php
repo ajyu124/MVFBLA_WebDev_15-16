@@ -17,7 +17,7 @@ require_once("header.php");
 	<div class="row" id="mcr">
 		<div class="columns three">
 			<?php if (isset($_COOKIE["cart"]) && $_COOKIE["cart"] != "") { ?>
-			<h6 class="cata-contain plain"><a href="/cart.php" class="cata order">Your Order</a></h6>
+			<h6 class="cata-contain plain"><a href="/cart.php" class="cata">Your Order</a></h6>
 			<hr class="cata-contain" />
 			<?php } ?>
 			<h6 class="cata-contain plain"><a href="#bakery" class="cata bakery">Bakery</a></h6>
