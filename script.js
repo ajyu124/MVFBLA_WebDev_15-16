@@ -232,6 +232,15 @@
 
 (function ($, run) {
 	if (!run) return;
+	var images = new Array(), items = $(".menu-item");
+	for (var i = 0; i < items.length; i++) {
+		images[i] = new Image();
+		images[i].src = items.css("background-image").replace("menu", "menuhd");
+	}
+})($, $(".menu-item").length > 0);
+
+(function ($, run) {
+	if (!run) return;
 	var description = function(name) {
 		return menu[name] || "";
 	}
