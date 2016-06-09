@@ -242,7 +242,7 @@
 (function ($, run) {
 	if (!run) return;
 	var description = function(name) {
-		return menu[name.replace("&amp;","&")] || "";
+		return menu[name] || "";
 	}
 	var modal = false;
 	$(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
@@ -260,10 +260,10 @@
 	});
 	$(".menu-item:not(.fullmenu)").click(function () {
 		$("#modal .modal-image").css("background-image", $(this).css("background-image").replace("menu", "menuhd"));
-		$("#modal .modal-content h5").html($(this).children(".details").children(".name").html());
-		$("#modal .modal-content p").html(description($(this).children(".details").children(".name").html()));
+		$("#modal .modal-content h5").html($(this).children(".details").children(".name").html().replace("&amp;","&"));
+		$("#modal .modal-content p").html(description($(this).children(".details").children(".name").html().replace("&amp;","&")));
 		$("#modal .modal-footer .price").html($(this).children(".details").children(".price").html());
-		$("#modal .modal-footer a").attr("href", "/cart.php?add=" + encodeURIComponent($(this).children(".details").children(".name").html()));
+		$("#modal .modal-footer a").attr("href", "/cart.php?add=" + encodeURIComponent($(this).children(".details").children(".name").html().replace("&amp;","&")));
 		if ($(this).hasClass("scones"))
 			$("#modal .modal-image").css("background-position-x", "-250px");
 		else
