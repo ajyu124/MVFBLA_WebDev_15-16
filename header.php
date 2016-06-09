@@ -71,7 +71,7 @@ if (isset($page)) {
 		<meta name="description" content="Panettiere is a modern-day bakery and restaurant that upholds a high standard of quality, healthy, and wholesome food. We bring the best quality gluten-free foods to the table without neglecting various dietary needs in today's society." />
 		<meta property="og:site_name" content="Panettiere Restaurant & Bakery" />
 		<meta property="og:title" content="<?php if (!isset($title)) { ?>Panettiere: Loaves of Love<?php } else { echo $title; } ?>" />
-		<meta property="og:description" content="Panettiere is a modern-day bakery and restaurant that upholds a high standard of quality, healthy, and wholesome food. We bring the best quality gluten-free foods to the table without neglecting various dietary needs in today's society." />
+		<meta property="og:description" content="Panettiere is a modern-day bakery and restaurant that upholds a high standard of quality, healthy, and wholesome food." />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://panettiere.ml<?php if ($_SERVER['PHP_SELF'] != '/index.php') { echo $_SERVER['PHP_SELF']; } ?>" />
 		<meta property="og:image" content="https://panettiere.ml/images/brand/icon_1.png" />
