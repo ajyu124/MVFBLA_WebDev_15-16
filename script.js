@@ -213,7 +213,7 @@
 		if ($(window).scrollTop() > 550) $(window).scrollTop(550);
 	});
 	if (location.hash.substring(1) == "")
-		location.hash = "#menu";
+		location.hash = "#restaurant";
 	if ($(".subcata." + location.hash.substring(1)).hasClass("bakery"))
 		$(".cata.bakery").click();
 	else if ($(".subcata." + location.hash.substring(1)).hasClass("restaurant"))
