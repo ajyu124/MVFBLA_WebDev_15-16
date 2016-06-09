@@ -313,9 +313,9 @@
 	});
 	//add checkout handler
 	var handler = StripeCheckout.configure({
-		name: 'Panettiere Restaurant & Bakery',
+		name: 'Panettiere',
 		key: 'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
-		image: '/images/brand/logo_icon2.png',
+		image: '/images/brand/logo_icon.png',
 		locale: 'auto',
 		zipCode: true,
 		token: function(token) {
