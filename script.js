@@ -298,7 +298,7 @@
 		e.preventDefault();
 		for (var i = 0; i < items.length; i++) {
 			if (items[i].indexOf($(this).parent().parent().children(".name").html()) != -1) {
-				items = items.slice(0,i).concat(arr.slice(i+1));
+				items = items.slice(0,i).concat(items.slice(i+1));
 			}
 		}
 		$(this).parent().parent().remove();
