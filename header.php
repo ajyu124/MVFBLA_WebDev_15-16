@@ -18,6 +18,20 @@ else {
 	}
 }
 $conn->close();
+
+$open = false;
+$time = intval(date("Hi"));
+switch (date("w")) {
+	case "0":
+	case "6":
+		if (($time >= 630 && $time <= 1400) || ($time >= 1700 && $time <= 2300))
+			$open = true;
+		break;
+	default:
+		if (($time >= 530 && $time <= 1400) || ($time >= 1700 && $time <= 2130))
+			$open = true;
+		break;
+}
 ?>
 <!DOCTYPE html>
 <html>

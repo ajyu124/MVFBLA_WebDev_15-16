@@ -11,7 +11,7 @@ require_once("header.php");
 	<div class="row">
 		<div class="columns twelve">
 			<?php if (isset($_COOKIE["cart"]) && $_COOKIE["cart"] != "") { ?><a class="special order" href="/cart.php">View your Order</a><?php } ?>
-			<p>Hungry <em>right now</em>? Order food online from this menu for in-store pick up, or use services such as <a href="http://doordash.com">DoorDash</a> to get food delivered to your door instantly.</p>
+			<p>Hungry <em>right now</em>? Order food online from this menu for in-store pick up, or use services such as <a href="http://doordash.com">DoorDash</a> to get food delivered to your door instantly. Want to have your breakfast ready in the morning? Order online when we're closed, and your food will be ready for pick-up the minute we open!</p>
 		</div>
 	</div>
 	<div class="row" id="mcr">

@@ -1,18 +1,3 @@
-<?php
-$open = false;
-$time = intval(date("Hi"));
-switch (date("w")) {
-	case "0":
-	case "6":
-		if (($time >= 630 && $time <= 1400) || ($time >= 1700 && $time <= 2300))
-			$open = true;
-		break;
-	default:
-		if (($time >= 530 && $time <= 1400) || ($time >= 1700 && $time <= 2130))
-			$open = true;
-		break;
-}
-?>
 <footer class="footer">
 	<div class="container">
 		<h5>Want to check us out?</h5>

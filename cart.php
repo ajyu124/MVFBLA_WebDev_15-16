@@ -22,6 +22,13 @@ if (isset($_REQUEST["add"])) {
 	</div>
 </header>
 <div class="container">
+	<div id="tymsg" class="row">
+		<div class="columns twelve">
+			<p>Thank you!<br>
+			Your order has been placed.</p>
+			<p>It will be ready for you to pick it up at Panettiere in <?php if ($open) { ?>about 15 minutes<?php } else { ?>the morning<?php } ?>.</p>
+		</div>
+	</div>
 	<div class="row cart-holder">
 		<div class="columns nine">
 			<a class="special reverse" href="/menu.php">Back to Menu</a>

@@ -247,6 +247,10 @@
 		$("#modal .modal-content p").html(description($(this).children(".details").children(".name").html()));
 		$("#modal .modal-footer .price").html($(this).children(".details").children(".price").html());
 		$("#modal .modal-footer a").attr("href", "/cart.php?add=" + encodeURIComponent($(this).children(".details").children(".name").html()));
+		if ($(this).hasClass("scone"))
+			$("#modal .modal-image").css("background-position-x", "-250px");
+		else
+			$("#modal .modal-image").css("background-position-x", "inherit");
 		//
 		var t = modal;
 		t = t ? $(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350) : $(".modal-container").css("display", "block") && setTimeout(function () {$(".modal-container").css("opacity", 1);}, 1);
@@ -334,7 +338,8 @@
 			// clear cart, display thank you message
 			items = [];
 			saveItems();
-			$(".cart-holder").html("<p>Thank you!<br>Your order has been placed.</p><p>It will be ready for you to pick it up at Panettiere in about 15 minutes.</p>");
+			$(".cart-holder").hide();
+			$("#tymsg").css("display", "block");
 		}
 	});
 	$('#cart-side + input').on('click', function(e) {

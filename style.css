@@ -2058,6 +2058,7 @@ a.special.order {
     width: auto;
   }
 }
+#tymsg { display: none; }
 
 ::-moz-selection {
   background: #e5d5be;
