@@ -16,8 +16,12 @@
 		nav = !nav;
 	});
 	//
-	setTimeout(function () { $("#nav #nav-bar").css("display", "none"); }, 1);
-	setTimeout(function () { $("#nav #nav-bar").css("display", ""); }, 5);
+	var navFix = function () {
+		setTimeout(function () { $("#nav #nav-bar").css("display", "none"); }, 1);
+		setTimeout(function () { $("#nav #nav-bar").css("display", ""); }, 5);
+	}
+	navFix();
+	setInterval(navFix, 60*1000);
 })($, true);
 
 (function($, run) {

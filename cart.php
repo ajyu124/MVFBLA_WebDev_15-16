@@ -58,7 +58,7 @@ if (isset($_REQUEST["add"])) {
 				</tbody>
 			</table>
 			<label for="comments">Additional Comments</label>
-			<textarea name="comments" id="comments" rows="3" class="u-full-width" placeholder="Any special requests or details you'd like us to know about." required></textarea>
+			<textarea name="comments" id="comments" rows="3" class="u-full-width" placeholder="Any special requests you have." required></textarea>
 			<input type="button" class="pushtop button" value="Order now">
 		</div>
 	</div>
