@@ -34,8 +34,8 @@ switch (date("w")) {
 }
 
 function aip($id) {
-	/*echo " data-page='" . $id . "'";*/
-	if (isset($page) && $page - $id == 0) {
+	echo " data-page='" . $id . "'";
+	if (isset($page) && $page == $id) {
 		echo " class='active'";
 	}
 }
@@ -73,6 +73,8 @@ function aip($id) {
 	</head>
 <!--<?php
 echo isset($page) . "\n";
+echo ($page == 2) . "\n";
+echo (isset($page) && $page == 2) . "\n";
 echo $page . "\n";
 echo ($page - 2) . "\n";
 aip(2);
