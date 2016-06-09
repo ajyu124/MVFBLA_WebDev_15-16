@@ -34,7 +34,7 @@ switch (date("w")) {
 }
 
 function aip($id) {
-	if (isset($page) && $page == $id) {
+	if (isset($page) && $page - $id == 0) {
 		echo " class='active'";
 	}
 }
@@ -70,7 +70,6 @@ function aip($id) {
 		<link rel="stylesheet" href="/style.css" />
 		<link rel="icon" href="/images/brand/favicon.ico">
 	</head>
-	<!--<?php echo $page; aip(2); ?>-->
 	<body>
 		<div id="nav">
 			<div class="container">
