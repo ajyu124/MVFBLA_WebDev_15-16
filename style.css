@@ -2023,6 +2023,16 @@ hr.cata-contain {
 #cart-side + input {
   color: #fff;
 }
+.order {
+  padding: 10px;
+  margin-left: 20px;
+}
+@media (min-width: 550px) {
+  .order {
+    float: right;
+    width: auto;
+  }
+}
 
 ::-moz-selection {
   background: #e5d5be;
