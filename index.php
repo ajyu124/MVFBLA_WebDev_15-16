@@ -3,8 +3,8 @@ require_once("header.php");
 ?>
 <header class="window" id="windowHome">
 	<div class="container">
-		<h2>Panettiere</h2>
-		<p>A modern bakery and restaurant with hearty, gluten-free food for everyone</p>
+		<h2 class="animated fadeInRight">Panettiere</h2>
+		<p class="animated fadeInLeft">A modern bakery and restaurant with hearty, gluten-free food for everyone</p>
 	</div>
 </header>
 <div class="container">
