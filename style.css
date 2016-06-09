@@ -1119,7 +1119,7 @@ there.
 }
 @media (min-width: 1000px) {
   #nav #nav-bar {
-    display: block;
+    display: inline-block;
   }
   #nav #nav-pages {
     display: none;
