@@ -15,6 +15,9 @@
 		t = t ? $("#pages").css("opacity", 0) && setTimeout(function () {$("#pages").css("display", "none");}, 350) : $("#pages").css("display", "flex") && setTimeout(function () {$("#pages").css("opacity", 1);}, 1);
 		nav = !nav;
 	});
+	//
+	$("#nav #nav-bar").css("display", "none");
+	$("#nav #nav-bar").css("display", "");
 })($, true);
 
 (function($, run) {

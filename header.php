@@ -34,6 +34,7 @@ switch (date("w")) {
 }
 
 function aip($id) {
+	echo " data-page='" . $id . "'";
 	if (isset($page) && $page - $id == 0) {
 		echo " class='active'";
 	}
@@ -70,13 +71,18 @@ function aip($id) {
 		<link rel="stylesheet" href="/style.css" />
 		<link rel="icon" href="/images/brand/favicon.ico">
 	</head>
+<!--<?php
+echo $page . "\n";
+echo ($page - 2) . "\n";
+aip(2);
+?>-->
 	<body>
 		<div id="nav">
 			<div class="container">
 				<a href="/"><img src="/images/brand/logo.png" class="logo"></a>
 				<nav id="nav-bar">
 					<a href="/about.php"<?php aip(2); ?>><h6 class="plain">About</h6></a>
-					<a href="/menu.php"<?php aip(3); ?><?php aip(7); ?>><h6 class="plain">Menu</h6></a>
+					<a href="/menu.php"<?php aip(3); aip(7); ?>><h6 class="plain">Menu</h6></a>
 					<a href="/reservations.php"<?php aip(4); ?>><h6 class="plain">Reserve</h6></a>
 					<a href="/loyalty.php"<?php aip(5); ?>><h6 class="plain">Rewards</h6></a>
 					<a href="/reviews.php"<?php aip(6); ?>><h6 class="plain">Reviews</h6></a>
