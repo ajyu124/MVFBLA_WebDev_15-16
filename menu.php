@@ -10,11 +10,16 @@ require_once("header.php");
 <div class="container">
 	<div class="row">
 		<div class="columns twelve">
-			<p>Hungry <em>right now</em>? Order food directly to your door with services like <a href="https://doordash.com">DoorDash</a>, a delivery service Panettiere is partnered with.</p>
+			<?php if (isset($_COOKIE["cart"]) && $_COOKIE["cart"] != "") { ?><a class="special order" href="/cart.php">View your Order</a><?php } ?>
+			<p>Hungry <em>right now</em>? Order food online from this menu for in-store pick up, or use services such as <a href="http://doordash.com">DoorDash</a> to get food delivered to your door instantly.</p>
 		</div>
 	</div>
 	<div class="row" id="mcr">
 		<div class="columns three">
+			<?php if (isset($_COOKIE["cart"]) && $_COOKIE["cart"] != "") { ?>
+			<h6 class="cata-contain plain"><a href="/cart.php" class="cata">Your Order</a></h6>
+			<hr class="cata-contain" />
+			<?php } ?>
 			<h6 class="cata-contain plain"><a href="#bakery" class="cata bakery">Bakery</a></h6>
 			<h6 class="cata-contain plain"><a href="#restaurant" class="cata restaurant">Restaurant</a></h6>
 			<hr class="cata-contain" />
@@ -22,7 +27,7 @@ require_once("header.php");
 		</div>
 		<div class="columns nine">
 			<ul class="actions small subcats">
-				<li class="subcata bakery breads"><a href="#breads" class="button small">Breads</a></li>
+				<!--<li class="subcata bakery breads"><a href="#breads" class="button small">Breads</a></li>-->
 				<li class="subcata bakery bagels"><a href="#bagels" class="button small">Bagels</a></li>
 				<li class="subcata bakery pastries"><a href="#pastries" class="button small">Pastries</a></li>
 				<li class="subcata bakery croissants"><a href="#croissants" class="button small">Croissants</a></li>
@@ -39,7 +44,7 @@ require_once("header.php");
 			<div class="u-center">
 				<div class="menu-item fullmenu menu">
 					<h4 class="plain">Panettiere Restaurant Menu</h4>
-					<p>Serving you delicious food since 2015. Open for lunch &amp; dinner, every day.</p><br>
+					<p>Serving you delicious food since 2015. Open for breakfast, lunch, and dinner – every day of the week.</p><br>
 					<h6>Appetizers</h6>
 					<dl>
 						<dt class="menu-name">Fried Mozzarella</dt>
@@ -245,69 +250,73 @@ require_once("header.php");
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/148.jpg')">
 					<div class="details">
 						<span class="name small">Blueberry Bagel</span>
-						<span class="price">$2.49</span>
+						<span class="price">$1.49</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/149.jpg')">
 					<div class="details">
 						<span class="name small">Everything Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/150.jpg')">
 					<div class="details">
 						<span class="name small">French Toast Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/151.jpg')">
 					<div class="details">
 						<span class="name small">Asiago Cheese Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/152.jpg')">
 					<div class="details">
 						<span class="name small">Cinnamon Crunch Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
+				<!--
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/153.jpg')">
 					<div class="details">
 						<span class="name small">Whole Grain Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
+				-->
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/154.jpg')">
 					<div class="details">
 						<span class="name small">Chocolate Chip Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/155.jpg')">
 					<div class="details">
 						<span class="name small">Cinnamon & Raisin Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/156.jpg')">
 					<div class="details">
 						<span class="name">Plain Bagel</span>
-						<span class="price">$2.49</span>
+						<span class="price">$1.49</span>
 					</div>
 				</div>
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/157.jpg')">
 					<div class="details">
 						<span class="name">Sesame Bagel</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
+				<!--
 				<div class="menu-item bakery bagels" style="background-image:url('/images/menu/158.jpg')">
 					<div class="details">
 						<span class="name small">Sprouted Grain Bagel Flat</span>
-						<span class="price">$2.99</span>
+						<span class="price">$1.99</span>
 					</div>
 				</div>
+				-->
 				<div class="menu-item bakery pastries" style="background-image:url('/images/menu/101.jpg')">
 					<div class="details">
 						<span class="name">Bear Claw</span>
@@ -404,12 +413,14 @@ require_once("header.php");
 						<span class="price">$1.99</span>
 					</div>
 				</div>
+				<!--
 				<div class="menu-item bakery muffins" style="background-image:url('/images/menu/1319.jpg')">
 					<div class="details">
 						<span class="name small">Oatmeal Banana Muffin</span>
 						<span class="price">$1.99</span>
 					</div>
 				</div>
+				-->
 				<div class="menu-item bakery muffins" style="background-image:url('/images/menu/1356.jpg')">
 					<div class="details">
 						<span class="name small">Carrot Raisin Muffin</span>
@@ -494,12 +505,14 @@ require_once("header.php");
 						<span class="price">$0.99</span>
 					</div>
 				</div>
+				<!--
 				<div class="menu-item bakery cookies" style="background-image:url('/images/menu/1303.jpg')">
 					<div class="details">
 						<span class="name small">Oatmeal Chocolate Chip</span>
 						<span class="price">$0.99</span>
 					</div>
 				</div>
+				-->
 				<div class="menu-item bakery cookies" style="background-image:url('/images/menu/1305.jpg')">
 					<div class="details">
 						<span class="name">Peanut Butter</span>
@@ -512,12 +525,14 @@ require_once("header.php");
 						<span class="price">$0.99</span>
 					</div>
 				</div>
+				<!--
 				<div class="menu-item bakery cookies" style="background-image:url('/images/menu/1304.jpg')">
 					<div class="details">
 						<span class="name">Oatmeal Raisin</span>
 						<span class="price">$0.99</span>
 					</div>
 				</div>
+				-->
 				<div class="menu-item bakery coffeecake" style="background-image:url('/images/menu/1360.jpg')">
 					<div class="details">
 						<span class="name small">Blueberry Coffee Cake</span>
@@ -768,6 +783,27 @@ require_once("header.php");
 		</div>
 	</div>
 </div>
+<div class="modal-container">
+	<div id="modal" class="container modal box">
+		<a href="#" class="close">Close</a>
+		<div class="modal-image">
+			<p></p>
+		</div>
+		<div class="modal-content">
+			<!-- <h5>Spicy Shrimp Scampi Fritta</h5> -->
+			<!-- <h5>Asiago Cheese Focaccia</h5> -->
+			<h5>Seasonal Sicilian Cheesecake</h5>
+			<!-- <h5>Black Tie Mousse Cake</h5> -->
+			<!-- <h5>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h5> -->
+			<p>Rich layers of chocolate cake, dark chocolate cheesecake and creamy custard mousse.</p>
+			<div class="modal-footer">
+				<span class="price">$9.99</span>
+				<a href="#" class="special">Add to Order</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="/assets/js/items.js"></script>
 <?php
-require_once("footer.php");
+require_once("footer.php")
 ?>

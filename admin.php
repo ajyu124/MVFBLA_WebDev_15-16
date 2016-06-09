@@ -53,7 +53,7 @@ else {
 			<div class="table-wrapper">
 				<table>
 					<thead>
-						<tr><th>id</th><th>time</th><th>token</th><th>order</th></tr>
+						<tr><th>id</th><th>time</th><th>token</th><th>email</th><th>order</th></tr>
 					</thead>
 					<tbody>
 <?php
