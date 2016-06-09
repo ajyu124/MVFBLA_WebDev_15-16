@@ -49,6 +49,32 @@ else {
 					</tbody>
 				</table>
 			</div>
+			<h4 class="pushtop">Orders</h4>
+			<div class="table-wrapper">
+				<table>
+					<thead>
+						<tr><th>id</th><th>time</th><th>token</th><th>order</th></tr>
+					</thead>
+					<tbody>
+<?php
+if ($result = $conn->query("SELECT * FROM `items` WHERE `type`='order' ORDER BY `id` DESC LIMIT 20")) {
+	while ($row = $result->fetch_array()) {
+		echo "<tr>";
+		echo "<td>" . $row['id'] . "</td>";
+		echo "<td>" . $row['timestamp'] . "</td>";
+		echo "<td>" . $row['name'] . "</td>";
+		echo "<td>" . str_replace("\n", "<br>", $row['message']) . "</td>";
+		echo "</tr>";
+	}
+    $result->close();
+}
+else {
+	echo $conn->error;
+}
+?>
+					</tbody>
+				</table>
+			</div>
 			<h4 class="pushtop">Reviews</h4>
 			<div class="table-wrapper">
 				<table>

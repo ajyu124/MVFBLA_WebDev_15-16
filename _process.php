@@ -8,6 +8,7 @@ if (isset($_POST["submit"])) {
 	switch ($type) {
 		case "contact":
 		case "review":
+		case "order":
 			$message = $_POST["message"];
 			break;
 		case "reservation":

@@ -274,6 +274,12 @@
 		sub = Math.round(sub * 100) + "";
 		tax = Math.round(tax * 100) + "";
 		tot = Math.round(tot * 100) + "";
+		if (sub.length == 2) sub = "0" + sub;
+		if (tax.length == 2) tax = "0" + tax;
+		if (tot.length == 2) tot = "0" + tot;
+		if (sub.length == 1) sub = "00" + sub;
+		if (tax.length == 1) tax = "00" + tax;
+		if (tot.length == 1) tot = "00" + tot;
 		$("#cart-side .sub").html("$" + sub.substring(0,sub.length-2) + "." + sub.substring(sub.length-2));
 		$("#cart-side .tax").html("$" + tax.substring(0,tax.length-2) + "." + tax.substring(tax.length-2));
 		$("#cart-side .tot").html("$" + tot.substring(0,tot.length-2) + "." + tot.substring(tot.length-2));
@@ -306,4 +312,39 @@
 		updateSidebar();
 	});
 	//add checkout handler
+	var handler = StripeCheckout.configure({
+		name: 'Panettiere',
+		key: 'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
+		image: '/images/brand/logo_icon.png',
+		locale: 'auto',
+		zipCode: true,
+		token: function(token) {
+			// push cart & token
+			$.ajax({
+				"url": "/_process.php",
+				"type": "POST",
+				"data": {
+					"type": "order",
+					"name": token,
+					"email": token,
+					"message": JSON.stringify(items),
+					"submit": true
+				}
+			});
+			// clear cart, display thank you message
+			items = [];
+			saveItems();
+			$(".cart-holder").html("<p>Thank you!<br>Your order has been placed.</p><p>It will be ready for you to pick it up at Panettiere in about 15 minutes.</p>");
+		}
+	});
+	$('#cart-side + input').on('click', function(e) {
+		updateSidebar();
+		handler.open({
+			amount: Number($("#cart-side .tot").html().substring(1))*100
+		});
+		e.preventDefault();
+	});
+	$(window).on('popstate', function() {
+		handler.close();
+	});
 })($, $("#cart").length > 0);

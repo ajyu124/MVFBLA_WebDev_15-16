@@ -22,7 +22,7 @@ if (isset($_REQUEST["add"])) {
 	</div>
 </header>
 <div class="container">
-	<div class="row">
+	<div class="row cart-holder">
 		<div class="columns nine">
 			<a class="special reverse" href="/menu.php">Back to Menu</a>
 			<div class="table-wrapper">
