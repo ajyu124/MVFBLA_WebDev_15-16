@@ -1096,32 +1096,32 @@ there.
     margin-right: -4rem;
   }
 }
-#nav-bar {
+#nav #nav-bar {
   display: none;
 }
-#nav-bar a {
+#nav #nav-bar a {
   padding: 2rem;
   display: inline-block;
   vertical-align: top;
   height: 2rem;
   margin-left: 1rem;
 }
-#nav-bar h6 {
+#nav #nav-bar h6 {
   line-height: 1.4;
   padding: 0;
   transition: all 400ms ease;
 }
-#nav-bar a.active h6 {
+#nav #nav-bar a.active h6 {
   border-bottom: 2px solid #fff;
 }
-#nav-bar a.active:hover h6 {
+#nav #nav-bar a.active:hover h6 {
   border-color: #eee;
 }
 @media (min-width: 1000px) {
-  #nav-bar {
+  #nav #nav-bar {
     display: block;
   }
-  #nav-pages {
+  #nav #nav-pages {
     display: none;
   }
 }
