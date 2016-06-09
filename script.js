@@ -247,7 +247,7 @@
 		$("#modal .modal-content p").html(description($(this).children(".details").children(".name").html()));
 		$("#modal .modal-footer .price").html($(this).children(".details").children(".price").html());
 		$("#modal .modal-footer a").attr("href", "/cart.php?add=" + encodeURIComponent($(this).children(".details").children(".name").html()));
-		if ($(this).hasClass("scone"))
+		if ($(this).hasClass("scones"))
 			$("#modal .modal-image").css("background-position-x", "-250px");
 		else
 			$("#modal .modal-image").css("background-position-x", "inherit");
