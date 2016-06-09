@@ -261,11 +261,48 @@
 		if (items[i].indexOf("cart=") == 0)
 			items = items[i];
 	items = decodeURIComponent(items.substring(5)).replace(/\+/g, " ").split(",");
+	var saveItems = function () {
+		document.cookie = "cart=" + encodeURIComponent(items.join(","));
+	}
+	var updateSidebar = function () {
+		var rows = $("#cart .body tr");
+		var sub = 0;
+		for (var i = 0; i < rows.length; i++) {
+			sub += Number($(rows[i]).children(".quant").children("input").val()) * Number($(rows[i]).children(".price").html().substring(1));
+		}
+		var tax = 0.0875*sub, tot = sub+tax;
+		sub = Math.round(sub * 100) + "";
+		tax = Math.round(tax * 100) + "";
+		tot = Math.round(tot * 100) + "";
+		$("#cart-side .sub").html("$" + sub.substring(0,sub.length-2) + "." + sub.substring(sub.length-2));
+		$("#cart-side .tax").html("$" + tax.substring(0,tax.length-2) + "." + tax.substring(tax.length-2));
+		$("#cart-side .tot").html("$" + tot.substring(0,tot.length-2) + "." + tot.substring(tot.length-2));
+	}
 	//add all items from cookie
 	for (var i = 0; i < items.length; i++) {
-		$("#cart .body").append($("<tr><td class='name'>" + items[i].substring(0,items[i].indexOf(":")) + "</td><td class='desc'>" + menu[items[i].substring(0,items[i].indexOf(":"))] + "</td><td class='price'>" + prices[items[i].substring(0,items[i].indexOf(":"))] + "</td><td class='quant'><input type='number' min='1' max='99' step='1' value='" + items[i].substring(items[i].indexOf(":")+1) + "' /><a href='#' class='close'></a></td></tr>"));
+		$("#cart .body").append($("<tr><td class='name'>" + items[i].substring(0,items[i].indexOf(":")) + "</td><td class='desc'>" + menu[items[i].substring(0,items[i].indexOf(":"))] + "</td><td class='price'>" + prices[items[i].substring(0,items[i].indexOf(":"))] + "</td><td class='quant'><input type='number' min='1' max='99' step='1' value='" + items[i].substring(items[i].indexOf(":")+1) + "' /><a class='close'></a></td></tr>"));
 	}
+	updateSidebar();
 	//add quantity handler (m.cookie)
-	//add .close handler
+	$("#cart .body .quant input").on('change', function () {
+		for (var i = 0; i < items.length; i++) {
+			if (items[i].indexOf($(this).parent().parent().children(".name").html()) != -1) {
+				items[i] = items[i].substring(0,items[i].indexOf(":")) + ":" + $(this).val();
+			}
+		}
+		saveItems();
+		updateSidebar();
+	});
+	//add .close handler (m.cookie)
+	$("#cart .body .close").click(function () {
+		for (var i = 0; i < items.length; i++) {
+			if (items[i].indexOf($(this).parent().parent().children(".name").html()) != -1) {
+				items = items.slice(0,i).concat(arr.slice(i+1));
+			}
+		}
+		$(this).parent().parent().remove();
+		saveItems();
+		updateSidebar();
+	});
 	//add checkout handler
 })($, $("#cart").length > 0);

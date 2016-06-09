@@ -37,24 +37,17 @@ if (isset($_REQUEST["add"])) {
 							<!--<th></th>-->
 						</tr>
 					</thead>
-					<tbody class="body">
-					<!--
-						<tr>
-							<td class="name">Fried Mozzarella</td>
-							<td class="desc">Golden-fried mozzarella cheese, topped with an alfredo drizzle. Served with marinara sauce.</td>
-							<td class="price">$3.99</td>
-							<td class="quant"><input type="number" min="1" step="1" value="1" /><a href="" class="close"></a></td>
-						</tr>
-					-->
-					</tbody>
+					<tbody class="body"></tbody>
 				</table>
 			</div>
 		</div>
-		<div class="columns three">
+		<div class="columns three u-center">
 			<table id="cart-side">
-				<tr><td>Subtotal</td><td>$3.99</td></tr>
-				<tr><td>Tax</td><td>$0.35</td></tr>
-				<tr><td>Total</td><td>$4.34</td></tr>
+				<tbody>
+					<tr><td>Subtotal</td><td class="sub">$3.99</td></tr>
+					<tr><td>Tax</td><td class="tax">$0.35</td></tr>
+					<tr><td>Total</td><td class="tot">$4.34</td></tr>
+				</tbody>
 			</table>
 			<input type="button" class="pushtop button" value="Order now">
 		</div>
