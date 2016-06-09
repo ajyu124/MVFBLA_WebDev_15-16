@@ -63,6 +63,7 @@ if ($result = $conn->query("SELECT * FROM `items` WHERE `type`='order' ORDER BY 
 		echo "<td>" . $row['id'] . "</td>";
 		echo "<td>" . $row['timestamp'] . "</td>";
 		echo "<td>" . $row['name'] . "</td>";
+		echo "<td>" . $row['contact'] . "</td>";
 		echo "<td>" . str_replace("\n", "<br>", $row['message']) . "</td>";
 		echo "</tr>";
 	}

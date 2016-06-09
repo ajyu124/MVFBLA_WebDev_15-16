@@ -325,8 +325,8 @@
 				"type": "POST",
 				"data": {
 					"type": "order",
-					"name": token,
-					"email": token,
+					"name": token.id,
+					"email": token.email,
 					"message": JSON.stringify(items),
 					"submit": true
 				}
