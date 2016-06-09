@@ -1,4 +1,5 @@
 <?php
+$page = 7;
 require_once("header.php");
 
 if (isset($_REQUEST["add"])) {

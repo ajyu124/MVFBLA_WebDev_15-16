@@ -36,7 +36,29 @@ switch (date("w")) {
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Panettiere | Loaves of Love</title>
+		<title><?php if (!isset($page)) { ?>Panettiere – Loaves of Love<?php } else {
+				switch ($page) {
+					case 2:
+						echo "About Us";
+						break;
+					case 3:
+						echo "Menu";
+						break;
+					case 4:
+						echo "Reservations";
+						break;
+					case 5:
+						echo "Loyalty Program";
+						break;
+					case 6:
+						echo "Reviews";
+						break;
+					case 7:
+						echo "Your Order";
+						break;
+				}
+				echo " | Panettiere";
+			} ?></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="/style.css" />

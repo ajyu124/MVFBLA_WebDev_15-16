@@ -1,4 +1,5 @@
 <?php
+$page = 2;
 require_once("header.php");
 ?>
 <header class="window half" id="windowAbout">
