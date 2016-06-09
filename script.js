@@ -335,7 +335,7 @@
 					"type": "order",
 					"name": token.id,
 					"email": token.email,
-					"message": JSON.stringify(items),
+					"message": JSON.stringify(items.concat(["comments:"+$("#comments").val()])),
 					"submit": true
 				}
 			});
@@ -346,7 +346,7 @@
 			$("#tymsg").css("display", "block");
 		}
 	});
-	$('#cart-side + input').on('click', function(e) {
+	$('#cart-side ~ .button').on('click', function(e) {
 		updateSidebar();
 		handler.open({
 			amount: Number($("#cart-side .tot").html().substring(1))*100

@@ -2076,7 +2076,7 @@ hr.cata-contain {
   text-align: right;
   padding-right: 1rem;
 }
-#cart-side + input {
+#cart-side ~ .button {
   color: #fff;
 }
 a.special.order {
