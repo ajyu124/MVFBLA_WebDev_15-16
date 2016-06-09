@@ -81,11 +81,11 @@ aip(2);
 			<div class="container">
 				<a href="/"><img src="/images/brand/logo.png" class="logo"></a>
 				<nav id="nav-bar">
-					<a href="/about.php"<?php if (aip(2)) echo " class='active'"; ?>><h6 class="plain">About</h6></a>
-					<a href="/menu.php"<?php if (aip(3) || aip(7)) echo " class='active'"; ?>><h6 class="plain">Menu</h6></a>
-					<a href="/reservations.php"<?php if (aip(4)) echo " class='active'"; ?>><h6 class="plain">Reserve</h6></a>
-					<a href="/loyalty.php"<?php if (aip(5)) echo " class='active'"; ?>><h6 class="plain">Rewards</h6></a>
-					<a href="/reviews.php"<?php if (aip(6)) echo " class='active'"; ?>><h6 class="plain">Reviews</h6></a>
+					<a href="/about.php" <?php if (aip(2)) echo "class='active'"; ?> ><h6 class="plain">About</h6></a>
+					<a href="/menu.php" <?php if (aip(3) || aip(7)) echo "class='active'"; ?> ><h6 class="plain">Menu</h6></a>
+					<a href="/reservations.php" <?php if (aip(4)) echo "class='active'"; ?> ><h6 class="plain">Reserve</h6></a>
+					<a href="/loyalty.php" <?php if (aip(5)) echo "class='active'"; ?> ><h6 class="plain">Rewards</h6></a>
+					<a href="/reviews.php" <?php if (aip(6)) echo "class='active'"; ?> ><h6 class="plain">Reviews</h6></a>
 				</nav>
 				<nav id="nav-pages">
 					<a href="#pages">Pages</a>
