@@ -1982,6 +1982,12 @@ hr.cata-contain {
   width: 35%;
   text-align: center;
 }
+#cart .quant input {
+  margin: 0;
+  display: inline-block;
+  padding: 0 1rem;
+  width: 5rem;
+}
 @media (min-width: 550px) {
   #cart .name {
     width: 20%;
@@ -1998,12 +2004,12 @@ hr.cata-contain {
     width: 20%;
     text-align: center;
   }
+  #cart .quant input {
+    padding: 0 1.5rem;
+    width: 7rem;
+  }
 }
-#cart .quant input {
-  margin: 0;
-  width: 7rem;
-  display: inline-block;
-}
+
 #cart .quant .close {
   background-image: url("/images/close.svg");
   background-position: 75% 25%;
