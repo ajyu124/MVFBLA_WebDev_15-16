@@ -36,7 +36,7 @@ switch (date("w")) {
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><?php if (!isset($page)) { ?>Panettiere – Loaves of Love<?php } else {
+		<title><?php if (!isset($page)) { ?>Panettiere: Loaves of Love<?php } else {
 				switch ($page) {
 					case 2:
 						echo "About Us";
