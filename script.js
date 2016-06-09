@@ -240,7 +240,8 @@
 			modal = false;
 		}
 	});
-	$(".modal-container .close").click(function () {
+	$(".modal-container .close").click(function (e) {
+		e.preventDefault();
 		$(".modal-container").css("opacity", 0) && setTimeout(function () {$(".modal-container").css("display", "none");}, 350);
 		modal = false;
 	});
