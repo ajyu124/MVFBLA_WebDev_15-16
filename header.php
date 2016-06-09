@@ -70,6 +70,7 @@ function aip($id) {
 		<link rel="stylesheet" href="/style.css" />
 		<link rel="icon" href="/images/brand/favicon.ico">
 	</head>
+	<!--<?php echo $page; aip(2); ?>-->
 	<body>
 		<div id="nav">
 			<div class="container">
