@@ -1718,11 +1718,11 @@ li.ui-timepicker-selected .ui-timepicker-duration,
   background: #f2f2f2;
 }
 
-input.button {
+input.button, a.button {
   border-color: #eee;
   border-color: rgba(255,255,255,0.3);
 }
-input.button:hover {
+input.button:hover, a.button:hover {
   border-color: #bbb;
   border-color: rgba(255,255,255,0.1);
 }
