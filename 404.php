@@ -1,5 +1,11 @@
 <?php
 require_once("header.php");
+
+$type = "404";
+$name = getenv('HTTP_CLIENT_IP')?:getenv('HTTP_X_FORWARDED_FOR')?:getenv('HTTP_X_FORWARDED')?:getenv('HTTP_FORWARDED_FOR')?:getenv('HTTP_FORWARDED')?:getenv('REMOTE_ADDR')?:"UNKNOWN";
+$contact = $name;
+$message = $_SERVER["REQUEST_URI"];
+$conn->query("INSERT INTO items (type, name, contact, message) VALUES ('$type', '$name', '$contact', '$message')");
 ?>
 <header class="window half" id="windowHome">
 	<div class="container">

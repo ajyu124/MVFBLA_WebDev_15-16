@@ -17,7 +17,6 @@ else {
 		/*fail quietly*/ echo "<!--query fail:" . $conn->error . "-->\n";
 	}
 }
-$conn->close();
 
 $open = false;
 $time = intval(date("Hi"));
