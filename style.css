@@ -1436,6 +1436,9 @@ a.special.reverse:before {
 .hidesmall {
   display: none;
 }
+.showsmall {
+  display: inherit;
+}
 .img.offset {
   margin: 10rem -10% 1rem 2rem;
   width: 30%
@@ -1449,8 +1452,16 @@ a.special.reverse:before {
   .hidesmall {
     display: inherit;
   }
+  .showsmall {
+    display: none;
+  }
 }
 
+.img.sidehide {
+  width: 50%;
+  margin: 0 -1rem 1rem 1rem;
+}
+/*
 .img.sidehide {
   width: 100%;
   display: none;
@@ -1460,6 +1471,7 @@ a.special.reverse:before {
     display: none;
   }
 }
+*/
 
 /******* Tables *******/
 .table-wrapper {

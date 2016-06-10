@@ -20,6 +20,7 @@
 	var navFix = function () {
 		setTimeout(function () { $("#nav #nav-bar").css("display", "none"); }, 1);
 		setTimeout(function () { $("#nav #nav-bar").css("display", ""); }, 5);
+		console.log("fixed");
 		intv *= 5;
 		setTimeout(navFix,intv);
 	}
@@ -204,8 +205,10 @@
 (function ($, run) {
 	$("#points input[type='submit']").click(function (e) {
 		e.preventDefault();
-		$("#s input").attr("disabled", true);
-		$("#s").html("You don't have any points yet. Visit Panettiere today to start collecting points for rewards!");
+		$("#points input").attr("disabled", true);
+		if ($("#points #p_phone").val().trim() == "" || $("#points #p_phone").val().trim().length < 10)
+			return $("#points #p_phone").css("border-color", "rgba(192,0,0,0.5)");
+		$("#points").html("You don't have any points yet. Visit Panettiere today to start collecting points for rewards!");
 	});
 })($, $("#points").length > 0);
 
