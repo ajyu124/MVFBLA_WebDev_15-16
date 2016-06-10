@@ -13,8 +13,11 @@ require_once("header.php");
 		<div class="columns twelve">
 			<img src="/images/features/loyalty.png" class="img right offset hidesmall">
 			<h4>Why a reward system?</h4>
-			<p>Here at Panettiere Bakery, we greatly value your individual support and loyalty to our bakery. In order to repay you for your dedication, we have introduced a new <i>rewards program</i> that will not only allow you to receive free drinks and pastries, but also join our special membership club for discounts and more free meals. In order to make it easier for you to access these rewards, we encourage you to download the Panettiere Bakery mobile app that will update you with discounts and serve as your "mobile stamp card." Using our unique QR code technology, simply scan the code on your phone for all kinds of discounts and promotions. We hope you take advantage of this offer and continue to frequent the best restaurant &amp; bakery in the world!</p>
+			<p>Here at Panettiere Bakery, we greatly value your individual support and loyalty to our bakery. In order to repay you for your dedication, we have introduced a new <i>rewards program</i> that will not only allow you to receive free drinks and pastries, but also join our special membership club for discounts and more free meals.</p>
 			<p>Each time you purchase an item at Panettiere, you will receive either 1, 2, or 3 points depending on what you buy. For each drink or pastry, you will receive 1 point. For each entree that you purchase, you will receive 2 points. For every meal that you purchase, you will receive 3 points. These points can then be redeemed for our special loyalty rewards!</p>
+			<h5 class="pushtop">Mobile Stamp Card</h5>
+			<p>In order to make it easier for you to access these rewards, we encourage you to download the Panettiere Bakery mobile app that will update you with discounts and serve as your "mobile stamp card." Using our unique QR code technology, simply scan the code on your phone for all kinds of discounts and promotions. We hope you take advantage of this offer and continue to frequent the best restaurant &amp; bakery in the world!</p>
+			<img src="/images/features/loyalty.png" class="img right offset sidehide">
 			<h5 class="plain pushtop">Redeemable Rewards</h5>
 			<div class="table-wrapper">
 				<table>
