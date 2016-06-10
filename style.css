@@ -570,7 +570,8 @@ body {
   background: #F1D4AF; /******* fallback for old browsers *******/
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), -webkit-linear-gradient(to top left, #F1D4AF , #E08E79); /******* Chrome 10-25, Safari 5.1-6 *******/
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(to top left, #F1D4AF , #E08E79); /******* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *******/
-  color: #fff; }
+  color: #fff;
+  overflow-x: hidden; }
 
 
 /* Typography
