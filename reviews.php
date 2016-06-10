@@ -36,25 +36,25 @@ require_once("header.php");
 			</blockquote>
 				
 			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "I have never been disappointed"</h6>
-			<blockquote>I cannot say enough about this bakery! I've been coming here for a couple months now and have never been disappointed! Everything always tastes amazing and looks just as good as it tastes. However, today I'm specifically writing because of the service I received. I was ordering at the last minute, having to go back and forth with my committee for a project on what to order and had a special request for them to accommodate our schedule and without hesitation, they were able to deliver! Like I said, I've been a customer for many times and will continue coming back and referring my family and friends because they've earned the business! Keep up the great work!! 
+			<blockquote>I cannot say enough about this bakery! I've been coming here for a couple months now and have never been disappointed. Everything always tastes amazing and looks just as good as it tastes. However, today I'm specifically writing because of the service I received. I was ordering at the last minute, having to go back and forth with my committee for a project on what to order and had a special request for them to accommodate our schedule and without hesitation, they were able to deliver! Like I said, I've been a customer for many times and will continue coming back and referring my family and friends because they've definitely earned the business. Keep up the great work!!
 			<br><br> 
 			- Jon S, San Jose, CA
 			</blockquote>
 				
 			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "Customer Service is great!"</h6>
-			<blockquote>Amazing... the people are all about customer service and the treats look delicious... I can hardly wait to bite into my chocolate croissant...my blueberry muffin and my crunchy oatmeal cookie. My only problem is which to eat first! Oh, my mouth is watering just writing this review! 
+			<blockquote>Amazing... the people are all about customer service and the treats look delicious... I can hardly wait to bite into my chocolate croissant...my blueberry muffin and my crunchy oatmeal cookie. My only problem is which to eat first! Oh, my mouth is watering just writing this review – yum! 
 			<br><br>
 			- Jane C, San Francisco, CA
 			</blockquote>
 
 			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "Just. Delicious."</h6>
-			<blockquote>Panettiere is delish! I literally bought one of everything for my office and they all loved them. I got croissants for myself and they seriously taste better than ones that they sell at professional bakeries. Even my boss agrees with me! So amazing. I'll be coming back for sure.
+			<blockquote>Panettiere is delish! I literally bought one of everything for my office and they all loved them. I got croissants for myself and they seriously taste better than ones that they sell at other bakeries. Even my boss agrees with me – so amazing. I'll be coming back for sure.
 			<br><br> 
 			- Kavita G, Saratoga, CA
 			</blockquote>
 
 			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "Best bakery in the Bay Area!"</h6>
-			<blockquote>Excellent service! Excellent food! Wonderful pastries with a very cozy atmosphere. The only setback is that there was a long line and wait around dinner time which was slightly annoying. Overall, an excellent place to eat and very inexpensive too!
+			<blockquote>Excellent service and excellent food! Wonderful pastries with a very cozy atmosphere. The only setback is that there was a long line and wait around dinner time which was slightly annoying. Overall, an excellent place to eat and very inexpensive as well.
 			<br><br>
 			- Guillermo F, Cupertino, CA
 			</blockquote>
