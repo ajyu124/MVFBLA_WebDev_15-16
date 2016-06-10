@@ -1,0 +1,32 @@
+todo
+
+done - make hours an actual section in the footer
+temp - fix timepicker (on chrome and actual input 'time' type)
+temp - better looking buttons
+done - make menu sidebar sticky
+done - menu item modals
+done - online ordering
+rjct - add photos throughout full menu
+done - add door to reservation picker
+temp - add photos in general
+done - make loyalty page better
+done - add stars to reviews
+l88r - add reviews to each menu item
+rjct - lightbox normal photos
+temp - cross-platform parallax fix
+l88r - email confirmation: reservation, orders, etc
+done - open / closed time
+done - titles
+done - intro animations
+rjct - URL rewriting
+done - full navbar
+rjct - media: carousel, video, etc
+done - opengraph
+l88r - social media legitness: yelp
+l88r - migrate to dreamhost
+done - jpeg loading
+done - input limits
+temp - loyalty image thing
+done - loyalty point checker
+done - change review copy
+done - dots and exclamations
