@@ -17,7 +17,7 @@ require_once("header.php");
 	<div class="row">
 		<div class="columns twelve">
 			<h4 class="pushtop">Reserve online now</h4>
-			<p>Additionally, you can reserve a table via our online interface immediately.</p>
+			<p>Additionally, you can reserve a table via our online interface immediately. Please contact us directly through the information in the footer if you would like us to host a group of over 12 people.</p>
 		</div>
 	</div>
 	<form id="r" class="form">
@@ -28,7 +28,7 @@ require_once("header.php");
 			</div>
 			<div class="columns six">
 				<label for="r_guests">Number of Guests</label>
-				<input type="number" name="r_guests" id="r_guests" class="u-full-width" placeholder="Number of Guests" min="1" step="1" required />
+				<input type="number" name="r_guests" id="r_guests" class="u-full-width" placeholder="Number of Guests" min="1" step="1" max="99" required />
 			</div>
 		</div>
 		<div class="row">

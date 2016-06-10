@@ -30,10 +30,7 @@ require_once("header.php");
 			<h4 class="pushtop">Reviews</h4>
 			<p>Additional reviews may be found on Yelp, available <a href="https://yelp.com">online</a> or on your mobile device, available on <a href="https://itunes.apple.com/us/app/yelp/id284910350">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yelp.android">Android.</a></p>
 			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "Astounding gluten free food"</h6>
-			<blockquote>It's not very easy to find gluten free restaurants and bakeries today, and it's even harder to find ones that have 
-			good tasting food as well! I can safely say that I have found <i>the best</i> gluten free restaurant and bakery in the Bay Area, 
-			and perhaps even California. The pastries are amazing and the entrees are even better. Their customer service is stellar and they
-			have really found a unique way to merge with technology through their mobile stamp card. I fully recommend that everyone visit this bakery.
+			<blockquote>It's not very easy to find gluten free restaurants and bakeries today, and it's even harder to find ones that have good tasting food as well! I can safely say that I have found <i>the best</i> gluten free restaurant and bakery in the Bay Area, and perhaps even California. The pastries are amazing and the entrees are even better. Their customer service is stellar and they have really found a unique way to merge with technology through their mobile stamp card. I fully recommend that everyone visit this bakery.
 			<br><br>
 			- Mark C, Santa Clara, CA
 			</blockquote>
@@ -44,8 +41,8 @@ require_once("header.php");
 			- Jon S, San Jose, CA
 			</blockquote>
 				
-			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "Customer Service is great!!"</h6>
-			<blockquote>Amazing. ..the people are all about customer service and the treats look delicious... I can hardly wait to bite into my chocolate croissant...my blueberry muffin and my crunchy oatmeal cookie. My only problem is which to eat first! Oh, my mouth is watering just writing this review! 
+			<h6 class="plain">&#9733;&#9733;&#9733;&#9733;&#9733; – "Customer Service is great!"</h6>
+			<blockquote>Amazing... the people are all about customer service and the treats look delicious... I can hardly wait to bite into my chocolate croissant...my blueberry muffin and my crunchy oatmeal cookie. My only problem is which to eat first! Oh, my mouth is watering just writing this review! 
 			<br><br>
 			- Jane C, San Francisco, CA
 			</blockquote>
@@ -67,7 +64,7 @@ require_once("header.php");
 		<div class="row">
 			<div class="columns twelve">
 				<h4 class="pushtop">Submit your Review</h4>
-				<p>If you have any questions about our mission, food, or anything else, please feel free to contact us directly through the form below, or via any of the listed social media. </p>
+				<p>If you've enjoyed Panettiere's food and service, please feel free to leave a review below! We will take your feedback into consideration and may even choose to feature your review on the Panettiere website. If you have any questions other about our mission, food, or anything else, please feel free to contact us directly or via any of the our social media accounts. </p>
 			</div>
 		</div>
 		<div class="row">
