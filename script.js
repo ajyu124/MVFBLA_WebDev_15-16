@@ -16,12 +16,14 @@
 		nav = !nav;
 	});
 	//
+	var intv = 1000;
 	var navFix = function () {
 		setTimeout(function () { $("#nav #nav-bar").css("display", "none"); }, 1);
 		setTimeout(function () { $("#nav #nav-bar").css("display", ""); }, 5);
+		intv *= 5;
+		setTimeout(navFix,intv);
 	}
-	navFix();
-	setInterval(navFix, 1000);
+	setTimeout(navFix, intv);
 })($, true);
 
 (function($, run) {
