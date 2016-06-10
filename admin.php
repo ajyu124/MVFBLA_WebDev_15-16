@@ -1,17 +1,5 @@
 <?php
 require_once("header.php");
-
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$server = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$db = substr($url["path"], 1);
-
-$conn = new mysqli($server, $username, $password, $db);
-if ($conn->connect_errno) {
-    printf("Connect failed: %s\n", $mysqli->connect_error);
-    exit();
-}
 ?>
 <header class="window half" id="windowHome">
 	<div class="container">
@@ -118,6 +106,32 @@ if ($result = $conn->query("SELECT * FROM `items` WHERE `type`='reservation' ORD
 		echo "<td>" . $row['timestamp'] . "</td>";
 		echo "<td>" . $row['name'] . "</td>";
 		echo "<td>" . str_replace("\n", "<br>", $row['contact']) . "</td>";
+		echo "<td>" . str_replace("\n", "<br>", $row['message']) . "</td>";
+		echo "</tr>";
+	}
+    $result->close();
+}
+else {
+	echo $conn->error;
+}
+?>
+					</tbody>
+				</table>
+			</div>
+			<h4 class="pushtop">404s</h4>
+			<div class="table-wrapper">
+				<table>
+					<thead>
+						<tr><th>id</th><th>time</th><th>ip</th><th>page</th></tr>
+					</thead>
+					<tbody>
+<?php
+if ($result = $conn->query("SELECT * FROM `items` WHERE `type`='404' ORDER BY `id` DESC LIMIT 20")) {
+	while ($row = $result->fetch_array()) {
+		echo "<tr>";
+		echo "<td>" . $row['id'] . "</td>";
+		echo "<td>" . $row['timestamp'] . "</td>";
+		echo "<td>" . $row['name'] . "</td>";
 		echo "<td>" . str_replace("\n", "<br>", $row['message']) . "</td>";
 		echo "</tr>";
 	}
