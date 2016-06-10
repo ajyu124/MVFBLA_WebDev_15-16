@@ -118,7 +118,7 @@ else {
 					</tbody>
 				</table>
 			</div>
-			<h4 class="pushtop">404s</h4>
+			<h4 class="pushtop">404'd Requests</h4>
 			<div class="table-wrapper">
 				<table>
 					<thead>

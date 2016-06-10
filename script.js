@@ -216,7 +216,7 @@
 	if (!run) return;
 
 	$(window).on('scroll', function () {
-		if ($(window).scrollTop() >= 550 && $(window).scrollTop() <= $(".footer")[0].offsetTop-315)
+		if ($(window).scrollTop() >= 615 && $(window).scrollTop() <= $(".footer")[0].offsetTop-315)
 			$("#mcr").addClass("sticky");
 		else
 			$("#mcr").removeClass("sticky");
