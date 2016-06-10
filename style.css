@@ -1472,6 +1472,9 @@ a.special.reverse:before {
   }
 }
 */
+#points input {
+  margin: 0;
+}
 
 /******* Tables *******/
 .table-wrapper {
