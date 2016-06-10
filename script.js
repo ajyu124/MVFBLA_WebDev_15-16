@@ -277,7 +277,7 @@
 		$("#modal .modal-content p").html(description($(this).children(".details").children(".name").html().replace("&amp;","&")));
 		$("#modal .modal-footer .price").html($(this).children(".details").children(".price").html());
 		$("#modal .modal-footer a").attr("href", "/cart.php?add=" + encodeURIComponent($(this).children(".details").children(".name").html().replace("&amp;","&")));
-		if ($(this).hasClass("scones"))
+		if ($(this).hasClass("scones") || $(this).hasClass("croissants") || $(this).hasClass("muffins") || $(this).hasClass("rollsbuns"))
 			$("#modal .modal-image").css("background-position-x", "-250px");
 		else
 			$("#modal .modal-image").css("background-position-x", "inherit");
