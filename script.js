@@ -54,6 +54,10 @@
 			$("#form input").attr("disabled", false);
 			return;
 		}
+		heap.addUserProperties({
+			"name": $("#form #name").val(),
+			"email": $("#form #email").val()
+		});
 		$.ajax({
 			"url": "/_process.php",
 			"type": "POST",
@@ -123,7 +127,11 @@
 		}
 		return good;
 	}
-
+	heap.addUserProperties({
+		"name": $("#r #r_name").val(),
+		"email": $("#r #r_email").val(),
+		"phone": $("#r #r_phone").val(),
+	});
 	$("#r input[type='submit']").click(function (e) {
 		e.preventDefault();
 		$("#r input").attr("disabled", true);
@@ -177,7 +185,10 @@
 		}
 		return good;
 	}
-
+	heap.addUserProperties({
+		"name": $("#s #s_name").val(),
+		"email": $("#s #s_email").val()
+	});
 	$("#s input[type='submit']").click(function (e) {
 		e.preventDefault();
 		$("#s input").attr("disabled", true);
