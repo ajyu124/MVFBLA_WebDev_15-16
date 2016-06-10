@@ -12,8 +12,8 @@
 										Sat - Sun: 6:30 AM - 2:00 PM | 5:00 PM - 11:00 PM</li>
 					<li class="fa-phone"><a href="tel:+14083209455">(408) 320-9455</a></li>
 					<li class="fa-envelope"><a href="mailto:hello@panettiere.ml">hello@panettiere.ml</a></li>
-					<li class="fa-facebook"><a href="https://www.facebook.com/panettierebakery">/panettierebakery/</a></li>
-					<li class="fa-instagram"><a href="https://www.instagram.com/panettierebakery/">/panettierebakery/</a></li>
+					<li class="fa-facebook"><a href="https://www.facebook.com/panettierebakery" target="_blank">/panettierebakery/</a></li>
+					<li class="fa-instagram"><a href="https://www.instagram.com/panettierebakery/" target="_blank">/panettierebakery/</a></li>
 				</ul>
 			</div>
 			<div class="columns six">
