@@ -202,6 +202,14 @@
 })($, $("#s").length > 0);
 
 (function ($, run) {
+	$("#points input[type='submit']").click(function (e) {
+		e.preventDefault();
+		$("#s input").attr("disabled", true);
+		$("#s").html("You don't have any points yet. Visit Panettiere today to start collecting points for rewards!");
+	});
+})($, $("#points").length > 0);
+
+(function ($, run) {
 	if (!run) return;
 
 	$(window).on('scroll', function () {

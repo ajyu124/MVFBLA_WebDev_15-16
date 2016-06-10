@@ -18,6 +18,15 @@ require_once("header.php");
 			<img src="/images/features/loyalty.png" class="img right sidehide showsmall">
 			<h5 class="pushtop">Mobile Stamp Card</h5>
 			<p>In order to make it easier for you to access these rewards, we encourage you to download the Panettiere Bakery mobile app that will update you with discounts and serve as your "mobile stamp card." Using our unique QR code technology, simply scan the code on your phone for all kinds of discounts and promotions. We hope you take advantage of this offer and continue to frequent the best restaurant &amp; bakery in the world!</p>
+			<h5 class="pushtop">Check your Points</h5>
+			<p>Curious how many points you have, or just don't have access to your phone currently? Instantly check your points online right here.<br>
+				<form id="points">
+					<div class="row">
+						<div class="columns nine"><input type="tel" name="p_phone" id="p_phone" class="u-full-width" placeholder="Phone Number" required /></div>
+						<div class="columns three"><input class="actions pushtop button u-full-width" type="submit" value="Check Points" /></div>
+					</div>
+				</form>
+			</p>
 			<h5 class="plain pushtop">Redeemable Rewards</h5>
 			<div class="table-wrapper">
 				<table>
