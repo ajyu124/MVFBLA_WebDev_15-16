@@ -20,7 +20,6 @@
 	var navFix = function () {
 		setTimeout(function () { $("#nav #nav-bar").css("display", "none"); }, 1);
 		setTimeout(function () { $("#nav #nav-bar").css("display", ""); }, 5);
-		//console.log("fixed");
 		intv *= 3;
 		setTimeout(navFix,intv);
 	}

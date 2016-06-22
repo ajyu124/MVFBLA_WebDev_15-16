@@ -30,3 +30,5 @@ temp - loyalty image thing
 done - loyalty point checker
 done - change review copy
 done - dots and exclamations
+- make images match color tone
+- video bg?
